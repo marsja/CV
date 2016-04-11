@@ -1,0 +1,183 @@
+---
+title: "Erik Marsja"
+output:
+  pdf_document:
+    includes:
+      after_body: doc_suffix.tex
+      in_header: header.tex
+    keep_tex: yes
+  html_document:
+    css: cv.css
+  word_document: default
+date: '`r Sys.Date()`'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<br>
+<br>
+
+|**Telephone**: +46 90 786 79 59 | **Mobile**: +46 70363 36 62      |**Email**: erik.marsja@umu.se|
+|-------------------------------|--------------------|--------------------|
+| **University adress**:                      |                       | **Home address**:         |
+| Department of Psychology                |                       | Kandidatvägen         | 
+|Umeå University, SE-901 87, Umeå, Sweden |                       | SE-907 33 Umeå, Sweden|
+
+
+## Current research
+
+\hrule
+I am examining how sudden and unexpected changes in our environment captures our attention and, thus, causes distraction from what we currently are engaged in. Specifically, my Ph.D. work is examining how sudden and unexpected changes in auditory, tactile, and the combination of both auditory and tactile (multisensory) stimulation affects performance in speeded and short-term memory tasks. 
+
+## Research ambition
+
+\hrule
+My goal is to create my academic career in cognitive and applied psychology. Specifically, in the areas of attention and cognitive control. I aspire to eventually be able to work as an established researcher in these, and related (i.e., cognitive neuroscience), areas. 
+
+## Education and Degrees	
+
+\hrule
+
+* 2012-Present	Ph.D. Student in Psychology 
+
+* 2011-2012	M.Sc. in Cognitive Science (*Thesis*: Attention Capture: The Impact of Change in Spatial Sound Source on Behavior- Department of Psychology, Umeå University.
+
+* 2008-2011	B.Sc. in Cognitive Science (*Thesis*:  Attention Capture: Studying the Distracting Effect of One’s Own Name. Department of Psychology, Umeå University. Available from DiVA Database (http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-46607)
+
+## Publications
+
+### International peer-reviewed journals
+\hrule
+
+Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own2. Evidence from auditory oddball distraction. Acta Psychologica, 150C, 161–166. doi:10.1016/j.actpsy.2014.05.009
+
+### Publications In Preperation/Submitted/Under Revision
+
+\hrule
+
+**Marsja**, E., Neely, G., Ljungberg K.J. (Submitted). The impact of presence and absence of standard vibrations and deviating sounds in a visual attention task
+ 
+Sörqvist, P., Marsh, J., **Marsja**, E., & Ljungberg, K. J. (Submitted). Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory
+
+**Marsja**, E., Neely, Ljungberg, K.J (Under revision). Deviance distraction in the auditory and tactile modalities after repeated exposure: differential aspects of tactile and auditory deviants
+
+## Current research collaborations
+
+\hrule
+
+* Associate Professor Jessica K. Ljungberg, Department of Psychology, Umeå University, Umeå, Sweden
+* Associate Professor Gregory Neely, Department of Psychology, Umeå University, Umeå, Sweden
+* Dr. Patrik Hansson, Department of Psychology, Umeå University, Umeå, Sweden 
+* Dr. John E. Marsh, School of Psychology, University of Central Lancashire, UK
+* Professor Patrik Sörqkvist, Faculty of Engineering and Sustainable Development, Högskolan i Gävle, Gävle
+
+## Conference Presentations
+
+\hrule
+
+**Marsja**, E., Neely G., Ma, Lichen., Ljungberg K.J., (2015, August). Cross-modality matches of intensity and attention capture dimensions of auditory and vibrotactile stimuli. Fechner Day 2015. The 31st Annual Meeting of the International Society for Psychophysics, Québec, CA. **Poster**.
+
+**Marsja**, E., Neely, G., Parmentier, F.B.R., Ljungberg, K.J., (2014, October) Deviance Distraction Is Contingent on Stimuli Being Presented within the Same Modality. Psychonomic Society’s 55th Annual Meeting. Long Beach, CA, USA. **Poster**.
+
+Ljungberg, K.J., Parmentier, F.B.R., **Marsja**, E., Neely, G., Jones, D., (2014, January). Any Tom, Dick, or Harry will do: Hearing one’s own name distracts no more than any other in a cross-modal oddball task. Experimental Psychology Society Meeting. London, UK. **Poster**.
+
+**Marsja**, E., Neely, G., Parmentier, F.B.R., Ljungberg, K.J., (2013, October). Maintenance of the distractive effect of deviating vibrotactile stimuli in a cross-modal oddball paradigm.  the 29th Annual meeting of the International Society of Psychophysics, Freiburg, DE. **Poster**.
+
+## Funding and Grants
+
+\hrule
+
+**10 000 SEK** JC Kempes minnesfond for the project *Is everyday distractibility related to attention capture by
+vibrating deviants?* (2014).
+
+**9 000 SEK**  from Knut och Alice Wallenbergs Stiftelse for participating in the conferences Psychonomic Society’s 55th Annual Meeting, Long Beach, USA, 20-23 November and APCAM, Long Beach, USA, 20 November, 2014. 
+
+**6000 SEK** from the Department of Psychology for participating the conference Fechner Day 2013 (the 29th Annual Meeting of the International Society for Psychophysics) 21-25 October, Freiburg i.Br., Germany, 2013
+
+
+
+## Teaching responsibilities
+
+### Past & current areas at undergraduate level
+
+\hrule
+
+Primarily in:
+
+* Attention
+* Perception
+* Applied Cognitive Psychology
+* Cognitive Psychology
+* Research Methods
+* Project work
+
+Lectures, Seminars, Lab demonstrations, Group project (both involving empirical projects and more applied projects) and Supervision have been given at the Department of Psychology Umeå University, Sweden. I have so far taught 603 clock hours. See Table for an oeverview of teaching topics. 
+\blandscape
+```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
+
+rm(list=ls())
+library(stargazer)
+require(xtable)
+
+insertRow <- function(existingDF, newrow, r) {
+  existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
+  existingDF[r,] <- newrow
+  existingDF
+}
+t.hours <- read.csv("~/Dropbox/BetweenComps/timmar_undervisning/teachinghours.csv")
+t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
+
+table.data <- cbind(t.hours[9], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:8])
+table.data <- table.data[table.data$Type != 'NOT HELD YET',]
+dups <- duplicated(table.data[,1]) | duplicated(table.data[,1])
+table.data[which(dups),]$Period <- ' '
+
+total.teaching <- sum(table.data$Clock.Hours)
+
+#Creating empty rows.. i hope
+idx.dups <- which(!dups[-1])
+idx.adder <- 0
+for(index in 1:length(idx.dups)){
+  row <-idx.dups[index]+idx.adder
+  ifelse(index == 1, newdata <- table.data, newdata <- newdata)
+  newdata <- insertRow(newdata, ' ',row+1)
+  idx.adder = idx.adder + 1
+}
+#tab.data <- rbind(newdata, c(paste('Total amount teaching:', total.teaching, sep=' '), 'NA', 'NA', 'NA', 'NA'))
+
+a = stargazer(newdata, title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, sep = ' '),  summary=FALSE, rownames=FALSE, font.size="small")
+
+```
+
+```{r, echo=FALSE, results='asis'}
+collapse <- function(st) paste(st, collapse="")
+st <- gsub(collapse(rep("c", 7)), collapse(rep("l",7)), a)
+st <- gsub('lllllll\\} ', 'lp\\{4cm\\}p\\{4cm\\}lp\\{5cm\\}ll\\}', st)
+st <- gsub('Clock.Hours', 'Clock Hours ', st)
+st <- gsub('Course.and.Program', 'Course/Program', st)
+
+st[2:3] <- ''
+cat(st)
+```
+
+\elandscape
+
+### Supervision of master students
+\hrule
+
+Ma, L. (2015). Department of Psychology, Umeå University. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Master Thesis in Cognitive Science (15 ECTS)
+
+Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse (To cope leaving abusive relationships: The importance of attachment). Master Thesis in Clinical Psychology (30 ECTS)
+
+
+## Additional skills
+\hrule
+
+
+* Good programming skills in Python (v2.x) and R
+* Good skills in Microsoft Word and Excel
+* Basic skills in Markdown (e.g., RMarkdown) and LaTex
+* Basic programming skills in Visual Basic, E-basic (E-prime), and MATLAB
+* Basic skills in statistical software such as SPSS and R
+* Programming and performing experiments using both E-prime, MATLAB, and Python (i.e., PsychoPy)

@@ -157,3 +157,11 @@ pythontex-files-*/
 
 # Latexian
 TSWLatexianTemp*
+
+# Word and html documents
+*.docx
+*.doc
+*.html
+
+# RStudio
+*.Rproj

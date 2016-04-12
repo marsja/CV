@@ -21,10 +21,16 @@
 \newcommand{\elandscape}{\end{landscape}}
 \captionsetup[table]{labelformat=empty}
 
+\titleformat{name=\subsection}[block]
+  {\scshape\large}
+  {}
+  {0pt}
+  {\colorsection}
 
-\titleformat{\section}
-{\color{red}\normalfont\Large\bfseries}
-{\color{red}\thesection}{1em}{}
-\titleformat{\subsection}{\scshape\Large}
-{\thesubsection}{1em}{}
+\newcommand{\colorsection}[1]{%
+  \colorbox{gray!20}{\parbox{\dimexpr\textwidth-2\fboxsep}{\thesubsection\ #1}}}
+\renewcommand\thesubsection{}
 
+%\titlespacing*{<command>}{<left>}{<before-sep>}{<after-sep>}
+\titlespacing*{\subsection}
+{0pt}{5.5ex plus 1ex minus .2ex}{0pt}

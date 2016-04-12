@@ -105,12 +105,19 @@
 \newcommand{\elandscape}{\end{landscape}}
 \captionsetup[table]{labelformat=empty}
 
+\titleformat{name=\subsection}[block]
+  {\scshape\large}
+  {}
+  {0pt}
+  {\colorsection}
 
-\titleformat{\section}
-{\color{red}\normalfont\Large\bfseries}
-{\color{red}\thesection}{1em}{}
-\titleformat{\subsection}{\scshape\Large}
-{\thesubsection}{1em}{}
+\newcommand{\colorsection}[1]{%
+  \colorbox{gray!20}{\parbox{\dimexpr\textwidth-2\fboxsep}{\thesubsection\ #1}}}
+\renewcommand\thesubsection{}
+
+%\titlespacing*{<command>}{<left>}{<before-sep>}{<after-sep>}
+\titlespacing*{\subsection}
+{0pt}{0pt}{0pt}
 
 % Redefines (sub)paragraphs to behave more like sections
 \ifx\paragraph\undefined\else
@@ -207,6 +214,8 @@ related, areas (i.e., cognitive neuroscience).
 
 \subsection{Publications}\label{publications}
 
+\hrule
+
 \subsubsection{International peer-reviewed
 journals}\label{international-peer-reviewed-journals}
 
@@ -292,7 +301,7 @@ Psychophysics, Freiburg, DE. \textbf{Poster}.
 
 \textbf{8000 SEK} from the Department of Psychology for participating
 the conference 17\textsuperscript{th} International Multisensory
-Research Forum 15-18 June, Souzou., China, 2016.
+Research Forum 15-18 June, Souzou, China, 2016.
 
 \textbf{10 000 SEK} from JC Kempes minnesfond for the project \emph{Is
 everyday distractibility related to attention capture by vibrating
@@ -300,15 +309,19 @@ deviants?} (2014).
 
 \textbf{9 000 SEK} from Knut och Alice Wallenbergs Stiftelse for
 participating in the conferences Psychonomic Society's
-55\textsuperscript{th} Annual Meeting, Long Beach, USA, 20-23 November
-and APCAM, Long Beach, USA, 20 November, 2014.
+55\textsuperscript{th} Annual Meeting, 20-23 November, and APCAM, 20
+November, Long Beach, USA, 2014.
 
 \textbf{6000 SEK} from the Department of Psychology for participating
 the conference Fechner Day 2013 (the 29\textsuperscript{th} Annual
 Meeting of the International Society for Psychophysics) 21-25 October,
 Freiburg i.Br., Germany, 2013.
 
+\newpage
+
 \subsection{Teaching responsibilities}\label{teaching-responsibilities}
+
+\hrule
 
 \subsubsection{Past \& current areas at undergraduate
 level}\label{past-current-areas-at-undergraduate-level}

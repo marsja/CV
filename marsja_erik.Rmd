@@ -33,7 +33,7 @@ I am examining how sudden and unexpected changes in our environment captures our
 ## Research ambition
 
 \hrule
-My goal is to create my academic career in cognitive and applied psychology. Specifically, in the areas of attention and cognitive control. I aspire to eventually be able to work as an established researcher in these, and related (i.e., cognitive neuroscience), areas. 
+My goal is to create my academic career in cognitive psychology. Mainly doing ground research but also more applied (e.g., multisensory alarms). Specifically, in the areas of attention and cognitive control. I aspire to eventually be able to work as an established researcher in these, and related, areas  (i.e., cognitive neuroscience). 
 
 ## Education and Degrees	
 
@@ -76,7 +76,7 @@ Sörqvist, P., Marsh, J., **Marsja**, E., & Ljungberg, K. J. (Submitted). Irrele
 
 \hrule
 
-**Marsja**, E., Neely G., Ma, Lichen., Ljungberg K.J., (2015, August). Cross-modality matches of intensity and attention capture dimensions of auditory and vibrotactile stimuli. Fechner Day 2015. The 31^st^ Annual Meeting of the International Society for Psychophysics, Québec, CA. **Poster**.
+**Marsja**, E., Neely G., Ma, L., Ljungberg K.J., (2015, August). Cross-modality matches of intensity and attention capture dimensions of auditory and vibrotactile stimuli. Fechner Day 2015. The 31^st^ Annual Meeting of the International Society for Psychophysics, Québec, CA. **Poster**.
 
 **Marsja**, E., Neely, G., Parmentier, F.B.R., Ljungberg, K.J., (2014, October) Deviance Distraction Is Contingent on Stimuli Being Presented within the Same Modality. Psychonomic Society’s 55^th^ Annual Meeting. Long Beach, CA, USA. **Poster**.
 
@@ -178,7 +178,7 @@ Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna e
 
 * Good programming skills in Python (v2.x) and R
 * Good skills in Microsoft Word and Excel
-* Basic skills in Markdown (e.g., RMarkdown) and LaTex
+* Basic skills in Markdown (i.e., RMarkdown) and \LaTeX
 * Basic programming skills in Visual Basic, E-basic (E-prime), and MATLAB
 * Basic skills in statistical software such as SPSS and R
 * Programming and performing experiments using both E-prime, MATLAB, and Python (i.e., PsychoPy)

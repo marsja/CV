@@ -113,7 +113,7 @@ Primarily in:
 * Research Methods
 * Project work
 
-Lectures, Seminars, Lab demonstrations, Group project (both involving empirical projects and more applied projects) and Supervision have been given at the Department of Psychology Umeå University, Sweden. I have so far taught 603 clock hours. See Table for an oeverview of teaching topics. 
+Lectures, Seminars, Lab demonstrations, Group project (both involving empirical projects and more applied projects) and Supervision have been given at the Department of Psychology Umeå University, Sweden. I have so far taught 603 clock hours. See Table for an overview of teaching topics. 
 \blandscape
 ```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
 

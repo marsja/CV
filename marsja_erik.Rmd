@@ -77,6 +77,8 @@ Sörqvist, P., Marsh, J., **Marsja**, E., & Ljungberg, K. J. (Submitted). Irrele
 
 \hrule
 
+**Marsja**, E., Marsh, JE., Neely G., Hansson P., Ljungberg K.J., (2016, June). Spatial Change in Multisensory Distractors Impact on Verbal and Spatial Short Term Memory. International Multisensory Research Forum 17^th^ annual meeting, Suzhou, CHN. **Oral presentation**.
+
 **Marsja**, E., Neely G., Ma, L., Ljungberg K.J., (2015, August). Cross-modality matches of intensity and attention capture dimensions of auditory and vibrotactile stimuli. Fechner Day 2015. The 31^st^ Annual Meeting of the International Society for Psychophysics, Québec, CA. **Poster**.
 
 **Marsja**, E., Neely, G., Parmentier, F.B.R., Ljungberg, K.J., (2014, October) Deviance Distraction Is Contingent on Stimuli Being Presented within the Same Modality. Psychonomic Society’s 55^th^ Annual Meeting. Long Beach, CA, USA. **Poster**.
@@ -124,12 +126,17 @@ rm(list=ls())
 library(stargazer)
 require(xtable)
 
+#If on Linux:
+if(Sys.getenv("OS") == "Windows_NT"){ datadir = "C:/Users/erkmaa04/Dropbox/BetweenComps/timmar_undervisning/teachinghours.csv"
+}else  { datadir = "~/Dropbox/BetweenComps/timmar_undervisning/teachinghours.csv"
+}
+
 insertRow <- function(existingDF, newrow, r) {
   existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
   existingDF[r,] <- newrow
   existingDF
 }
-t.hours <- read.csv("~/Dropbox/BetweenComps/timmar_undervisning/teachinghours.csv")
+t.hours <- read.csv(datadir)
 t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
 
 table.data <- cbind(t.hours[9], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:8])

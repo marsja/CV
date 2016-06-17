@@ -166,3 +166,6 @@ TSWLatexianTemp*
 # RStudio
 *.Rproj
 .Rproj.user
+
+# Latex files
+marsja_erik.tex

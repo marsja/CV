@@ -18,15 +18,16 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 <br>
 
-+---------------------------------------------+--------------------------------------+------------------------------------------------+
-| **Telephone**:\                             | **Mobile**:\                         | **Email**: erik.marsja@umu.se\                 |
-| +46 90 786 79 59                            | +46 70363 36 62                      | **Web**:    http://www.marsja.se               |
-+=============================================+======================================+================================================+
-| **University adress**:                      |                                      | **Home adress**:                               |
-+---------------------------------------------+--------------------------------------+------------------------------------------------+
-| Department of Psychology\                   |                                      | Kandidatvägen 1\                               |
-| Umeå University, SE-901 87, Umeå, Sweden    |                                      | SE-907 33 Umeå, Sweden                         |
-+---------------------------------------------+--------------------------------------+------------------------------------------------+
++-------------------------------------------------+--------------------------------------+------------------------------------------------+
+| **Telephone**:\                                 | **Mobile**:\                         | **Email**: erik.marsja@umu.se\                 |
+| +46 90 786 79 59                                | +46 70363 36 62                      | **Web**:    http://www.marsja.se               |
++=================================================+======================================+================================================+
+| **University adress**:                          |                                      | **Home adress**:                               |
++-------------------------------------------------+--------------------------------------+------------------------------------------------+
+| Department of Psychology\                       |                                      | Kandidatvägen 1\                               |
+| Umeå University, SE-901 87, Umeå,               |                                      | SE-907 33 Umeå, \                              |
+| Sweden                                          |                                      | Sweden                                         |
++-------------------------------------------------+--------------------------------------+------------------------------------------------+
 
 ## Current research
 
@@ -60,6 +61,8 @@ Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G
 
 \hrule
 
+Rosa, E., **Marsja**, E., Ljungberg K.J. (In Preparation). Vibrotactile On-thigh Alarm Detection as a Function of Flight Task Mental Workload.
+
 **Marsja**, E., Neely, G., Ljungberg K.J. (Submitted). The impact of presence and absence of standard vibrations and deviating sounds in a visual attention task.
  
 Sörqvist, P., Marsh, J., **Marsja**, E., & Ljungberg, K. J. (Under revision). Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
@@ -80,7 +83,7 @@ Sörqvist, P., Marsh, J., **Marsja**, E., & Ljungberg, K. J. (Under revision). I
 
 \hrule
 
-**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2016, September). Do Spatial Changes in Sounds and Vibrations Affect Visuo-spatial and Verbal Short-Term Memroy. Attention and Control: Insights from Distraction, Workshop, University of Lancashire, Preston, UK. **Invited Talk**.
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2016, September). Do Spatial Changes in Sounds and Vibrations Affect Visuo-spatial and Verbal Short-Term Memory? Attention and Control: Insights from Distraction, Workshop, University of Central Lancashire, Preston, UK. **Invited Talk**.
 
 **Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2016, June). Spatial Change in Multisensory Distractors Impact on Verbal and Spatial Short Term Memory. International Multisensory Research Forum 17^th^ annual meeting, Suzhou, CHN. **Oral presentation**.
 

@@ -55,7 +55,7 @@ My goal is to create my academic career in cognitive psychology. Mainly doing gr
 ### International peer-reviewed journals
 \hrule
 
-Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own2. Evidence from auditory oddball distraction. Acta Psychologica, 150C, 161–166. doi:10.1016/j.actpsy.2014.05.009.
+Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own". Evidence from auditory oddball distraction. Acta Psychologica, 150C, 161–166. doi:10.1016/j.actpsy.2014.05.009.
 
 ### Publications In Preperation/Submitted/Under Revision
 
@@ -63,9 +63,9 @@ Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G
 
 Rosa, E., **Marsja**, E., Ljungberg K.J. (In Preparation). Vibrotactile On-thigh Alarm Detection as a Function of Flight Task Mental Workload.
 
-**Marsja**, E., Neely, G., Ljungberg K.J. (Submitted). The impact of presence and absence of standard vibrations and deviating sounds in a visual attention task.
+**Marsja**, E., Neely, G., Ljungberg K.J. (In Preparation). Investigating deviance distraction and the impact of modality.
  
-Sörqvist, P., Marsh, J., **Marsja**, E., & Ljungberg, K. J. (Under revision). Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
+Sörqvist, P., Marsh, J., **Marsja**, E., & Ljungberg, K. J. (In Preparation). Vibro-Tactile Distraction.
 
 **Marsja**, E., Neely, Ljungberg, K.J (Under revision). Deviance distraction in the auditory and tactile modalities after repeated exposure: differential aspects of tactile and auditory deviants.
 
@@ -99,6 +99,8 @@ Ljungberg, K.J., Parmentier, F.B.R., **Marsja**, E., Neely, G., Jones, D., (2014
 
 \hrule
 
+**16000 SEK** from Lars Hiertas Minnesfond for the project *Är korttidsminnet domän-generellt eller domän-specifikt? (Is short-term memory domain-general or domain specific?)*, 2016.
+
 **8000 SEK** from the Department of Psychology for participating the conference 17^th^ International Multisensory Research Forum 15-18 June, Souzou, China, 2016.
 
 **10 000 SEK**  from JC Kempes minnesfond for the project *Is everyday distractibility related to attention capture by
@@ -126,8 +128,10 @@ Primarily in:
 * Research Methods
 * Project work
 
-Lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology Umeå University, Sweden. I have so far taught 603 clock hours. See Table for an overview of teaching topics. 
+Lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology Umeå University, Sweden. I have so far taught 695 clock hours. See Table for an overview of teaching topics. 
+
 \blandscape
+
 ```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
 
 rm(list=ls())
@@ -163,9 +167,8 @@ for(index in 1:length(idx.dups)){
   newdata <- insertRow(newdata, ' ',row+1)
   idx.adder = idx.adder + 1
 }
-#tab.data <- rbind(newdata, c(paste('Total amount teaching:', total.teaching, sep=' '), 'NA', 'NA', 'NA', 'NA'))
 
-a = stargazer(newdata, title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, sep = ' '),  summary=FALSE, rownames=FALSE, font.size="small")
+a = stargazer(newdata, title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, 'UG = Undergraduate, G = Graduate', sep = ' '),  summary=FALSE, rownames=FALSE, font.size="small")
 
 ```
 

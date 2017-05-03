@@ -63,7 +63,7 @@ Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G
 
 Rosa, E., **Marsja**, E., Ljungberg K.J. (In Preparation). Vibrotactile On-thigh Alarm Detection as a Function of Flight Task Mental Workload.
 
-**Marsja**, E., Neely, G., Ljungberg K.J. (Submitted). Investigating deviance distraction and the impact of the modality of the to-be-ignored stimuli.
+**Marsja**, E., Neely, G., Ljungberg K.J. (Under revision). Investigating deviance distraction and the impact of the modality of the to-be-ignored stimuli.
  
 Marsh, J.E., Sörqvist, P., **Marsja**, E., Röer J.P., & Ljungberg, K.J. (Submitted).  Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
 
@@ -82,6 +82,9 @@ Marsh, J.E., Sörqvist, P., **Marsja**, E., Röer J.P., & Ljungberg, K.J. (Submi
 ## Conference Presentations
 
 \hrule
+
+
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2017, April). Domain-generality or domain-specificity of the short-term memory: insights from a multisensory distraction paradigm. Re-thinking the Senses Spring School, Dubrovnik, Croatia. **Poster**.
 
 **Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2016, September). Do Spatial Changes in Sounds and Vibrations Affect Visuo-spatial and Verbal Short-Term Memory? Attention and Control: Insights from Distraction, Workshop, University of Central Lancashire, Preston, UK. **Invited Talk**.
 

@@ -171,7 +171,7 @@ for(index in 1:length(idx.dups)){
   idx.adder = idx.adder + 1
 }
 
-a = stargazer(newdata, title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, 'UG = Undergraduate, G = Graduate', sep = ' '),  summary=FALSE, rownames=FALSE, font.size="small")
+a = stargazer(newdata, title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, 'UG = Undergraduate, G = Graduate', sep = ' '),  summary=FALSE, rownames=FALSE, font.size="tiny")
 
 ```
 

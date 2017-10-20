@@ -55,6 +55,8 @@ My goal is to create my academic career in cognitive psychology. Mainly doing gr
 ### International peer-reviewed journals
 \hrule
 
+**Marsja**, E., Neely, G., Ljungberg K.J. (Accepted). Investigating deviance distraction and the impact of the modality of the to-be-ignored stimuli. *Experimental Psychology*. 
+
 Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own2. Evidence from auditory oddball distraction. Acta Psychologica, 150C, 161–166. doi:10.1016/j.actpsy.2014.05.009.
 
 ### Publications In Preperation/Submitted/Under Revision
@@ -63,7 +65,6 @@ Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G
 
 Rosa, E., **Marsja**, E., Ljungberg K.J. (In Preparation). Vibrotactile On-thigh Alarm Detection as a Function of Flight Task Mental Workload.
 
-**Marsja**, E., Neely, G., Ljungberg K.J. (Submitted). The impact of presence and absence of standard vibrations and deviating sounds in a visual attention task.
  
 Sörqvist, P., Marsh, J., **Marsja**, E., & Ljungberg, K. J. (Under revision). Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
 
@@ -127,7 +128,9 @@ Primarily in:
 * Project work
 
 Lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology Umeå University, Sweden. I have so far taught 603 clock hours. See Table for an overview of teaching topics. 
+
 \blandscape
+
 ```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
 
 rm(list=ls())
@@ -144,7 +147,7 @@ insertRow <- function(existingDF, newrow, r) {
   existingDF[r,] <- newrow
   existingDF
 }
-t.hours <- read.csv(datadir)
+t.hours <- read.csv(datadir, row.names=NULL)
 t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
 
 table.data <- cbind(t.hours[9], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:8])
@@ -183,6 +186,7 @@ cat(st)
 \elandscape
 
 ### Supervision of master students
+
 \hrule
 
 Ma, L. (2015). Department of Psychology, Umeå University. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Master Thesis in Cognitive Science (15 ECTS).
@@ -191,6 +195,7 @@ Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna e
 
 
 ## Additional skills
+
 \hrule
 
 * Good skills in Microsoft Word and Excel

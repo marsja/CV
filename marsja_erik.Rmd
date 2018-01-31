@@ -43,11 +43,17 @@ My goal is to create my academic career in cognitive psychology. Mainly doing gr
 
 \hrule
 
-* 2012-Present	Ph.D. Student in Psychology 
+* Ph.D. in Psychology, 2017, Department of Psychology, Umeå University.
 
-* 2011-2012	M.Sc. in Cognitive Science (*Thesis*: Attention Capture: The Impact of Change in Spatial Sound Source on Behavior- Department of Psychology, Umeå University.
+    *Thesis title*: Attention capture by sudden and unexpected changes: a multisensory perspective. Available from the DiVA Databse: http://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1156775)
 
-* 2008-2011	B.Sc. in Cognitive Science (*Thesis*:  Attention Capture: Studying the Distracting Effect of One’s Own Name. Department of Psychology, Umeå University. Available from DiVA Database (http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-46607).
+* M.Sc. in Cognitive Science, 2012, Department of Psychology, Umeå University.
+
+    *Thesis title*: Attention Capture: The Impact of Change in Spatial Sound Source on Behavior. 
+    
+* B.Sc. in Cognitive Science, 2011, Department of Psychology, Umeå University.
+
+    *Thesis title*:  Attention Capture: Studying the Distracting Effect of One’s Own Name. Available from DiVA Database: http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-46607.
 
 ## Publications
 \hrule
@@ -55,18 +61,18 @@ My goal is to create my academic career in cognitive psychology. Mainly doing gr
 ### International peer-reviewed journals
 \hrule
 
-**Marsja**, E., Neely, G., Ljungberg K.J. (Accepted). Investigating deviance distraction and the impact of the modality of the to-be-ignored stimuli. *Experimental Psychology*. 
 
-Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own2. Evidence from auditory oddball distraction. Acta Psychologica, 150C, 161–166. doi:10.1016/j.actpsy.2014.05.009.
+**Marsja**, E., Neely, G., Ljungberg K.J. (In Press). Investigating deviance distraction and the impact of the modality of the to-be-ignored stimuli. Experimental Psychology.
 
-### Publications In Preperation/Submitted/Under Revision
+Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own". Evidence from auditory oddball distraction. Acta Psychologica, 150C, 161–166. doi:10.1016/j.actpsy.2014.05.009.
+
+### Publications In Preparation/Submitted/Under Revision
 
 \hrule
 
-Rosa, E., **Marsja**, E., Ljungberg K.J. (In Preparation). Vibrotactile On-thigh Alarm Detection as a Function of Flight Task Mental Workload.
-
+Rosa, E., **Marsja**, E., Ljungberg K.J. (Manuscript in Preparation). Tactile warnings constitute an efficient alarm during high mental workload in simulated flight tasks
  
-Sörqvist, P., Marsh, J., **Marsja**, E., & Ljungberg, K. J. (Under revision). Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
+Marsh, J.E., Sörqvist, P., **Marsja**, E., Röer J.P., & Ljungberg, K.J. (Under revision).  Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
 
 **Marsja**, E., Neely, Ljungberg, K.J (Under revision). Deviance distraction in the auditory and tactile modalities after repeated exposure: differential aspects of tactile and auditory deviants.
 
@@ -75,7 +81,7 @@ Sörqvist, P., Marsh, J., **Marsja**, E., & Ljungberg, K. J. (Under revision). I
 \hrule
 
 * Associate Professor Jessica K. Ljungberg, Department of Psychology, Umeå University, Umeå, Sweden
-* Associate Professor Gregory Neely, Department of Psychology, Umeå University, Umeå, Sweden
+* Professor Gregory Neely, Department of Psychology, Umeå University, Umeå, Sweden
 * Dr. Patrik Hansson, Department of Psychology, Umeå University, Umeå, Sweden 
 * Dr. John E. Marsh, School of Psychology, University of Central Lancashire, UK
 * Professor Patrik Sörqkvist, Faculty of Engineering and Sustainable Development, Högskolan i Gävle, Gävle
@@ -83,6 +89,9 @@ Sörqvist, P., Marsh, J., **Marsja**, E., & Ljungberg, K. J. (Under revision). I
 ## Conference Presentations
 
 \hrule
+
+
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2017, April). Domain-generality or domain-specificity of the short-term memory: insights from a multisensory distraction paradigm. Re-thinking the Senses Spring School, Dubrovnik, Croatia. **Poster**.
 
 **Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2016, September). Do Spatial Changes in Sounds and Vibrations Affect Visuo-spatial and Verbal Short-Term Memory? Attention and Control: Insights from Distraction, Workshop, University of Central Lancashire, Preston, UK. **Invited Talk**.
 
@@ -99,6 +108,12 @@ Ljungberg, K.J., Parmentier, F.B.R., **Marsja**, E., Neely, G., Jones, D., (2014
 ## Funding and Grants
 
 \hrule
+
+**6000 SEK** from the Department of Psychology for participating in the spring course Re-thinking the Senses Spring School, Dubrovnik, Croatia, 2017.
+
+**15000 SEK** from Lars Hiertas Minnesfond for the project *Är korttidsminnet domän-generellt eller domän-specifikt? (Is short-term memory domain-general or domain specific?)*, 2016.
+
+**12 000 SEK** from the Faculty of Social sciences, Umeå University for participating in the workshop Attention and Control: Insights from Distraction and visiting a researcher at the University of Central Lancashire, Preston, UK, 2016. 
 
 **8000 SEK** from the Department of Psychology for participating the conference 17^th^ International Multisensory Research Forum 15-18 June, Souzou, China, 2016.
 
@@ -127,7 +142,7 @@ Primarily in:
 * Research Methods
 * Project work
 
-Lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology Umeå University, Sweden. I have so far taught 603 clock hours. See Table for an overview of teaching topics. 
+Lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology Umeå University, Sweden. I have so far taught 695 clock hours. See Table for an overview of teaching topics. 
 
 \blandscape
 
@@ -166,9 +181,8 @@ for(index in 1:length(idx.dups)){
   newdata <- insertRow(newdata, ' ',row+1)
   idx.adder = idx.adder + 1
 }
-#tab.data <- rbind(newdata, c(paste('Total amount teaching:', total.teaching, sep=' '), 'NA', 'NA', 'NA', 'NA'))
 
-a = stargazer(newdata, title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, sep = ' '),  summary=FALSE, rownames=FALSE, font.size="small")
+a = stargazer(newdata, title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, 'UG = Undergraduate, G = Graduate', sep = ' '),  summary=FALSE, rownames=FALSE, font.size="tiny")
 
 ```
 
@@ -183,10 +197,10 @@ st[2:3] <- ''
 cat(st)
 ```
 
+
 \elandscape
 
 ### Supervision of master students
-
 \hrule
 
 Ma, L. (2015). Department of Psychology, Umeå University. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Master Thesis in Cognitive Science (15 ECTS).
@@ -195,7 +209,6 @@ Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna e
 
 
 ## Additional skills
-
 \hrule
 
 * Good skills in Microsoft Word and Excel

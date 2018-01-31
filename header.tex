@@ -3,8 +3,6 @@
 \usepackage{tabularx}
 \usepackage{booktabs}
 \usepackage{tikz}
-\usepackage[explicit]{titlesec}
-
 \usepackage{xcolor}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
@@ -21,9 +19,3 @@
 \newcommand{\blandscape}{\begin{landscape}}
 \newcommand{\elandscape}{\end{landscape}}
 \captionsetup[table]{labelformat=empty}
-
-\titleformat{\section}
-{\normalfont\Large\bfseries}{}{0em}{\colorbox{black}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{\textcolor{white}{\thesection\quad#1}}}}
-\titleformat{name=\section,numberless}
-{\normalfont\Large\bfseries}{}{0em}{\colorbox{black}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{\textcolor{white}{#1}}}}
-

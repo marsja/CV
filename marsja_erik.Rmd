@@ -152,7 +152,7 @@ rm(list=ls())
 library(stargazer)
 require(xtable)
 
-#If on Linux:
+#If on Windows:
 if(Sys.getenv("OS") == "Windows_NT"){ datadir = "C:/Users/erkmaa04/Dropbox/BetweenComps/timmar_undervisning/teachinghours.csv"
 }else  { datadir = "~/Dropbox/BetweenComps/timmar_undervisning/teachinghours.csv"
 }
@@ -162,7 +162,7 @@ insertRow <- function(existingDF, newrow, r) {
   existingDF[r,] <- newrow
   existingDF
 }
-t.hours <- read.csv(datadir, row.names=NULL)
+t.hours <- read.csv(datadir, sep = ';', row.names=NULL)
 t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
 
 table.data <- cbind(t.hours[9], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:8])
@@ -182,7 +182,7 @@ for(index in 1:length(idx.dups)){
   idx.adder = idx.adder + 1
 }
 
-a = stargazer(newdata, title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, 'UG = Undergraduate, G = Graduate', sep = ' '),  summary=FALSE, rownames=FALSE, font.size="tiny")
+a <- stargazer(newdata, title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate', sep = ' '),  summary=FALSE, rownames=FALSE, font.size="tiny")
 
 ```
 

@@ -5,8 +5,8 @@ web: http://www.marsja.se
 output:
   pdf_document:
     latex_engine: pdflatex
-    template: template.tex
     includes:
+      in_header: header.tex
       after_body: doc_suffix.tex
     keep_tex: yes
   word_document: default
@@ -77,7 +77,7 @@ Available from DiVA Database: http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-4
 
 ### International peer-reviewed journals
 
-**Marsja**, E., Neely, G., Ljungberg K.J. (In Press). Investigating deviance distraction and the impact of the modality of the to-be-ignored stimuli. Experimental Psychology.
+**Marsja**, E., Neely, G., & Ljungberg, J. K. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. Experimental Psychology, 65(2), 61–70. http://doi.org/10.1027/1618-3169/a000390
 
 Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own". Evidence from auditory oddball distraction. Acta Psychologica, 150C, 161–166. doi:10.1016/j.actpsy.2014.05.009.
 

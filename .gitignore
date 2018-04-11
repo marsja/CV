@@ -171,3 +171,11 @@ TSWLatexianTemp*
 
 # Latex files
 marsja_erik.tex
+
+# Word Documents
+*.doc
+*.docx
+
+# Specific files
+covering-letter.*
+researchinterests.*

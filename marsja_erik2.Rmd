@@ -1,13 +1,15 @@
 ---
 title: "Curriculum Vitae"
-address: Gugge
-web: http://www.marsja.se
+author: Erik Marsja
+address: "Kandidatvägen 1, SE-907 33 Umeå, Sweden"
+email: erik@marsja.se
+web: marsja.se
+phone: "+4670-36 33 662"
+github: marsja
 output:
   pdf_document:
     latex_engine: pdflatex
     template: template.tex
-    includes:
-      after_body: doc_suffix.tex
     keep_tex: yes
   word_document: default
 subparagraph: yes
@@ -19,15 +21,6 @@ date: '`r Sys.Date()`'
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
-
-## Current research
-
-I am examining how sudden and unexpected changes in our environment captures our attention and, thus, causes distraction from what we currently are engaged in. Specifically, in my Ph.D. thesis I examined how sudden and unexpected changes in auditory, tactile, and the combination of both auditory and tactile (multisensory) stimulation affects performance in speeded categorization and short-term memory tasks. 
-
-## Research ambition
-
-My goal is to create my academic career in cognitive psychology. Mainly doing ground research but also more applied (e.g., multisensory alarms). Specifically, in the areas of attention, perception, and cognitive control. I aspire to eventually be able to work as an established researcher in these, and related, areas  (e.g., cognitive neuroscience). 
 
 ## Education
 
@@ -49,7 +42,6 @@ Available from the DiVA Database: http://umu.diva-portal.org/smash/record.jsf?pi
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
-Department of Psychology, Umeå University.
 
 \textbf{Thesis title}: Attention Capture: The Impact of Change in Spatial Sound Source on Behavior. 
     
@@ -74,31 +66,21 @@ Available from DiVA Database: http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-4
 
 ## Publications
 
-
 ### International peer-reviewed journals
 
-**Marsja**, E., Neely, G., Ljungberg K.J. (In Press). Investigating deviance distraction and the impact of the modality of the to-be-ignored stimuli. Experimental Psychology.
+**Marsja**, E., Neely, G., & Ljungberg, J. K. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. Experimental Psychology, 65(2), 61–70. http://doi.org/10.1027/1618-3169/a000390
 
 Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own". Evidence from auditory oddball distraction. Acta Psychologica, 150C, 161–166. doi:10.1016/j.actpsy.2014.05.009.
 
 ### Publications In Preparation/Submitted/Under Revision
 
 Rosa, E., **Marsja**, E., Ljungberg K.J. (Manuscript in Preparation). Tactile warnings constitute an efficient alarm during high mental workload in simulated flight tasks
- 
+
 Marsh, J.E., Vachon, F., Sörqvist, P., **Marsja**, E., Röer J.P., & Ljungberg, K.J. (Under Revision).  Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
 
 **Marsja**, E., Neely, Ljungberg, K.J (Manuscript in Preparation). Deviance distraction in the auditory and tactile modalities after repeated exposure: differential aspects of tactile and auditory deviants.
 
-## Current research collaborations
-
-* Associate Professor Jessica K. Ljungberg, Department of Psychology, Umeå University, Umeå, Sweden
-* Professor Gregory Neely, Department of Psychology, Umeå University, Umeå, Sweden
-* Dr. Patrik Hansson, Department of Psychology, Umeå University, Umeå, Sweden 
-* Dr. John E. Marsh, School of Psychology, University of Central Lancashire, UK
-* Professor Patrik Sörqkvist, Faculty of Engineering and Sustainable Development, Högskolan i Gävle, Gävle
-
 ## Conference Presentations
-
 
 **Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2017, April). Domain-generality or domain-specificity of the short-term memory: insights from a multisensory distraction paradigm. Re-thinking the Senses Spring School, Dubrovnik, Croatia. **Poster**.
 
@@ -131,11 +113,10 @@ vibrating deviants?*, 2014.
 
 **6000 SEK** from the Department of Psychology for participating the conference Fechner Day 2013 (the 29^th^ Annual Meeting of the International Society for Psychophysics) 21-25 October, Freiburg i.Br., Germany, 2013.
 
+
 ## Teaching Experience
 
-
 ### Past & current areas at undergraduate level at Umeå University
-
 
 Primarily in:
 
@@ -145,7 +126,7 @@ Primarily in:
 * Cognitive Psychology
 * Research Methods
 
-Lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology Umeå University, Sweden. I have so far taught 950 clock hours. See Table in Appendix 1 for an overview of teaching topics. 
+Lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology Umeå University, Sweden. I have so far taught 950 clock hours. 
 
 
 ### Supervision of Master students (graduate level)
@@ -163,64 +144,9 @@ Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna e
 * Good skills in statistical software such as SPSS and R
 * Good programming skills in Python (v2.7.x) and R
 * Basic programming skills in Visual Basic, E-basic (E-prime), and MATLAB
-* Basic skills in Markdown (i.e., RMarkdown) and \LaTeX
+* Basic skills in Markdown (e.g., RMarkdown) and \LaTeX
 * Programming and performing experiments using both E-prime, MATLAB, and Python (i.e., PsychoPy, OpenSesame, & Expyriment)
 
 ### Responsibilities
 
 * Elected chairperson of the Ph.D. students Council of the Department of Psychology, Umeå University.
-
-\blandscape
-\pagestyle{style2}
-
-```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
-
-rm(list=ls())
-library(stargazer)
-require(xtable)
-
-#If on Windows:
-if(Sys.getenv("OS") == "Windows_NT"){ datadir = "C:/Users/erkmaa04/Dropbox/BetweenComps/timmar_undervisning/teachinghours.csv"
-}else  { datadir = "~/Dropbox/BetweenComps/timmar_undervisning/teachinghours.csv"
-}
-
-insertRow <- function(existingDF, newrow, r) {
-  existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
-  existingDF[r,] <- newrow
-  existingDF
-}
-t.hours <- read.csv(datadir, sep = ';', row.names=NULL)
-t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
-
-table.data <- cbind(t.hours[9], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:8])
-table.data <- table.data[table.data$Type != 'NOT HELD YET',]
-dups <- duplicated(table.data[,1]) | duplicated(table.data[,1])
-table.data[which(dups),]$Period <- ' '
-
-total.teaching <- sum(table.data$Clock.Hours)
-
-#Creating empty rows.. i hope
-idx.dups <- which(!dups[-1])
-idx.adder <- 0
-for(index in 1:length(idx.dups)){
-  row <-idx.dups[index]+idx.adder
-  ifelse(index == 1, newdata <- table.data, newdata <- newdata)
-  newdata <- insertRow(newdata, ' ',row+1)
-  idx.adder = idx.adder + 1
-}
-
-a <- stargazer(newdata, style = "aer", title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate', sep = ' '), summary=FALSE, rownames=FALSE, font.size="tiny")
-
-```
-
-```{r, echo=FALSE, results='asis'}
-collapse <- function(st) paste(st, collapse="")
-st <- gsub(collapse(rep("c", 7)), collapse(rep("l",7)), a)
-st <- gsub('lllllll\\} ', 'lp\\{4cm\\}p\\{4cm\\}lp\\{5cm\\}ll\\}', st)
-st <- gsub('Clock.Hours', 'Clock Hours ', st)
-st <- gsub('Course.and.Program', 'Course/Program', st)
-
-st[2:3] <- ''
-cat(st)
-```
-\elandscape

@@ -1,7 +1,7 @@
 \usepackage{titling}
 \usepackage{caption}
 \usepackage{tabularx}
-\usepackage{booktabs}
+\usepackage{booktabs, longtable}
 \usepackage{tikz}
 \usepackage{xcolor}
 \usepackage{fancyhdr}
@@ -15,6 +15,16 @@
 \renewcommand{\footrulewidth}{0.4pt}
 \fancyfoot[CO,CE]{CV - Erik Marsja - Page \thepage \hspace{1pt} of \pageref{LastPage}}
 \fancypagestyle{plain}{\pagestyle{fancy}}
+
+
+% Appendix header style
+
+\fancypagestyle{style2}{
+\fancyhf{}
+\fancyhead[C]{Appendix 1}
+\renewcommand{\headrulewidth}{1pt}
+}
+
 
 
 %For displaying the table in landscape format
@@ -51,3 +61,5 @@
 
 \def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
 \let\endchangemargin=\endlist 
+
+

@@ -1,6 +1,6 @@
 \documentclass[]{article}
 \usepackage{lscape}
-
+\usepackage{adjustbox}
 \usepackage{titling}
 \usepackage{caption}
 \usepackage{tabularx}
@@ -8,15 +8,17 @@
 \usepackage{xcolor}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
-\usepackage{lscape}
 \usepackage{titlesec}
 \usepackage[scaled=.90]{helvet}% Helvetica, served as a model for arial
+
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.0pt}
 \fancyfoot[CO,CE]{CV - Erik Marsja - Page \thepage \hspace{1pt} of \pageref{LastPage}}
 \fancypagestyle{plain}{\pagestyle{fancy}}
+
+\usepackage[margin=1in]{geometry}
 
 % Font awesome
 \usepackage{fontawesome}
@@ -66,6 +68,14 @@
 
 \setlength{\TPHorizModule}{1cm}
 \setlength{\TPVertModule}{1cm}
+
+% Appendix
+\fancypagestyle{style2}{
+\fancyhf{}
+\fancyhead[C]{Appendix 1}
+\renewcommand{\headrulewidth}{1pt}
+}
+
 
 
 \newcommand\secbar {
@@ -119,7 +129,7 @@
 \begin{tabularx}{\textwidth}{@{}lYl@{}}
 \multicolumn{3}{c}{Kandidatvägen 1, SE-907 33 Umeå, Sweden} \\\hline
  \faPhone \hspace{1 mm}  +4670-36 33 662  \hspace{1 mm}  &  & \faEnvelopeO \hspace{1 mm} \href{mailto:}{\tt \href{mailto:erik@marsja.se}{\nolinkurl{erik@marsja.se}}} \hspace{1 mm}  \\
- \faGlobe \hspace{1 mm} \href{http://marsja.se}{\tt marsja.se}   &  & \faGithub \hspace{1 mm} \href{http://github.com/marsja}{\tt marsja} \hspace{1 mm}  
+ \faGlobe \hspace{1 mm} \href{http://www.marsja.se}{\tt www.marsja.se}   &  & \faGithub \hspace{1 mm} \href{http://github.com/marsja}{\tt marsja} \hspace{1 mm}  
  \\\hline
 \end{tabularx}
 \end{table}
@@ -133,7 +143,7 @@
 Department of Psychology, Umeå University.
 
 \textbf{Thesis title}: Attention capture by sudden and unexpected changes: a multisensory perspective. 
-Available from the DiVA Database: http://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1156775)
+Available from the DiVA Database: http://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1156775
 
 \textbf{Supervisors}: Associate Professor Jessica K. Ljungberg, Professor Gregory Neely, \& Dr. Patrik Hansson
 
@@ -143,6 +153,7 @@ Available from the DiVA Database: http://umu.diva-portal.org/smash/record.jsf?pi
 
 \begin{changemargin}{2.3cm}{2.4cm}
 
+Department of Psychology, Umeå University.
 
 \textbf{Thesis title}: Attention Capture: The Impact of Change in Spatial Sound Source on Behavior. 
     
@@ -343,5 +354,13 @@ Thesis in Clinical Psychology (30 ECTS).
   Elected chairperson of the Ph.D.~students Council of the Department of
   Psychology, Umeå University.
 \end{itemize}
+
+\begin{landscape}
+\pagestyle{style2}
+
+
+
+
+\end{landscape}
 
 \end{document}

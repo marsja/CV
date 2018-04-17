@@ -3,7 +3,7 @@ title: "Curriculum Vitae"
 author: Erik Marsja
 address: "Kandidatvägen 1, SE-907 33 Umeå, Sweden"
 email: erik@marsja.se
-web: marsja.se
+web: www.marsja.se
 phone: "+4670-36 33 662"
 github: marsja
 output:
@@ -12,6 +12,7 @@ output:
     template: template.tex
     keep_tex: yes
   word_document: default
+geometry: margin=1in
 subparagraph: yes
 fontawesome: yes
 date: '`r Sys.Date()`'
@@ -32,7 +33,7 @@ knitr::opts_chunk$set(echo = TRUE)
 Department of Psychology, Umeå University.
 
 \textbf{Thesis title}: Attention capture by sudden and unexpected changes: a multisensory perspective. 
-Available from the DiVA Database: http://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1156775)
+Available from the DiVA Database: http://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1156775
 
 \textbf{Supervisors}: Associate Professor Jessica K. Ljungberg, Professor Gregory Neely, \& Dr. Patrik Hansson
 
@@ -42,6 +43,7 @@ Available from the DiVA Database: http://umu.diva-portal.org/smash/record.jsf?pi
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
+Department of Psychology, Umeå University.
 
 \textbf{Thesis title}: Attention Capture: The Impact of Change in Spatial Sound Source on Behavior. 
     
@@ -152,3 +154,60 @@ Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna e
 ### Responsibilities
 
 * Elected chairperson of the Ph.D. students Council of the Department of Psychology, Umeå University.
+
+\begin{landscape}
+\pagestyle{style2}
+
+```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
+
+rm(list=ls())
+library(stargazer)
+require(xtable)
+
+#If on Windows:
+if(Sys.getenv("OS") == "Windows_NT"){ datadir = "C:/Users/erkmaa04/Dropbox/BetweenComps/timmar_undervisning/teachinghours.csv"
+}else  { datadir = "~/Dropbox/BetweenComps/timmar_undervisning/teachinghours.csv"
+}
+
+insertRow <- function(existingDF, newrow, r) {
+  existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
+  existingDF[r,] <- newrow
+  existingDF
+}
+t.hours <- read.csv(datadir, sep = ';', row.names=NULL)
+t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
+
+table.data <- cbind(t.hours[9], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:8])
+table.data <- table.data[table.data$Type != 'NOT HELD YET',]
+dups <- duplicated(table.data[,1]) | duplicated(table.data[,1])
+table.data[which(dups),]$Period <- ' '
+
+total.teaching <- sum(table.data$Clock.Hours)
+
+#Creating empty rows.. i hope
+idx.dups <- which(!dups[-1])
+idx.adder <- 0
+for(index in 1:length(idx.dups)){
+  row <-idx.dups[index]+idx.adder
+  ifelse(index == 1, newdata <- table.data, newdata <- newdata)
+  newdata <- insertRow(newdata, ' ',row+1)
+  idx.adder = idx.adder + 1
+}
+
+a <- stargazer(newdata, style = "aer", title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate', sep = ' '), summary=FALSE, rownames=FALSE, font.size="tiny")
+
+```
+
+```{r, echo=FALSE, results='asis'}
+collapse <- function(st) paste(st, collapse="")
+st <- gsub(collapse(rep("c", 7)), collapse(rep("l",7)), a)
+st <- gsub('lllllll\\} ', 'lp\\{4cm\\}p\\{4cm\\}lp\\{5cm\\}ll\\} ', st)
+st <- gsub('\\centering', '\\centering\\\\begin\\{adjustbox\\}\\{max width=\\\\textwidth\\}', st)
+st <- gsub('\\\\end\\{tabular\\}', '\\\\end\\{tabular\\} \\\\end\\{adjustbox\\}', st)
+st <- gsub('Clock.Hours', 'Clock Hours ', st)
+st <- gsub('Course.and.Program', 'Course/Program', st)
+
+st[2:3] <- ''
+# cat(st)
+```
+\end{landscape}

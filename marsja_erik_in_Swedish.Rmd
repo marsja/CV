@@ -1,0 +1,218 @@
+---
+title: "Curriculum Vitae"
+author: Erik Marsja
+address: "Kandidatvägen 1, SE-907 33 Umeå, Sweden"
+email: erik@marsja.se
+web: marsja.se
+phone: "+4670-36 33 662"
+github: marsja
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: template.tex
+    keep_tex: yes
+  word_document: default
+geometry: margin=1in
+subparagraph: yes
+fontawesome: yes
+date: '`r Sys.Date()`'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Nuvarande forskning
+
+Jag undersöker hur plötsliga och oväntade förändringar i vår miljö fångar vår uppmärksamhet från vad vi för närvarande är engagerade i. Specifikt, i min avhandling undersökte jag hur plötsliga och oväntade förändringar i auditiv, taktil och kombinationen av både auditiv och taktil (multisensorisk) stimulering påverkar prestation i visuella uppgifter (kategorisering av siffror och korttidsminne). Vid sidan av vad jag studerat under min tid som doktorand så är jag även intresserad av multisensorisk perception och hur vi skapar interna modeller baserat på sensorisk stimulans från två, eller flera, sinnen samtidigt. 
+
+## Forskningsambition
+
+Mitt mål är att skapa min akademiska karriär inom kognitiv psykologi. Huvudsakligen inom grundforskning men också mer tillämpad (t.ex. multisensorala larm). Specifikt inom områdena uppmärksamhet, perception och kognitiv kontroll. Jag strävar efter att i slutändan kunna arbeta som en etablerad forskare inom dessa och relaterade områden (t.ex. kognitiv neurovetenskap).
+
+
+## Utbildning
+
+2017 \hspace{1.5cm}\textbf{Fil. Dr. i Psykologi}
+\hrule
+
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Insititutionen för Psykologi, Umeå Universitet.
+
+\textbf{Avhandlingens titel}: Attention capture by sudden and unexpected changes: a multisensory perspective. 
+
+Tillgänglig i DiVA Databas: http://bit.ly/marsjaphd.
+
+\textbf{Handledare}: Docent Jessica K. Ljungberg, Professor Gregory Neely, \& Fil. Dr. Patrik Hansson
+
+\end{changemargin}
+
+2012 \hspace{1.5cm}\textbf{Masterexamen i Kognitionsvetenskap}
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Insititutionen för Psykologi, Umeå Universitet.
+
+\textbf{Uppsatsens titel}: Attention Capture: The Impact of Change in Spatial Sound Source on Behavior. 
+    
+\textbf{Handledare}: Docent Jessica K. Ljungberg
+    
+\end{changemargin}
+
+    
+2011 \hspace{1.5cm}\textbf{Kandidatexamen i Kognitionsvetenskap}
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Insititutionen för Psykologi, Umeå Universitet.
+
+\textbf{Uppsatsens titel}:  Attention Capture: Studying the Distracting Effect of One’s Own Name. 
+
+Tillgänglig i DiVA Databas: http://bit.ly/marsjabsc.
+    
+\textbf{Handledare}: Docent Jessica K. Ljungberg
+
+\end{changemargin}
+
+## Publikationer
+
+### Internationella refereegranskade tidskrifter
+
+**Marsja**, E., Neely, G., & Ljungberg, J. K. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. Experimental Psychology, 65(2), 61–70. http://doi.org/10.1027/1618-3169/a000390
+
+Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own". Evidence from auditory oddball distraction. Acta Psychologica, 150C, 161–166. doi:10.1016/j.actpsy.2014.05.009.
+
+### Manuskript Under Preparation/Inskickade/Under Revidering
+
+Rosa, E., **Marsja**, E., Ljungberg K.J. (Manuskript under Preperation). Tactile warnings constitute an efficient alarm during high mental workload in simulated flight tasks
+
+Marsh, J.E., Vachon, F., Sörqvist, P., **Marsja**, E., Röer J.P., & Ljungberg, K.J. (Under Revidering).  Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
+
+**Marsja**, E., Neely, G., & Ljungberg, K.J (Manuskript under Preperation). Deviance distraction in the auditory and tactile modalities after repeated exposure: differential aspects of tactile and auditory deviants.
+
+**Marsja**, E., Marsh, J.E., Hansson, P., & Neely, G. (Manuskript under Preperation). Examining the Role of Spatial Changes in Bimodal and Uni-Modal To-Be-Ignored Stimuli and How They Affect Short-Term Memory Processes.
+
+## Konferenspresentationer
+
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2017, April). Domain-generality or domain-specificity of the short-term memory: insights from a multisensory distraction paradigm. Re-thinking the Senses Spring School, Dubrovnik, Kroatien **Poster**.
+
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2016, September). Do Spatial Changes in Sounds and Vibrations Affect Visuo-spatial and Verbal Short-Term Memory? Attention and Control: Insights from Distraction, Workshop, University of Central Lancashire, Preston, UK. **Inbjuden talare**.
+
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2016, Juni). Spatial Change in Multisensory Distractors Impact on Verbal and Spatial Short Term Memory. International Multisensory Research Forum 17^th^ annual meeting, Suzhou, Kina. **Muntlig presentation**.
+
+**Marsja**, E., Neely G., Ma, L., Ljungberg K.J., (2015, August). Cross-modality matches of intensity and attention capture dimensions of auditory and vibrotactile stimuli. Fechner Day 2015. The 31^st^ Annual Meeting of the International Society for Psychophysics, Québec, Kanada. **Poster**.
+
+**Marsja**, E., Neely, G., Parmentier, F.B.R., Ljungberg, K.J., (2014, Oktober) Deviance Distraction Is Contingent on Stimuli Being Presented within the Same Modality. Psychonomic Society’s 55^th^ Annual Meeting. Long Beach, CA, USA. **Poster**.
+
+Ljungberg, K.J., Parmentier, F.B.R., **Marsja**, E., Neely, G., Jones, D., (2014, January). Any Tom, Dick, or Harry will do: Hearing one’s own name distracts no more than any other in a cross-modal oddball task. Experimental Psychology Society Meeting. London, Storbrittanien. **Poster**.
+
+**Marsja**, E., Neely, G., Parmentier, F.B.R., Ljungberg, K.J., (2013, Oktober). Maintenance of the distractive effect of deviating vibrotactile stimuli in a cross-modal oddball paradigm.  the 29^th^ Annual meeting of the International Society of Psychophysics, Freiburg, Tyskland. **Poster**.
+
+## Finansiering och Bidrag
+
+**6000 SEK** från Institituionen för Psykologi, Umeå Universitet för deltagande i Re-thinking the Senses Spring School, Dubrovnik, Kroatien, 2017.
+
+**15000 SEK** from Lars Hiertas Minnesfond för projektet *Är korttidsminnet domän-generellt eller domän-specifikt? (Is short-term memory domain-general or domain specific?)*, 2016.
+
+**12 000 SEK** från Samhällsvetenskapliga Fakulteten, Umeå Universitet, för deltagande i en workshop kallad Attention and Control: Insights from Distraction and visiting a researcher at the University of Central Lancashire, Preston, UK, 2016. 
+
+**8000 SEK** från Institituionen för Psykologi, Umeå Universitet, för deltagande i konferensen the 17^th^ International Multisensory Research Forum 15-18 Juni, Souzou, Kina, 2016.
+
+**10 000 SEK**  från JC Kempes minnesfond för projektet *Is everyday distractibility related to attention capture by
+vibrating deviants?*, 2014.
+
+**9 000 SEK**  från Knut och Alice Wallenbergs Stiftelse för att delta i konferenserna Psychonomic Society’s 55^th^ Annual Meeting, 20-23 November, och APCAM, 20 November, Long Beach, USA, 2014. 
+
+**6000 SEK** från Institituionen för Psykologi, Umeå Universitet för deltagande i konferensen Fechner Day 2013 (the 29^th^ Annual Meeting of the International Society for Psychophysics) 21-25 Oktober, Freiburg i.Br., Tyskland, 2013.
+
+
+## Undervisningserfarenhet
+
+Främst i:
+
+* Uppmärksamhet
+* Perception
+* Tillämpad kognitiv psykologi
+* Kognitiv psykologi
+* Forskningsmetodik
+
+Föreläsningar, seminarier, laboratoriedemonstrationer, handledning av grupprojekt (både empiriska och tillämpade projekt), och handledning av uppsatser har givits vid Institituionen för Psykologi, Umeå Universitet. Jag har hittills undervisat 950 klocktimmar. För en översikt över ämnen, typ av undervisning, och antal timmar se Tabell 1 i Appendix A.
+
+
+### Handledning av Masterstudenter
+
+Ma, L. (2015). Insititutionen för Psykologi, Umeå Universitet. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Masteruppsats i Kognitionsvetenskap (15 ECTS).
+
+Blide, M. (2014). Insititutionen för Psykologi, Umeå Universitet. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse. Masterupsats i Klinisk Psykologi (30 ECTS).
+
+
+## Övriga färdigheter
+
+* Goda färdigheter i Microsoft Word och Excel
+* Goda färdigheter i statistisk mjukvara så som SPSS och R
+* Goda programmingkunskaper i Python (v2.7.x) och R
+* Grundläggande programmeringskunskaper i Visual Basic, E-basic (E-prime), och MATLAB
+* Grundläggande färdigheter Markdown (e.g., RMarkdown) och \LaTeX
+* Programmerande, och utförande, av experiment i E-prime, MATLAB, och Python (i.e., PsychoPy, OpenSesame, & Expyriment)
+
+### Ansvarområden
+
+* Vald ordförande PsyDok, doktorandernas kårsektion, vid Institutionen för Psykologi, Umeå Universitet.
+
+\begin{landscape}
+\pagestyle{style2}
+
+```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
+
+rm(list=ls())
+library(stargazer)
+require(xtable)
+
+#If on Windows:
+if(Sys.getenv("OS") == "Windows_NT"){ datadir = "C:/Users/erkmaa04/Dropbox/BetweenComps/timmar_undervisning/teachinghours_sv.csv"
+}else  { datadir = "~/Dropbox/BetweenComps/timmar_undervisning/teachinghours.csv"
+}
+
+insertRow <- function(existingDF, newrow, r) {
+  existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
+  existingDF[r,] <- newrow
+  existingDF
+}
+t.hours <- read.csv(datadir, sep = ';', row.names=NULL)
+t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
+
+table.data <- cbind(t.hours[9], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:8])
+table.data <- table.data[table.data$Type != 'NOT HELD YET',]
+dups <- duplicated(table.data[,1]) | duplicated(table.data[,1])
+table.data[which(dups),]$Period <- ' '
+
+total.teaching <- sum(table.data$Clock.Hours)
+
+#Creating empty rows.. i hope
+idx.dups <- which(!dups[-1])
+idx.adder <- 0
+for(index in 1:length(idx.dups)){
+  row <-idx.dups[index]+idx.adder
+  ifelse(index == 1, newdata <- table.data, newdata <- newdata)
+  newdata <- insertRow(newdata, ' ',row+1)
+  idx.adder = idx.adder + 1
+}
+# Swedish column names...
+
+names(newdata) <- c("Period", "Ämne", "Typ", "Klocktimmar", "Kurs och Program", "Nivå", "Språk")
+a <- stargazer(newdata, style = "aer", title='Undervisning - en översikt av undervisningsyp, antal timmar, osv', notes= paste0(' Totalt antal klocktimmar:', total.teaching, ', Gr = Grundnivå, Av = Avancerad nivå', ', Sv = Svenska, Eng = Engelska'), summary=FALSE, rownames=FALSE, font.size="tiny")
+
+```
+
+```{r, echo=FALSE, results='asis'}
+collapse <- function(st) paste(st, collapse="")
+st <- gsub(collapse(rep("c", 7)), collapse(rep("l",7)), a)
+st <- gsub('lllllll\\} ', 'lp\\{4cm\\}p\\{4cm\\}lp\\{5cm\\}ll\\}', st)
+st <- gsub('Clock.Hours', 'Antal timmar ', st)
+st <- gsub('Course.and.Program', 'Kurs/Program', st)
+
+st[2:3] <- ''
+cat(st)
+```
+\end{landscape}

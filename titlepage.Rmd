@@ -1,0 +1,19 @@
+---
+title: "Ansökan om tjänst"
+author: "Erik Marsja"
+date: "21 maj 2018"
+output: 
+  pdf_document:
+    before_body: before_body2.tex
+    template: templatefp.tex
+
+
+
+---
+
+\centering
+
+# Hej
+
+\raggedright
+\clearpage

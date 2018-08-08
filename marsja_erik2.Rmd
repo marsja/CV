@@ -76,12 +76,14 @@ Available from DiVA Database: http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-4
 
 Aug 2018 -
 
-Nov 2018\hspace{0.75cm}\textbf{Research Assistant}
+Oct 2018\hspace{0.75cm}\textbf{Research Assistant}
 
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
 Department of Psychology, Umeå University.
+
+**Project**: How does perceived safety look in broken vs unbroken communication chains. Literature study commissioned by SOS Alarm.
 
 \end{changemargin}
 

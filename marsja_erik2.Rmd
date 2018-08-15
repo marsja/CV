@@ -1,23 +1,24 @@
 ---
 title: "Curriculum Vitae"
-author: Erik Marsja
-address: "Kandidatvägen 1, SE-907 33 Umeå, Sweden"
-email: erik.marsja@umu.se
-web: www.marsja.se
-phone: "090-786 79 59"
-github: marsja
-dob: '19810526'
-lang: 'Swedish, English'
+author: "Erik Marsja"
+date: "`r Sys.Date()`"
 output:
   pdf_document:
+    keep_tex: yes
     latex_engine: pdflatex
     template: template.tex
-    keep_tex: yes
+  html_document:
+    df_print: paged
   word_document: default
-geometry: margin=1.2in
-subparagraph: yes
+email: erik.marsja@umu.se
 fontawesome: yes
-date: '`r Sys.Date()`'
+geometry: margin=1.2in
+github: marsja
+lang: Swedish, English
+phone: +4690-786 79 59
+subparagraph: yes
+address: Kandidatvägen 1, SE-907 33 Umeå, Sweden
+web: www.marsja.se
 ---
 
 ```{r setup, include=FALSE}
@@ -83,7 +84,7 @@ Oct 2018\hspace{0.75cm}\textbf{Research Assistant}
 
 Department of Psychology, Umeå University.
 
-**Project**: How does perceived safety look in broken vs unbroken communication chains. Literature study commissioned by SOS Alarm.
+\textbf{Project}: How does perceived safety look in broken vs unbroken communication chains. Literature study commissioned by SOS Alarm, a emergency agency (e.g., public-safety answering point).
 
 \end{changemargin}
 
@@ -96,6 +97,9 @@ June 2018\hspace{0.75cm}\textbf{PhD Student and Teaching Assistant}
 
 Department of Psychology, Umeå University.
 
+Planning of studies, programming of experiments, literature search, data analysis, scientific communication, and many more. See the section "Teaching responsibilities" for an overview of my pedagogical experience.
+
+
 \end{changemargin}
 
 June 2011\hspace{0.75cm}\textbf{Undergrad. Research Assistant}
@@ -103,11 +107,20 @@ June 2011\hspace{0.75cm}\textbf{Undergrad. Research Assistant}
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
-Recruitment of participants and data collection.
 
 Department of Psychology, Umeå University.
 
+Recruitment of participants and data collection.
+
+
 \end{changemargin}
+
+## Research Interests
+
+* Multisensory perception & attention
+
+* Gaming and cognition (i.e., spatial & visual attention)
+
 
 ## Publications
 
@@ -164,7 +177,7 @@ vibrating deviants?*, 2014.
 
 * Journal of Cognitive Psychology
 
-Information about my responsibilites as a peer-reviewer can be found in my [Publons profile](https://www.publons.com/a/1517052/).
+Information about my responsibilities as a peer-reviewer can be found in my [Publons profile](https://www.publons.com/a/1517052/).
 
 ## Teaching Experience
 
@@ -178,7 +191,7 @@ Primarily in:
 * Cognitive Psychology
 * Research Methods
 
-Lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology Umeå University, Sweden. I have so far taught 950 clock hours. See Table 1 for an overview of my teaching responsibilites, clock hours, and courses.
+Lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology Umeå University, Sweden. I have so far taught 950 clock hours. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
 
 
 ### Supervision of Master students (graduate level)
@@ -196,13 +209,14 @@ Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna e
 * Good skills in statistical software such as SPSS and R
 * Good programming skills in Python (v2.7.x) and R
 * Good skills in programming and performing experiments using both E-prime, MATLAB, and Python (i.e., PsychoPy, OpenSesame, & Expyriment)
-* Basic programming skills in Visual Basic, E-basic (E-prime), MATLAB, Javascript, and PHP
+* Basic programming skills in Visual Basic, E-basic (E-prime), MATLAB, JavaScript, and PHP
 * Basic skills in Markdown (e.g., RMarkdown) and \LaTeX
 
 
 ### Responsibilities
 
 * Elected chairperson of the Ph.D. students Council of the Department of Psychology, Umeå University.
+
 
 \begin{landscape}
 \pagestyle{empty}

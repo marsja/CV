@@ -1,0 +1,225 @@
+---
+title: "Curriculum Vitae"
+author: "Erik Marsja"
+date: "2018-09-21"
+output:
+  pdf_document:
+    keep_tex: yes
+    latex_engine: pdflatex
+    template: template.tex
+  html_document:
+    df_print: paged
+  word_document: default
+email: erik.marsja@umu.se
+fontawesome: yes
+geometry: margin=1.2in
+github: marsja
+lang: Swedish, English
+phone: +4690-786 79 59
+subparagraph: yes
+address: Kandidatvägen 1, SE-907 33 Umeå, Sweden
+web: www.marsja.se
+---
+
+
+
+
+## Education
+
+2017 \hspace{1.5cm}\textbf{Ph.D. in Psychology}
+\hrule
+
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+\textbf{Thesis title}: Attention capture by sudden and unexpected changes: a multisensory perspective. 
+
+Available from the DiVA Database: http://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1156775
+
+\textbf{Supervisors}: Associate Professor Jessica K. Ljungberg, Professor Gregory Neely, \& Dr. Patrik Hansson
+
+\end{changemargin}
+
+2012 \hspace{1.5cm}\textbf{M.Sc. in Cognitive Science}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+\textbf{Thesis title}: Attention Capture: The Impact of Change in Spatial Sound Source on Behavior. 
+    
+\textbf{Supervisor}: Associate Professor Jessica K. Ljungberg
+    
+\end{changemargin}
+
+    
+2011 \hspace{1.5cm}\textbf{B.Sc. in Cognitive Science}
+\hrule
+
+\begin{changemargin}{2.3cm}{2.4cm}
+
+
+Department of Psychology, Umeå University.
+
+\textbf{Thesis title}:  Attention Capture: Studying the Distracting Effect of One’s Own Name.
+
+Available from DiVA Database: http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-46607.
+    
+\textbf{Supervisor}: Associate Professor Jessica K. Ljungberg
+
+\end{changemargin}
+
+## Employment
+
+Aug 2018 -
+
+Oct 2018\hspace{0.75cm}\textbf{Research Assistant}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+\textbf{Project}: How does perceived safety look in broken vs unbroken communication chains. Literature study commissioned by SOS Alarm, a emergency agency (e.g., public-safety answering point).
+
+\end{changemargin}
+
+\newpage <!-- THIS SHOULD BE REMOVED WHEN NEEDED -->
+
+Oct 2012 -
+
+June 2018\hspace{0.75cm}\textbf{PhD Student and Teaching Assistant}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+Planning of studies, programming of experiments, literature search, data analysis, scientific communication, and many more. See the section "Teaching responsibilities" for an overview of my pedagogical experience.
+
+
+\end{changemargin}
+
+June 2011\hspace{0.75cm}\textbf{Undergrad. Research Assistant}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+
+Department of Psychology, Umeå University.
+
+Recruitment of participants and data collection.
+
+
+\end{changemargin}
+
+
+## Publications
+
+### International peer-reviewed journals
+
+**Marsja**, E., Neely, G., & Ljungberg, J. K. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. *Experimental Psychology, 65(2)*, 61–70. http://doi.org/10.1027/1618-3169/a000390
+
+Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own". Evidence from auditory oddball distraction. *Acta Psychologica, 150C*, 161–166. doi:10.1016/j.actpsy.2014.05.009.
+
+### Publications In Preparation/Submitted/Under Revision
+
+Rosa, E., **Marsja**, E., Ljungberg K.J. (Manuscript in Preparation). Tactile warnings constitute an efficient alarm during high mental workload in simulated flight tasks
+
+Marsh, J.E., Vachon, F., Sörqvist, P., **Marsja**, E., Röer J.P., & Ljungberg, K.J. (Submitted).  Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
+
+**Marsja**, E., Neely, G., & Ljungberg, K.J (Manuscript in Preparation). Deviance distraction in the auditory and tactile modalities after repeated exposure: differential aspects of tactile and auditory deviants.
+
+**Marsja**, E., Marsh, J.E., Hansson, P., & Neely, G. (Manuscript in Preparation). Examining the Role of Spatial Changes in Bimodal and Uni-Modal To-Be-Ignored Stimuli and How They Affect Short-Term Memory Processes.
+
+## Conference Presentations
+
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2017, April). Domain-generality or domain-specificity of the short-term memory: insights from a multisensory distraction paradigm. Re-thinking the Senses Spring School, Dubrovnik, Croatia. **Poster**.
+
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2016, September). Do Spatial Changes in Sounds and Vibrations Affect Visuo-spatial and Verbal Short-Term Memory? Attention and Control: Insights from Distraction, Workshop, University of Central Lancashire, Preston, UK. **Invited Talk**.
+
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2016, June). Spatial Change in Multisensory Distractors Impact on Verbal and Spatial Short Term Memory. International Multisensory Research Forum 17^th^ annual meeting, Suzhou, CHN. **Oral presentation**.
+
+**Marsja**, E., Neely G., Ma, L., Ljungberg K.J., (2015, August). Cross-modality matches of intensity and attention capture dimensions of auditory and vibrotactile stimuli. Fechner Day 2015. The 31^st^ Annual Meeting of the International Society for Psychophysics, Québec, CA. **Poster**.
+
+**Marsja**, E., Neely, G., Parmentier, F.B.R., Ljungberg, K.J., (2014, October) Deviance Distraction Is Contingent on Stimuli Being Presented within the Same Modality. Psychonomic Society’s 55^th^ Annual Meeting. Long Beach, CA, USA. **Poster**.
+
+Ljungberg, K.J., Parmentier, F.B.R., **Marsja**, E., Neely, G., Jones, D., (2014, January). Any Tom, Dick, or Harry will do: Hearing one’s own name distracts no more than any other in a cross-modal oddball task. Experimental Psychology Society Meeting. London, UK. **Poster**.
+
+**Marsja**, E., Neely, G., Parmentier, F.B.R., Ljungberg, K.J., (2013, October). Maintenance of the distractive effect of deviating vibrotactile stimuli in a cross-modal oddball paradigm.  the 29^th^ Annual meeting of the International Society of Psychophysics, Freiburg, DE. **Poster**.
+
+## Funding and Grants
+
+**6000 SEK** from the Department of Psychology, Umeå University, for participating in the Re-thinking the Senses Spring School, Dubrovnik, Croatia, 2017.
+
+**15000 SEK** from Lars Hiertas Minnesfond for the project *Är korttidsminnet domän-generellt eller domän-specifikt? (Is short-term memory domain-general or domain specific?)*, 2016.
+
+**12 000 SEK** from the Faculty of Social sciences, Umeå University, for participating in the workshop Attention and Control: Insights from Distraction and visiting a researcher at the University of Central Lancashire, Preston, UK, 2016. 
+
+**8000 SEK** from the Department of Psychology, Umeå University, for participating the conference 17^th^ International Multisensory Research Forum 15-18 June, Souzou, China, 2016.
+
+**10 000 SEK**  from JC Kempes minnesfond for the project *Is everyday distractibility related to attention capture by
+vibrating deviants?*, 2014.
+
+**9 000 SEK**  from Knut och Alice Wallenbergs Stiftelse for participating in the conferences Psychonomic Society’s 55^th^ Annual Meeting, 20-23 November, and APCAM, 20 November, Long Beach, USA, 2014. 
+
+**6000 SEK** from the Department of Psychology for participating the conference Fechner Day 2013 (the 29^th^ Annual Meeting of the International Society for Psychophysics) 21-25 October, Freiburg i.Br., Germany, 2013.
+
+## Peer-reviewed for Journals:
+
+* Journal of Cognitive Psychology
+
+Information about my responsibilities as a peer-reviewer can be found in my [Publons profile](https://www.publons.com/a/1517052/).
+
+## Skills & Training
+
+2018 Spring School *Re-Thinking the Senses*, Inter-University Centre, Dubrovnik, Croatia
+
+### Teaching  
+
+Primarily in:
+
+* Attention
+* Perception
+* Applied Cognitive Psychology
+* Cognitive Psychology
+* Research Methods
+
+Lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology Umeå University, Sweden. I have so far taught 950 clock hours. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
+
+
+### Supervision of Master students (graduate level)
+
+
+Ma, L. (2015). Department of Psychology, Umeå University. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Master Thesis in Cognitive Science (15 ECTS).
+
+Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse (To cope leaving abusive relationships: The importance of attachment). Master Thesis in Clinical Psychology (30 ECTS).
+
+
+### Additional skills
+
+
+* Good skills in Microsoft Word and Excel
+* Good skills in statistical software such as SPSS and R
+* Good programming skills in Python (v2.7.x) and R
+* Good skills in programming and performing experiments using both E-prime, MATLAB, and Python (i.e., PsychoPy, OpenSesame, & Expyriment)
+* Basic programming skills in Visual Basic, E-basic (E-prime), MATLAB, JavaScript, and PHP
+* Basic skills in Markdown (e.g., RMarkdown) and \LaTeX
+
+
+### Responsibilities
+
+* Elected chairperson of the Ph.D. students Council of the Department of Psychology, Umeå University.
+
+
+\begin{landscape}
+\pagestyle{empty}
+
+
+{\selectlanguage{english}
+
+   \begin{table}[!htbp] \centering    \caption{Teaching responsibilities - an overview of type of teaching, hours, etc.}    \label{}  \tiny  \begin{tabular}{@{\extracolsep{5pt}} lp{4cm}p{4cm}lp{5cm}ll}  \\[-1.8ex]\hline  \hline \\[-1.8ex]  Period & Subject & Type & Clock Hours  & Course/Program & Level & Language \\  \hline \\[-1.8ex]  VT 2014 & Scientific communication, research methods, research ethics & Lectures, seminars, supervision & 60 & Psychological test and research methods/Statistical and Empirial Methods, the Clinical Psychologist program/the Bachelor's Program in Cognitive Science & UG & Swe \\    & Cognitive Psychology & Supervision of projects & 20 & Introduction to Psychology, the Clincial Psychologist Program & UG & Swe \\    &  &  &   &  &  &  \\  HT 2014 & Cognitive Psychology & Supervision of projects & 20 & Introduction to Psychology, the Clincial Psychologist Program & UG & Swe \\    & Clinical Psychology & Co-supervision of thesis project & 20 & Master Thesis in Psychology, 30 ECTS, the Clinical Psychologist Program & G & Eng \\    & Applied Cognitive Science & Supervision of projects & 40 & Project in Cognitive Science, the Bachelor's Program in Cognitive Science & UG & Swe \\    &  &  &   &  &  &  \\  VT 2015 & Cognitive Psychology & Supervision of projects & 24 & Introduction to Psychology, the Clincial Psychologist Program & UG & Swe \\    & Cognitive Psychology & Lectures, seminars, supervision of projects & 20 & Basic psychology and sport psychology, the Coaching Program & UG & Swe \\    & Cognitive Psychology & Supervision of thesis project & 15 & Master Thesis in Cognitive Science, 15 ECTS, the Master's Program in Cognitive Science & G & Eng \\    & Applied Cognitive Science & Supervision of projects & 110 & Project in Cognitive Science, the Bachelor's Program in Cognitive Science & UG & Swe \\    &  &  &   &  &  &  \\  HT 2015 & Cognitive Psychology & Supervision of projects & 24 & Cognitive Psychology, the Clinical Psychologist Program & UG & Swe \\    & Qualitative methods & Seminars & 20 & the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program & UG & Swe \\    &  &  &   &  &  &  \\  VT 2016 & Cognitive Psychology & Lab demonstrations & 30 & 2:1 Cognition, the Clinical Psychologist Program & UG & Eng \\    & Cognitive Psychology: Attention & Lectures, seminars, supervision of projects & 60 & Applied Cognitive Psychology, the Bachelor's Program in Cognitive Science & UG & Swe \\    & Qualitative and Quantitative methods & Seminars, computer labs & 30 & the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program & UG & Swe \\    & Applied Cognitive Science & Supervision of projects & 110 & Project in Cognitive Science, the Bachelor's Program in Cognitive Science & UG & Swe \\    &  &  &   &  &  &  \\  HT 2016 & Cognitive Psychology & Lab demonstrations & 30 & 2:1 Cognition, the Clinical Psychologist Program & UG & Eng \\    & Qualitative and Quantitative methods & Seminars, computer labs & 30 & the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program & UG & Swe \\    & Cognitive Psychology: Perception, Attention, and Consciousness & Lectures & 24 & Perception, the Bachelor's Program in Cognitive Science & UG & Swe \\    & Clinical Psychology & Seminars & 9 & Master Thesis in Psychology, 30 ECTS, the Clinical Psychologist Program & G & Swe \\    &  &  &   &  &  &  \\  VT 2017 & Cognitive Psychology & Lab demonstrations & 30 & 2:1 Cognition, the Clinical Psychologist Program & UG & Eng \\    & Cognitive Psychology, Applied: Attention & Lectures, seminar & 20 & Applied Cognitive Psychology, the Bachelor's Program in Cognitive Science & UG & Swe \\    & Applied Cognitive Science & Supervision of projects & 40 & Project in Cognitive Science, the Bachelor's Program in Cognitive Science & UG & Swe \\    & Qualatitive and Quantative research methods & Seminars, computer labs & 30 & the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program & UG & Swe \\    & Clinical Psychology & Seminars & 30 & Master Thesis in Psychology, 30 ECTS, the Clinical Psychologist Program & G & Swe \\    &  &  &   &  &  &  \\  HT 2017 & Cognitive Psychology & Lab demonstrations & 30 & 2:1 Cognition, the Clinical Psychologist Program & UG & Eng \\    & Cognitive Psychology: Attention and Consciousness & Lectures, seminars & 24 & Perception, the Bachelor's Program in Cognitive Science & UG & Swe \\    & Developmental Psychology & Seminar leader & 50 & Learning and teaching, pedagogy & UG & Swe \\  \hline \\[-1.8ex]  \multicolumn{7}{l}{ Total of clock hours: 950 , UG = Undergraduate, G = Graduate} \\  \end{tabular}  \end{table} 
+}
+\end{landscape}

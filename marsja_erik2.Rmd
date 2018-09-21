@@ -88,6 +88,8 @@ Department of Psychology, Umeå University.
 
 \end{changemargin}
 
+\newpage <!-- THIS SHOULD BE REMOVED WHEN NEEDED -->
+
 Oct 2012 -
 
 June 2018\hspace{0.75cm}\textbf{PhD Student and Teaching Assistant}
@@ -114,12 +116,6 @@ Recruitment of participants and data collection.
 
 
 \end{changemargin}
-
-## Research Interests
-
-* Multisensory perception & attention
-
-* Gaming and cognition (i.e., spatial & visual attention)
 
 
 ## Publications
@@ -179,9 +175,11 @@ vibrating deviants?*, 2014.
 
 Information about my responsibilities as a peer-reviewer can be found in my [Publons profile](https://www.publons.com/a/1517052/).
 
-## Teaching Experience
+## Skills & Training
 
-### Past & current areas at undergraduate level at Umeå University
+2018 Spring School *Re-Thinking the Senses*, Inter-University Centre, Dubrovnik, Croatia
+
+### Teaching  
 
 Primarily in:
 
@@ -202,7 +200,7 @@ Ma, L. (2015). Department of Psychology, Umeå University. "Cross-Modal Matching
 Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse (To cope leaving abusive relationships: The importance of attachment). Master Thesis in Clinical Psychology (30 ECTS).
 
 
-## Additional skills
+### Additional skills
 
 
 * Good skills in Microsoft Word and Excel

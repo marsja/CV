@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Pedagogisk grundsyn
 
-Under mina år som doktorand har jag erhållit undervisningserfarenhet, och tagit kurser i universitetspedagogik. Detta har haft en stark påverkan på min utveckling som lärare. Jag reflekterar ofta på min roll som lärare, och är ofta driven till att utveckla och förbättra min pedagogik. Som resultat av detta spenderar jag ofta mycket tid på att förbereda min undervisning. 
+Under mina år som doktorand har jag erhållit undervisningserfarenhet, och tagit kurser i universitetspedagogik. Detta har haft en stark påverkan på min utveckling som lärare. Jag reflekterar ofta på min roll som lärare, och är driven till att utveckla och förbättra mina pedagogiska färdigheter. Som resultat av detta spenderar jag ofta mycket tid på att förbereda min undervisning. 
 
 
 Min syn på kunskap grundas i ämnena jag läst under min tid som grundutbildnings- och forskarstudent; kognitionsvetenskap (särskilt kognitionspsykologi). Det vill säga, min syn är att kunskap baseras på empiriska resultat (Gustafsson, 2002). Min syn har emellertid ändrats till att anse att djupare kunskap även kräver förståelse av fakta. Denna utveckling har sprungit ur min erfarenhet av undervisning, och de pedagogiska kurser jag läst, men även min fördjupning i psykologi som ämne. Jag ha kommit anamma ett synsätt baserat på bland annat Gustaffsons (2002) fyra F; fakta, förståelse, förtrogenhet, och färdighet. 

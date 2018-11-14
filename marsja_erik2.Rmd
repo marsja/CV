@@ -10,12 +10,12 @@ output:
   html_document:
     df_print: paged
   word_document: default
-email: erik.marsja@umu.se
+email: erik@marsja.se
 fontawesome: yes
 geometry: margin=1.2in
 github: marsja
 lang: Swedish, English
-phone: +4690-786 79 59
+phone: +4670-36 33 662
 subparagraph: yes
 address: Kandidatvägen 1, SE-907 33 Umeå, Sweden
 web: www.marsja.se
@@ -151,7 +151,7 @@ Marsh, J.E., Vachon, F., Sörqvist, P., **Marsja**, E., Röer J.P., & Ljungberg,
 
 Ljungberg, K.J., Parmentier, F.B.R., **Marsja**, E., Neely, G., Jones, D., (2014, January). Any Tom, Dick, or Harry will do: Hearing one’s own name distracts no more than any other in a cross-modal oddball task. Experimental Psychology Society Meeting. London, UK. **Poster**.
 
-**Marsja**, E., Neely, G., Parmentier, F.B.R., Ljungberg, K.J., (2013, October). Maintenance of the distractive effect of deviating vibrotactile stimuli in a cross-modal oddball paradigm.  the 29^th^ Annual meeting of the International Society of Psychophysics, Freiburg, DE. **Poster**.
+**Marsja**, E., Neely, G., Parmentier, F.B.R., Ljungberg, K.J., (2013, October). Maintenance of the distractive effect of deviating vibrotactile stimuli in a cross-modal oddball paradigm.  The 29^th^ Annual meeting of the International Society of Psychophysics, Freiburg, DE. **Poster**.
 
 ## Popular Science and Education-Related Articles
 
@@ -208,7 +208,7 @@ Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna e
 
 ### Teaching Workshops
 
-Oct 2018\hspace{0.75cm}\textbf{R Workshop Step-by-Step}
+Oct 2018\hspace{0.75cm}\textbf{R Workshop "Step-by-Step"}
 
 \hrule
 \begin{changemargin}{2.15cm}{2.4cm}
@@ -222,10 +222,10 @@ An introduction to R statistical programming language - presented to senior rese
 
 ### Additional skills
 
+* Extensive knowledge in statistical software such as SPSS, JASP, and R statistical programming environment
+* Strong scripting skills in Python (v2.7.x & v3.x.x) and R
+* Substantial skills in programming and performing experiments using both E-prime and Python (i.e., PsychoPy, OpenSesame, & Expyriment)
 * Good skills in Microsoft Word and Excel
-* Extensively in statistical software such as SPSS and R
-* Strong programming skills in Python (v2.7.x & v3.x.x) and R
-* Good skills in programming and performing experiments using both E-prime and Python (i.e., PsychoPy, OpenSesame, & Expyriment)
 * Basic programming skills in Visual Basic, E-basic (E-prime), MATLAB, Bash, JavaScript, and PHP
 * Basic skills in Markdown (e.g., RMarkdown) and \LaTeX
 

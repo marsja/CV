@@ -20,18 +20,15 @@ subparagraph: yes
 address: Kandidatvägen 1, SE-907 33 Umeå, Sweden
 web: www.marsja.se
 CV: TRUE
-DNR: AN 2.2.1-1774-18
-dob: 19810526
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
 ## Education
 
-2017 \hspace{1.5cm}\textbf{Ph.D. in Psychology}
+2017 \hspace{1.5cm}\textbf{Ph.D. in Psychology\strut}
 \hrule
 
 \begin{changemargin}{2.3cm}{2.4cm}
@@ -43,10 +40,9 @@ Department of Psychology, Umeå University.
 Available from the DiVA Database: \sloppy http://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1156775
 
 \textbf{Supervisors}: Associate Professor Jessica K. Ljungberg, Professor Gregory Neely, \& Dr. Patrik Hansson
-
 \end{changemargin}
 
-2012 \hspace{1.5cm}\textbf{M.Sc. in Cognitive Science}
+2012 \hspace{1.5cm}\textbf{M.Sc. in Cognitive Science\strut}
 
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
@@ -56,15 +52,12 @@ Department of Psychology, Umeå University.
 \textbf{Thesis title}: Attention Capture: The Impact of Change in Spatial Sound Source on Behavior. 
     
 \textbf{Supervisor}: Associate Professor Jessica K. Ljungberg
-    
 \end{changemargin}
-
     
-2011 \hspace{1.5cm}\textbf{B.Sc. in Cognitive Science}
+2011 \hspace{1.5cm}\textbf{B.Sc. in Cognitive Science\strut}
 \hrule
 
 \begin{changemargin}{2.3cm}{2.4cm}
-
 
 Department of Psychology, Umeå University.
 
@@ -73,29 +66,28 @@ Department of Psychology, Umeå University.
 Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-46607.
     
 \textbf{Supervisor}: Associate Professor Jessica K. Ljungberg
-
 \end{changemargin}
 
 ## Employment
 
 Aug 2018 -
 
-Oct 2018\hspace{0.75cm}\textbf{Research Assistant}
+Oct 2018\hspace{0.75cm}\textbf{Postdoctoral Research Assistant\strut}
 
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
 Department of Psychology, Umeå University.
 
-\textbf{Project}: How does perceived safety look in broken vs unbroken communication chains. Literature study commissioned by SOS Alarm, a emergency agency (e.g., public-safety answering point).
+\textbf{Project}: How does humans perception of safety differ in a broken communication chain compared to an unbroken communication chain? 
+
+Literature study commissioned by SOS Alarm, an emergency agency (e.g., public-safety answering point), with the results dissiminating in a report.
 
 \end{changemargin}
 
-\newpage <!-- THIS SHOULD BE REMOVED WHEN NEEDED -->
-
 Oct 2012 -
 
-June 2018\hspace{0.75cm}\textbf{PhD Student and Teaching Assistant}
+June 2018\hspace{0.75cm}\textbf{PhD Student and Teaching Assistant\strut}
 
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
@@ -104,19 +96,16 @@ Department of Psychology, Umeå University.
 
 Planning of studies, programming of experiments, literature search, data analysis, scientific communication, and many more. See the section "Teaching responsibilities" for an overview of my pedagogical experience.
 
-
 \end{changemargin}
 
-June 2011\hspace{0.75cm}\textbf{Undergrad. Research Assistant}
+June 2011\hspace{0.75cm}\textbf{Undergrad. Research Assistant\strut}
 
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
-
 Department of Psychology, Umeå University.
 
 Recruitment of participants and data collection.
-
 
 \end{changemargin}
 
@@ -211,7 +200,7 @@ Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna e
 
 ### Teaching Workshops
 
-Oct 2018\hspace{0.75cm}\textbf{R Workshop "Step-by-Step"}
+Oct 2018\hspace{0.75cm}\textbf{R Workshop "Step-by-Step"\strut}
 
 \hrule
 \begin{changemargin}{2.15cm}{2.4cm}

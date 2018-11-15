@@ -1,0 +1,30 @@
+---
+title: "Vetenskaplig Verksamhet"
+author: "Erik Marsja"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    keep_tex: yes
+    latex_engine: pdflatex
+    template: template.tex
+  html_document:
+    df_print: paged
+  word_document: default
+email: erik.marsja@umu.se
+fontawesome: yes
+geometry: margin=1.2in
+github: marsja
+lang: Swedish, English
+phone: +4690-786 79 59
+subparagraph: yes
+address: Kandidatvägen 1, SE-907 33 Umeå, Sweden
+web: www.marsja.se
+vetenskap: TRUE
+swedish: TRUE
+DNR: AN 2.2.1-1774-18
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+

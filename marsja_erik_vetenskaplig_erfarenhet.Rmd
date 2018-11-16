@@ -10,17 +10,18 @@ output:
   html_document:
     df_print: paged
   word_document: default
-email: erik.marsja@umu.se
+email: erik@marsja.se
 fontawesome: yes
 geometry: margin=1.2in
 github: marsja
 lang: Swedish, English
-phone: +4690-786 79 59
+phone: +46703633662
 subparagraph: yes
 address: Kandidatvägen 1, SE-907 33 Umeå, Sweden
 web: www.marsja.se
 vetenskap: TRUE
 swedish: TRUE
+dob: 19810526
 DNR: AN 2.2.1-1774-18
 ---
 
@@ -34,12 +35,11 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Multisensorisk perception, uppmärksamhet, och korttidsminne
 
 I min avhandling (Marsja, 2017) undersökte jag perceptuella och kognitiva processer i relation till auditiv, taktil, och visuell stimuli. Jag undersökte möjliga likheter och skillnader mellan distraktion av plötsliga förändrigar i auditv och taktil stimulation (Marsja, Neely, K-Ljungerg, Under Review) och hur oväntade ljud, som presenteras bland taktil stimulation, eventuellt fångar uppmärksamheten (Marsja, Neely, & K-Ljungberg, 2018). I de två första arbetena i min avhandling använde jag mig av enkla visuella kategorisrings uppgifter. Dessa två studier identifierade emellertid en kunskapslucka; hur påverkar plötsliga förändringar i irrelevanta auditiva, taktila, eller bimodala (både taktil och auditiv) sekvenser minnesprocesser (Marsja, Marsh, Hansson, & Neely, Submitted)? Hur påverkar en plötslig förändring i stimuli spatiala plats (e.g., en förändring från höger sida av kroppen till andra sidan) spatiala och verbala korttidsminnesprocesser? 
+
 Resultaten visade att distraktion av oväntade taktil stimuli är snarlik distraktion av oväntade auditiv stimuli, och en möjlig skillnad är att effekten av oväntade taktil stimuli försvinner över tid (Marsja, Neely, K-Ljungberg, Under Review). Vidare visade resultaten att oväntade ljud som presenteras bland upprepade vibrationer bara fångar uppmärksamhet om en vibration inte presentas samtidigt om ljudet (Marsja, Neely, K-Ljungberg, 2018). 
 
-Resultaten visade slutligen att en förändring i spatial plats av en irrelevant sekvens bara stör korttidsminnesprocesser när den irrelevanta sekvensen består av både ljud och vibrationer (bimodal betingelse). I den bimodala betingelsen så påverkades både spatiala och verbala minnesprocesser (Marsja, Marsh, Hansson, & Neely, Submitted).
-Slutsatserna som kan dras från denna avhandling är att den centrala mekanismen som ligger till grund för uppmärksamhetsfångst kan vara att upptäcka plötsliga förändringar i omgivningen.
-De plötsliga förändringarna och standard stimuli i den irrelevanta sekvensen måste
-presenteras inom samma sensorisk modalitet. Det betyder att resultaten från denna avhandling inte stöder tanken att det kognitiva systemet bygger en neural modell som förutsätter regelbundna sensoriska händelser från många sensoriska modaliteter samtidigt
+Resultaten visade vidare att en förändring i spatial plats av en irrelevant sekvens bara stör korttidsminnesprocesser när den irrelevanta sekvensen består av både ljud och vibrationer (bimodal betingelse). I den bimodala betingelsen så påverkades både spatiala och verbala minnesprocesser (Marsja, Marsh, Hansson, & Neely, Submitted).
+Slutsatserna som kan dras från denna avhandling är att den centrala mekanismen som ligger till grund för uppmärksamhetsfångst kan vara att upptäcka plötsliga förändringar i omgivningen.De plötsliga förändringarna och standard stimuli i den irrelevanta sekvensen måste presenteras inom samma sensorisk modalitet. Det betyder att resultaten från min avhandling inte stöder tanken att det kognitiva systemet bygger en neural modell som förutsätter regelbundna sensoriska händelser från många sensoriska modaliteter samtidigt
 Enbart utelämnande av en förväntad vibration kan fånga uppmärksamhet. Plötsliga och oväntade förändringar när det gäller rumslig lokalisering inom irrelevanta sekvenser påverkar både verbal och spatialt korttidsminne, när sekvensen består av både vibrationer och ljud.
 
 Jag designade alla studier inkluderade i min avhandling, jag programmerade även samtliga experiment för studie 1 och 3, utförde de statistiska analyserna, tolkade resultaten, och skrev första utkasten för samtliga studier.
@@ -54,15 +54,16 @@ Resultaten från de tre experimenten visade att korttidsminne för en visuell se
 
 Slutsatsen från denna serien av experiment talar emot idéer om flera komponenter av korttidsminne som föreslår att störningar uppstår där minnespresentationer överlappar varandra och delar likhet av innehåll (Baddeley, 2012; Neath, 2000; Oberauer, 2009; Oberauer & Kliegl, 2006). Vibrerande changing-state sekvenser vars representationer sannolikt inte delar någon likhet med innehållet i visuella verbala föremål, orsakar störningar i serieåterkallande, förutsatt att de ändras i staten. I stället stöder de här rapporterade resultaten en enhetlig vy där interferens uppträder inom en amodal arbetsyta där funktionellt liknande processer kommer i konflikt (Hughes, 2014; Jones & Macken, 1993; Marsh et al., 2008, 2009). Resultaten tyder på att en gemensam serieprocess utgår från mönstret av störningar över de två innehållsförhållandena (auditiv och vibrotaktil), ett resultat som också undergräver ett uppmärksammat infångningskonto.
 
-Jag deltog i design av experiment, programmerade alla experiment, och skrev metod-delarna samt kommenterade, och bidrog med min kunskap om taktil information i relation till perception, uppmärksamhet, och minne, i senare delar av manus.
+Jag deltog i design av alla experiment, programmerade alla experiment, och skrev metod-delarna samt kommenterade och bidrog med min kunskap om taktil information i relation till perception, uppmärksamhet, och minne, i senare delar av manus.
 
 *Samarbetspartners: Assoc. Prof. John E. Marsh, Prof. Patrik Sörqvist, Dr. Jan P. Röer, and Assoc. Prof. Jessica K-Ljungberg*
 
 
-## Subjektiva och objektiva mått på kognition
+### Subjektiva och objektiva mått på kognition
 
 Målet för detta projekt var att undersöka hur väl upplevd kognitiv förmåga i vardagen stämmer överens med prestationsbaserade, objektiva mått. Denna studie  ämnade att 1) validera, och undersöka faktorsturkturen, för en svensk översättning av Attentional Control Scale (ACS; REFERENS) och 2) undersöka hur subskalorna focusing och shifting relaterar till de exekutiva funktionerna inhibition och shifting, respektive. Resultaten av exploratorisk och konfirmatorisk faktoranalys visade att de två subskalorna verkar existera även i ett svenskt stickprov, med en svensk översättning. Inga statistiskt signifkanta korreletioner mellan inhibition eller shifting fanns (*Bayes Factors* talar för att nollhypotesen, att det inte finns någon relation, är mer sannolik).
 
+Jag utförde design av, och datainsamling och analys av data, samt skrev metod-del i manus, för delstudie 1). Vidare har jag bidragit till design av delstudie 2) och bidragit med kritiska synpunkter av sammanställande av manus. 
 
 
-*Samarbetspartners: Dr. Sörman, MSc. Pia Elbe*
+*Samarbetspartners: Dr. Daniel Sörman, MSc. Pia Elbe*

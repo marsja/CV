@@ -121,7 +121,7 @@ Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G
 
 ### Publications In Preparation/Submitted/Under Revision
 
-**Marsja**, E., Sörman, D., Elbe, P., Ljungberg, K.J. (Manuscript in Preparation). Examining the Factor Structure of the Swedish Translation of the Attentional Control Scale.
+**Marsja**, E. Elbe, P., Sörman, D. (Manuscript in Preparation). Examining the Factor Structure of the Swedish Translation of the Attentional Control Scale and it's relation to objective measures of attention.
 
 Rosa, E., **Marsja**, E., Ljungberg, K.J. (Manuscript in Preparation). Tactile warnings constitute an efficient alarm during high mental workload in simulated flight tasks
 
@@ -159,7 +159,7 @@ http://blog.efpsa.org/2016/07/12/python-programming-in-psychology-from-data-coll
 
 **15000 SEK** from Lars Hiertas Minnesfond for the project *Är korttidsminnet domän-generellt eller domän-specifikt? (Is short-term memory domain-general or domain specific?)*, 2016.
 
-**12 000 SEK** from the Faculty of Social sciences, Umeå University, for participating in the workshop Attention and Control: Insights from Distraction and visiting a researcher at the University of Central Lancashire, Preston, UK, 2016. 
+**12 000 SEK** from the Faculty of Social sciences, Umeå University, for participating in the workshop Attention and Control: Insights from Distraction, and visiting a researcher at the University of Central Lancashire, Preston, UK, 2016. 
 
 **8000 SEK** from the Department of Psychology, Umeå University, for participating the conference 17^th^ International Multisensory Research Forum 15-18 June, Souzou, China, 2016.
 
@@ -178,7 +178,9 @@ Information about my responsibilities as a peer-reviewer can be found in my [Pub
 
 ## Skills & Training
 
-2018 Spring School *Re-Thinking the Senses*, Inter-University Centre, Dubrovnik, Croatia
+### Training
+
+2017 Spring School *Re-Thinking the Senses*, Inter-University Centre, Dubrovnik, Croatia
 
 ### Teaching  
 

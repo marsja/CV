@@ -20,6 +20,8 @@ subparagraph: yes
 address: Kandidatvägen 1, SE-907 33 Umeå, Sweden
 web: www.marsja.se
 CV: TRUE
+DNR: AN 2.2.1-1774-18
+dob: 19810526
 ---
 
 ```{r setup, include=FALSE}

@@ -3,19 +3,19 @@ title: "Vetenskaplig Verksamhet"
 author: "Erik Marsja"
 date: "`r Sys.Date()`"
 output:
+  word_document: default
+  html_document:
+    df_print: paged
   pdf_document:
     keep_tex: yes
     latex_engine: pdflatex
     template: template.tex
-  html_document:
-    df_print: paged
-  word_document: default
 email: erik@marsja.se
 fontawesome: yes
 geometry: margin=1.2in
 github: marsja
-lang: Swedish, English
-phone: +46703633662
+language: Swedish, English
+phone: 0046703633662
 subparagraph: yes
 address: Kandidatvägen 1, SE-907 33 Umeå, Sweden
 web: www.marsja.se
@@ -34,27 +34,27 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Multisensorisk perception, uppmärksamhet, och korttidsminne
 
-I min avhandling (Marsja, 2017) undersökte jag perceptuella och kognitiva processer i relation till auditiv, taktil, och visuell stimuli. Jag undersökte möjliga likheter och skillnader mellan distraktion av plötsliga förändrigar i auditv och taktil stimulation (Marsja, Neely, K-Ljungerg, Under Review) och hur oväntade ljud, som presenteras bland taktil stimulation, eventuellt fångar uppmärksamheten (Marsja, Neely, & K-Ljungberg, 2018). I de två första arbetena i min avhandling använde jag mig av enkla visuella kategorisrings uppgifter. Dessa två studier identifierade emellertid en kunskapslucka; hur påverkar plötsliga förändringar i irrelevanta auditiva, taktila, eller bimodala (både taktil och auditiv) sekvenser minnesprocesser (Marsja, Marsh, Hansson, & Neely, Submitted)? Hur påverkar en plötslig förändring i stimuli spatiala plats (e.g., en förändring från höger sida av kroppen till andra sidan) spatiala och verbala korttidsminnesprocesser? 
+I min avhandling (Marsja, 2017) undersökte jag hur visuellt processande påverkas av irrelevant auditiv och taktil stimuli. Jag undersökte möjliga likheter och skillnader mellan distraktion av oväntade förändrigar i auditv och taktil stimulation (Marsja, Neely, K-Ljungerg, Under Review) och hur oväntade ljud, som presenteras bland upprepad taktil stimulation, påverkar visuellt processande (Marsja, Neely, & K-Ljungberg, 2018). I de två första arbetena i min avhandling använde jag mig av enkla visuella kategorisrings uppgifter. Dessa två studier identifierade emellertid en kunskapslucka; hur påverkar plötsliga förändringar i irrelevanta auditiva, taktila, eller bimodala (både taktil och auditiv) sekvenser korttidsminnesprocesser (Marsja, Marsh, Hansson, & Neely, Submitted)? Hur påverkar en plötslig förändring i stimuli spatiala plats (e.g., en förändring från höger sida av kroppen till andra sidan) spatiala och verbala korttidsminnesprocesser? 
 
-Resultaten visade att distraktion av oväntade taktil stimuli är snarlik distraktion av oväntade auditiv stimuli, och en möjlig skillnad är att effekten av oväntade taktil stimuli försvinner över tid (Marsja, Neely, K-Ljungberg, Under Review). Vidare visade resultaten att oväntade ljud som presenteras bland upprepade vibrationer bara fångar uppmärksamhet om en vibration inte presentas samtidigt om ljudet (Marsja, Neely, K-Ljungberg, 2018). 
+Resultaten visade att distraktion av oväntade taktil stimuli är snarlik distraktion av oväntade auditiv stimuli, och att en möjlig skillnad är att effekten av oväntade taktil stimuli försvinner över tid (Marsja, Neely, K-Ljungberg, Under Review). Vidare visade resultaten att oväntade ljud som presenteras bland upprepade vibrationer bara fångar uppmärksamhet om en vibration inte presentas samtidigt om ljudet. Att utelämna en upprepad vibration räcker för att fånga uppmärksamheten (Marsja, Neely, K-Ljungberg, 2018). 
+Gällande korttidsminnesprocessande, visade resultaten att en förändring i spatial plats av en irrelevant sekvens bara stör korttidsminnesprocesser när den irrelevanta sekvensen består av både ljud och vibrationer (bimodal betingelse). I den bimodala betingelsen påverkades både spatiala och verbala minnesprocesser (Marsja, Marsh, Hansson, & Neely, Submitted).
 
-Resultaten visade vidare att en förändring i spatial plats av en irrelevant sekvens bara stör korttidsminnesprocesser när den irrelevanta sekvensen består av både ljud och vibrationer (bimodal betingelse). I den bimodala betingelsen så påverkades både spatiala och verbala minnesprocesser (Marsja, Marsh, Hansson, & Neely, Submitted).
-Slutsatserna som kan dras från denna avhandling är att den centrala mekanismen som ligger till grund för uppmärksamhetsfångst kan vara att upptäcka plötsliga förändringar i omgivningen.De plötsliga förändringarna och standard stimuli i den irrelevanta sekvensen måste presenteras inom samma sensorisk modalitet. Det betyder att resultaten från min avhandling inte stöder tanken att det kognitiva systemet bygger en neural modell som förutsätter regelbundna sensoriska händelser från många sensoriska modaliteter samtidigt
-Enbart utelämnande av en förväntad vibration kan fånga uppmärksamhet. Plötsliga och oväntade förändringar när det gäller rumslig lokalisering inom irrelevanta sekvenser påverkar både verbal och spatialt korttidsminne, när sekvensen består av både vibrationer och ljud.
+Slutsatserna som kan dras från denna avhandling är att den centrala mekanismen som ligger till grund för distraktion kan vara att upptäcka oväntade förändringar i omgivningen. De oväntade förändringarna och upprepade stimuli, i den irrelevanta sekvensen, måste presenteras inom samma sensoriska modalitet. 
+Resultaten från min avhandling stöder inte idén att det kognitiva systemet bygger en neural modell som förutsätter regelbundna sensoriska händelser från många sensoriska modaliteter samtidigt.
+
+Plötsliga och oväntade förändringar när det gäller rumslig lokalisering inom irrelevanta sekvenser påverkar både verbal och spatialt korttidsminne, när sekvensen består av både vibrationer och ljud. Detta antyder att förändringar i bimodala sekvenser är mer utstickande och, vidare, talar för att vissa typer av processer i korttidsminnet kan vara domän-generella (dvs., en plötslig spatial förändring påverkade både spatialt och verbalt korttidsminne).
 
 Jag designade alla studier inkluderade i min avhandling, jag programmerade även samtliga experiment för studie 1 och 3, utförde de statistiska analyserna, tolkade resultaten, och skrev första utkasten för samtliga studier.
 
 *Samarbetspartners: Assoc. Prof. Jessica K-Ljungberg, Prof. Gregory Neely, Dr. Patrik Hansson, and Assoc. Prof. John E. Marsh*
 
-#### Korttidsminne
+Tillsammans med en internationella och nationella korttidsminnesforskare utförde jag en serie av 3 experiment med syftet att undersöka vad som stör visuellt korttidsminne (Marsh, Vachon, Sörqvist, Marsja, Röer, & K-Ljungberg, Under Revision). Specifikt, störs minne för visuella sekvenser när en irrelevant sekvens av vibrationer presenteras samtidigt? I denna studie använde vi oss av vibrotaktila sekvenser med en ständig förändring (sekvensen "hoppar" mellan de två händerna, vänster-höger-vänster-höger-vänster-höger; *changing-state*-sekvens), och *steady-state*-sekvenser (när alla vibrationer i sekvensen presenteras till båda händerna).
 
-Tillsammans med en rad experter i korttidsminnesforskning utförde jag en serie av 3 experiment där vi undersökte vad som stör korttidsminnet (Marsh, Vachon, Sörqvist, Marsja, Röer, & K-Ljungberg, Under Revision). Specifikt, störs korttidsminnet för en visuell sekvens när en samtidigt presenterad irrelevant sekvens av vibrationer presenteras? Mer specifict, sker detta endast när den vibrotaktila sekvensen medför förändring (när sekvensen "hoppar" mellan de två händerna, vänster-höger-vänster-höger-vänster-höger; *changing-state*-sekvens), och inte när sekvensen är en *steady-state*-sekvens (när alla vibrationer i sekvensen presenteras till båda händerna).
+Studien visade att korttidsminne för en visuell sekvens störs mer av en changing-state vibrotaktil sekvens jämfört med en steady-state taktil sekvens. Effekten av en changing-state vibrotaktil sekvens är, vidare, likartad som för changing-state sekvens bestående av ljud (Experiment 1); interferensen mellan vibrotaktila stimuli och korttidsminnet tycks beröra återkallning av ordningen av objekt snarare än artikelidentitet (Experiment 2); och förutsägbarheten för vibrotaktila stimuli verkar inte modulera effektens omfattning (Experiment 3).
 
-Resultaten från de tre experimenten visade att korttidsminne för en visuell sekvens störs mer av en changing-state vibrotaktil sekvens jämfört med en steady-state taktil sekvens. Effekten av en changing-state vibrotaktil sekvens är, vidare, likartad som för changing-state auditiv sekvens (Experiment 1); Interferensen mellan vibrotaktila stimuli och korttidsminnet tycks beröra återkallning av ordningen av objekt snarare än artikelidentitet (Experiment 2); och förutsägbarheten för vibrotaktila stimuli verkar inte modulera effektens omfattning (Experiment 3).
+Slutsatsen är att resultaten talar emot idéer om flera komponenter av korttidsminne som föreslår att störningar uppstår där minnespresentationer överlappar varandra och delar likhet av innehåll (e.g., Baddeley, 2012; Neath, 2000; Oberauer & Kliegl, 2006). Vibrerande changing-state sekvenser vars representationer sannolikt inte delar någon likhet med innehållet i visuella verbala föremål, orsakar störningar i serieåterkallande, förutsatt att de ändras i kontinuerligt (dvs., changin-state). I stället stöder resultaten en enhetlig vy där interferens uppträder inom en amodal arbetsyta där funktionellt liknande processer kommer i konflikt (Hughes, 2014; Marsh et al., 2009).
 
-Slutsatsen från denna serien av experiment talar emot idéer om flera komponenter av korttidsminne som föreslår att störningar uppstår där minnespresentationer överlappar varandra och delar likhet av innehåll (Baddeley, 2012; Neath, 2000; Oberauer, 2009; Oberauer & Kliegl, 2006). Vibrerande changing-state sekvenser vars representationer sannolikt inte delar någon likhet med innehållet i visuella verbala föremål, orsakar störningar i serieåterkallande, förutsatt att de ändras i staten. I stället stöder de här rapporterade resultaten en enhetlig vy där interferens uppträder inom en amodal arbetsyta där funktionellt liknande processer kommer i konflikt (Hughes, 2014; Jones & Macken, 1993; Marsh et al., 2008, 2009). Resultaten tyder på att en gemensam serieprocess utgår från mönstret av störningar över de två innehållsförhållandena (auditiv och vibrotaktil), ett resultat som också undergräver ett uppmärksammat infångningskonto.
-
-Jag deltog i design av alla experiment, programmerade alla experiment, och skrev metod-delarna samt kommenterade och bidrog med min kunskap om taktil information i relation till perception, uppmärksamhet, och minne, i senare delar av manus.
+Jag deltog i design och planering av alla experiment, programmerade alla experiment, och skrev metod-delarna samt kommenterade och bidrog med min kunskap om taktil information i relation till perception, uppmärksamhet, och minne, i senare delar av manus.
 
 *Samarbetspartners: Assoc. Prof. John E. Marsh, Prof. Patrik Sörqvist, Dr. Jan P. Röer, and Assoc. Prof. Jessica K-Ljungberg*
 
@@ -67,3 +67,30 @@ Jag utförde design av, och datainsamling och analys av data, samt skrev metod-d
 
 
 *Samarbetspartners: Dr. Daniel Sörman, MSc. Pia Elbe*
+
+\newpage
+
+### References
+
+Baddeley, A. D. (2012). Working Memory: Theories, Models, and Controversies. Annu. Rev. Psychol. 63, 1–29. doi:10.1146/annurev-psych-120710-100422.
+
+Hughes, R. W. (2014). Auditory distraction: A duplex-mechanism account. PsyCh J. 3, 30–41. doi:10.1002/pchj.44.
+
+Marsh, J. E., Hughes, R. W., and Jones, D. M. (2009). Interference by process, not content, determines semantic auditory distraction. Cognition 110, 23–38. doi:10.1016/j.cognition.2008.08.003.
+
+Marsh, J. E., Vachon, F., Sörqvist, P., Marsja, E., Röer, J. P., and Ljungberg, J. K. (Under Revision). Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
+
+Marsja, E., Neely, G., and Ljungberg, J. K. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. Exp. Psychol. 65. doi:10.1027/1618-3169/a000390.
+
+Marsja, E. (2017). Attention capture by sudden and unexpected changes: a multisensory perspective (PhD dissertation). Umeå University, Umeå. Retrieved from http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-141852
+
+Marsja, E. Elbe, P., Sörman, D. (Manuscript in Preparation). Examining the Factor Structure of the Swedish Translation of the Attentional Control Scale and it's relation to objective measures of attention.
+
+Marsja, E., Marsh, J. E., Hansson, P., and Neely, G. (Submitted). Examining the Role of Spatial Changes in Bimodal and Uni-Modal To-Be-Ignored Stimuli and How They Affect Short-Term Memory Processes.
+
+Marsja, E., Neely, G., and Ljungberg, J. K. (Under Review). Deviance distraction in the auditory and tactile modalities after repeated exposure: differential aspects of tactile and auditory deviants.
+
+
+Neath, I. (2000). Modeling the effects of irrelevant speech on memory. Psychon. Bull. Rev. 7, 403–423. doi:10.3758/BF03214356.
+
+Oberauer, K., and Kliegl, R. (2006). Memory and Language A formal model of capacity limits in working memory. 55, 601–626. doi:10.1016/j.jml.2006.08.009.

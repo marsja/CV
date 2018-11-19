@@ -42,7 +42,6 @@ $endif$
 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[swedish, english]{babel}
 
 % For tables
 
@@ -154,7 +153,7 @@ $endif$
 
 $if(phone)$$if(fontawesome)$ \faPhone \hspace{1 mm}$else$\emph{Phone:}$endif$  $phone$  \hspace{1 mm} $endif$ &  & $if(email)$$if(fontawesome)$\faEnvelopeO \hspace{1 mm}$else$\emph{E-mail:}$endif$ \href{mailto:}{\tt $email$} \hspace{1 mm}$endif$  \\
  $if(web)$$if(fontawesome)$\faGlobe \hspace{1 mm}$else$\emph{Web:}$endif$ \href{http://$web$}{\tt $web$}  $endif$ &  & $if(github)$$if(fontawesome)$\faGithub \hspace{1 mm}$else$\emph{Github:}$endif$ \href{http://github.com/$github$}{\tt $github$} \hspace{1 mm} $endif$ \\
- \multicolumn{3}{c}{$if(lang)$\emph{Languages: }$lang$$endif$}
+ \multicolumn{3}{c}{$if(language)$\emph{Languages: }$language$$endif$}
  \\\hline
 \end{tabularx}
 \end{table}

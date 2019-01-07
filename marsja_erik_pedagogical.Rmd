@@ -1,5 +1,5 @@
 ---
-title: "CV | PEDAGOGISK MERITPORFÖLJ"
+title: "CV | PEDAGOGISK MERITPORTFÖLJ"
 author: "Erik Marsja"
 address: "Kandidatvägen 1, SE-907 33 Umeå, Sweden"
 dob: "1981-05-26"

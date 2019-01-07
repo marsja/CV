@@ -3,13 +3,13 @@ title: "Vetenskaplig Verksamhet"
 author: "Erik Marsja"
 date: "`r Sys.Date()`"
 output:
-  word_document: default
-  html_document:
-    df_print: paged
   pdf_document:
     keep_tex: yes
     latex_engine: pdflatex
     template: template.tex
+  html_document:
+    df_print: paged
+  word_document: default
 email: erik@marsja.se
 fontawesome: yes
 geometry: margin=1.2in
@@ -22,7 +22,6 @@ web: www.marsja.se
 vetenskap: TRUE
 swedish: TRUE
 dob: 19810526
-DNR: AN 2.2.1-1774-18
 ---
 
 ```{r setup, include=FALSE}

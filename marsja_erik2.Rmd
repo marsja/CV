@@ -20,7 +20,6 @@ subparagraph: yes
 address: Kandidatvägen 1, SE-907 33 Umeå, Sweden
 web: www.marsja.se
 CV: TRUE
-DNR: AN 2.2.1-1774-18
 dob: 19810526
 ---
 
@@ -239,10 +238,8 @@ rm(list=ls())
 library(stargazer)
 require(xtable)
 
-#If on Windows:
-if(Sys.getenv("OS") == "Windows_NT"){ datadir = "C:/Users/erkmaa04/Dropbox/BetweenComps/timmar_undervisning/teachinghours.csv"
-}else  { datadir = "~/Dropbox/BetweenComps/timmar_undervisning/teachinghours.csv"
-}
+ datadir = "./Data/teachinghours.csv"
+
 
 insertRow <- function(existingDF, newrow, r) {
   existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
@@ -272,7 +269,7 @@ for(index in 1:length(idx.dups)){
 a <- stargazer(newdata, style = "aer", title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate', sep = ' '), summary=FALSE, rownames=FALSE, font.size="tiny")
 
 ```
-{\selectlanguage{english}
+{
 
 ```{r, echo=FALSE, results='asis'}
 collapse <- function(st) paste(st, collapse="")

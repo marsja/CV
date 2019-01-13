@@ -71,6 +71,16 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 ## Employment
 
+Jan 2019 - \hspace{0.50cm}\textbf{Postdoctoral Researcher\strut}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Swedish Institute for Disability Resarch, Linköping University.
+
+\end{changemargin}
+
+
 Aug 2018 -
 
 Oct 2018\hspace{0.75cm}\textbf{Postdoctoral Research Assistant\strut}

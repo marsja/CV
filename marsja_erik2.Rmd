@@ -76,7 +76,7 @@ Jan 2019 - \hspace{0.50cm}\textbf{Postdoctoral Researcher\strut}
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
-Swedish Institute for Disability Resarch, Linköping University.
+Division for Disability Resarch, Department of Behavioural Sciences and Learning (IBL), Linköping University.
 
 \end{changemargin}
 

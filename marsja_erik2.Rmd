@@ -20,7 +20,6 @@ subparagraph: yes
 address: Kandidatvägen 1, SE-907 33 Umeå, Sweden
 web: www.marsja.se
 CV: TRUE
-dob: 19810526
 ---
 
 ```{r setup, include=FALSE}
@@ -124,6 +123,8 @@ Recruitment of participants and data collection.
 
 ### International peer-reviewed journals
 
+**Marsja**, E., Marsh, J.E., Hansson, P., & Neely, G. (Accepted). Examining the Role of Spatial Changes in Bimodal and Uni-Modal To-Be-Ignored Stimuli and How They Affect Short-Term Memory Processes. *Frontiers In Psychology*. doi: 10.3389/fpsyg.2019.00299
+
 **Marsja**, E., Neely, G., & Ljungberg, J. K. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. *Experimental Psychology, 65(2)*, 61–70. http://doi.org/10.1027/1618-3169/a000390
 
 Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own". Evidence from auditory oddball distraction. *Acta Psychologica, 150C*, 161–166. doi:10.1016/j.actpsy.2014.05.009.
@@ -138,7 +139,6 @@ Marsh, J.E., Vachon, F., Sörqvist, P., **Marsja**, E., Röer J.P., & Ljungberg,
 
 **Marsja**, E., Neely, G., & Ljungberg, K.J (Under Review). Deviance distraction in the auditory and tactile modalities after repeated exposure: differential aspects of tactile and auditory deviants.
 
-**Marsja**, E., Marsh, J.E., Hansson, P., & Neely, G. (Submitted). Examining the Role of Spatial Changes in Bimodal and Uni-Modal To-Be-Ignored Stimuli and How They Affect Short-Term Memory Processes.
 
 ## Conference Presentations
 

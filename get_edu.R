@@ -15,5 +15,17 @@ edu_data <- edu[[rid]]$`education-summary` %>%
       
   select("role-title", 
          "Year",
-         "organization.name"
+         "organization.name",
+         "department-name"
   ) 
+
+edu_data$theses.titles <- c("Attention capture by sudden and unexpected changes: a multisensory perspective.",
+                   "Attention Capture: The Impact of Change in Spatial Sound Source on Behavior.",
+                   "Attention Capture: Studying the Distracting Effect of One’s Own Name.")
+
+edu_data$theses.urls <- c("http://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1156775",
+                 "",
+                 "http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-46607")
+edu_data$theses.sv <- c("Dr. Jessica K-Ljungerg, Professor Gregory Neely, and Dr. Patrik Hansson",
+                        "Dr. Jessica K-Ljungberg",
+                        "Dr. Jessica K-Ljungberg")

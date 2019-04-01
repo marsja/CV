@@ -195,13 +195,11 @@ Information about my responsibilities as a peer-reviewer can be found in my [Pub
 
 Primarily in:
 
-* Attention
-* Perception
-* Applied Cognitive Psychology
-* Cognitive Psychology
-* Research Methods
+* Cognitive Psychology (attention, perception, & working memory)
+* Applied Cognitive Psychology (attention and perception)
+* Research Methods & Basic Statistics
 
-Lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology Umeå University, Sweden. I have so far taught 950 clock hours. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
+The majority of lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology Umeå University, Sweden (2014 - 2017). I have also held workshops at the Department of Behavioral Science and Learning, Linköping University (2019). At Umeå University and Linköping University, I have so far taught 950  and 20 clock hours, respectively. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
 
 
 ### Supervision of Master students (graduate level)
@@ -276,7 +274,7 @@ for(index in 1:length(idx.dups)){
   idx.adder = idx.adder + 1
 }
 
-a <- stargazer(newdata, style = "aer", title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumnt term', sep = ' '), summary=FALSE, rownames=FALSE, font.size="tiny")
+a <- stargazer(newdata, style = "aer", title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term', sep = ' '), summary=FALSE, rownames=FALSE, font.size="tiny")
 
 ```
 {

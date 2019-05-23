@@ -28,7 +28,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Education
 
-2017 \hspace{1.5cm}\textbf{Ph.D. in Psychology\strut}
+2017 \hspace{1.5cm} \textbf{Ph.D. in Psychology}\vspace{1mm}
+
 \hrule
 
 \begin{changemargin}{2.3cm}{2.4cm}
@@ -42,7 +43,7 @@ Available from the DiVA Database: \sloppy http://umu.diva-portal.org/smash/recor
 \textbf{Supervisors}: Associate Professor Jessica K. Ljungberg, Professor Gregory Neely, \& Dr. Patrik Hansson
 \end{changemargin}
 
-2012 \hspace{1.5cm}\textbf{M.Sc. in Cognitive Science\strut}
+2012 \hspace{1.5cm}\textbf{M.Sc. in Cognitive Science}\vspace{1mm}
 
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
@@ -54,7 +55,7 @@ Department of Psychology, Umeå University.
 \textbf{Supervisor}: Associate Professor Jessica K. Ljungberg
 \end{changemargin}
     
-2011 \hspace{1.5cm}\textbf{B.Sc. in Cognitive Science\strut}
+2011 \hspace{1.5cm}\textbf{B.Sc. in Cognitive Science}\vspace{1mm}
 \hrule
 
 \begin{changemargin}{2.3cm}{2.4cm}
@@ -70,7 +71,7 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 ## Employment
 
-Jan 2019 - \hspace{0.50cm}\textbf{Postdoctoral Researcher\strut}
+Jan 2019 - \hspace{0.50cm}\textbf{Postdoctoral Researcher}\vspace{1mm}
 
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
@@ -82,7 +83,7 @@ Division for Disability Resarch, Department of Behavioural Sciences and Learning
 
 Aug 2018 -
 
-Oct 2018\hspace{0.75cm}\textbf{Postdoctoral Research Assistant\strut}
+Oct 2018\hspace{0.75cm}\textbf{Postdoctoral Research Assistant}\vspace{1mm}
 
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
@@ -97,7 +98,7 @@ Literature study commissioned by SOS Alarm, an emergency agency (e.g., public-sa
 
 Oct 2012 -
 
-June 2018\hspace{0.75cm}\textbf{PhD Student and Teaching Assistant\strut}
+June 2018\hspace{0.75cm}\textbf{PhD Student and Teaching Assistant}\vspace{1mm}
 
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
@@ -108,7 +109,7 @@ Planning of studies, programming of experiments, literature search, data analysi
 
 \end{changemargin}
 
-June 2011\hspace{0.75cm}\textbf{Undergrad. Research Assistant\strut}
+June 2011\hspace{0.75cm}\textbf{Undergrad. Research Assistant}\vspace{1mm}
 
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
@@ -133,9 +134,9 @@ Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G
 
 **Marsja**, E. Elbe, P., Sörman, D. (Manuscript in Preparation). Examining the Factor Structure of the Swedish Translation of the Attentional Control Scale and it's relation to objective measures of attention.
 
-Rosa, E., **Marsja**, E., Ljungberg, K.J. (Manuscript in Preparation). Tactile warnings constitute an efficient alarm during high mental workload in simulated flight tasks
+Rosa, E., **Marsja**, E., Ljungberg, K.J. (Submitted). Exploring residual capacity: The effectiveness of a vibrotactile warning during increasing levels of mental workload in the cockpit.
 
-Marsh, J.E., Vachon, F., Sörqvist, P., **Marsja**, E., Röer J.P., & Ljungberg, K.J. (Under Revision).  Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
+Marsh, J.E., Vachon, F., Sörqvist, P., **Marsja**, E., Röer J.P., & Ljungberg, K.J. (In Preparation).  Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
 
 **Marsja**, E., Neely, G., & Ljungberg, K.J (Under Review). Deviance distraction in the auditory and tactile modalities after repeated exposure: differential aspects of tactile and auditory deviants.
 
@@ -199,7 +200,7 @@ Primarily in:
 * Applied Cognitive Psychology (attention and perception)
 * Research Methods & Basic Statistics
 
-The majority of lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology Umeå University, Sweden (2014 - 2017). I have also held workshops at the Department of Behavioral Science and Learning, Linköping University (2019). At Umeå University and Linköping University, I have so far taught 950  and 20 clock hours, respectively. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
+The majority of lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology Umeå University, Sweden (2014 - 2017). I have also held workshops, and supervised projects at the Department of Behavioral Science and Learning, Linköping University (2019). At Umeå University and Linköping University, I have so far taught 950  and 44 clock hours, respectively. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
 
 
 ### Supervision of Master students (graduate level)
@@ -211,7 +212,7 @@ Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna e
 
 ### Teaching Workshops
 
-Oct 2018\hspace{0.75cm}\textbf{R Workshop "Step-by-Step"\strut}
+Oct 2018\hspace{0.75cm}\textbf{R Workshop "Step-by-Step"}\vspace{1mm}
 
 \hrule
 \begin{changemargin}{2.15cm}{2.4cm}

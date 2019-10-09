@@ -11,7 +11,7 @@
   \raisebox{\dimexpr -\topmargin-\headheight-\headsep-0.5\linewidth}[0pt][0pt]{%
     \rlap{\hspace{\dimexpr \margin+\textheight+\footskip}%
     \llap{\rotatebox{90}{$if(cletter)$ Cover Letter $else$ CV $endif$ - Erik Marsja 
-- Page \thepage of \pageref{LastPage}}}}}%
+- \thepage\hspace{1pt}(\pageref{LastPage})}}}}%
 \egroup\fi}
 \AddEverypageHook{\Lpagenumber}%
 

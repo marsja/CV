@@ -3,13 +3,13 @@ title: "Curriculum Vitae"
 author: "Erik Marsja"
 date: "`r Sys.Date()`"
 output:
+  word_document: default
+  html_document:
+    df_print: paged
   pdf_document:
     keep_tex: yes
     latex_engine: pdflatex
     template: template.tex
-  html_document:
-    df_print: paged
-  word_document: default
 email: erik@marsja.se
 fontawesome: yes
 geometry: margin=1.2in
@@ -126,9 +126,11 @@ Recruitment of participants and data collection.
 
 ### International peer-reviewed journals
 
+Rosa, E., **Marsja**, E., & Ljungberg, J. K. (2020). Exploring Residual Capacity: The Effectiveness of a Vibrotactile Warning During Increasing Levels of Mental Workload in Simulated Flight Tasks. *Aviation Psychology and Applied Human Factors, 10(1)*, 13–23. https://doi.org//10.1027/2192-0923/a000180
+
 **Marsja**, E., Marsh, J.E., Hansson, P., & Neely, G. (2019). Examining the Role of Spatial Changes in Bimodal and Uni-Modal To-Be-Ignored Stimuli and How They Affect Short-Term Memory Processes. *Frontiers In Psychology*. https://doi.org/10.3389/fpsyg.2019.00299
 
-**Marsja**, E., Neely, G., & Ljungberg, J. K. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. *Experimental Psychology, 65(2)*, 61–70. http://doi.org/10.1027/1618-3169/a000390
+**Marsja**, E., Neely, G., & Ljungberg, K.J. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. *Experimental Psychology, 65(2)*, 61–70. http://doi.org/10.1027/1618-3169/a000390
 
 Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own". Evidence from auditory oddball distraction. *Acta Psychologica, 150C*, 161–166. http://dx.doi.org/10.1016/j.actpsy.2014.05.009
 
@@ -140,7 +142,6 @@ Stenbäck, V., **Marsja**, Ellis, R., & Rönnberg, J. (Manuscript in Preparation
 
 **Marsja**, E. Elbe, P., & Sörman, D.E. (Manuscript in Preparation). Examining the Factor Structure of the Swedish Translation of the Attentional Control Scale and it's relation to objective measures of attention.
 
-Rosa, E., **Marsja**, E., & Ljungberg, K.J. (Submitted). Exploring residual capacity: The effectiveness of a vibrotactile warning during increasing levels of mental workload in simulated flight tasks.
 
 Marsh, J.E., Vachon, F., Sörqvist, P., **Marsja**, E., Röer J.P., & Ljungberg, K.J. (Manuscript in Preparation).  Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
 
@@ -254,17 +255,13 @@ An introduction to R statistical programming language - presented to senior rese
 
 * Elected chairperson of the Ph.D. students Council of the Department of Psychology, Umeå University.
 
-
-\begin{landscape}
-\pagestyle{empty}
-
 ```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
 
 rm(list=ls())
 library(stargazer)
 require(xtable)
 
- datadir = "./Data/teachinghours.csv"
+ datadir = "./Data/teachinghours2.csv"
 
 
 insertRow <- function(existingDF, newrow, r) {
@@ -272,7 +269,7 @@ insertRow <- function(existingDF, newrow, r) {
   existingDF[r,] <- newrow
   existingDF
 }
-t.hours <- read.csv(datadir, sep = ';', row.names=NULL)
+t.hours <- read.csv(datadir, sep = ',', row.names=NULL)
 t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
 
 table.data <- cbind(t.hours[9], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:8])
@@ -292,11 +289,14 @@ for(index in 1:length(idx.dups)){
   idx.adder = idx.adder + 1
 }
 
-a <- stargazer(newdata, style = "aer", title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term', sep = ' '), summary=FALSE, rownames=FALSE, font.size="tiny")
+a <- stargazer(newdata, style = "aer", title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' '), summary=FALSE, rownames=FALSE, font.size="tiny")
 
 ```
-{
+\newpage
 
+\begin{landscape}
+\pagestyle{empty}
+{
 ```{r, echo=FALSE, results='asis'}
 collapse <- function(st) paste(st, collapse="")
 st <- gsub(collapse(rep("c", 7)), collapse(rep("l",7)), a)

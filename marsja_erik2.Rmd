@@ -3,13 +3,13 @@ title: "Curriculum Vitae"
 author: "Erik Marsja"
 date: "`r Sys.Date()`"
 output:
-  word_document: default
-  html_document:
-    df_print: paged
   pdf_document:
     keep_tex: yes
     latex_engine: pdflatex
     template: template.tex
+  html_document:
+    df_print: paged
+  word_document: default
 email: erik@marsja.se
 fontawesome: yes
 geometry: margin=1.2in
@@ -136,7 +136,7 @@ Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G
 
 ### Publications In Preparation/Submitted/Under Revision
 
-Stenbäck, V., **Marsja**, Ellis, R., & Rönnberg, J. (Submitted). Relationships between objective and subjective outcome measures of speech recognition in noise.
+Stenbäck, V., **Marsja**, Ellis, R., & Rönnberg, J. (Under Revision). Relationships between objective and subjective outcome measures of speech recognition in noise.
 
 **Marsja**, E., Stenbäck, V., Moradi, S., Danielsson, H., & Rönnberg, J. (Manuscript in Preparation). Examining the Relationship Among Aging, Hearing, Cognitive Functioning, and Speech in Noise Performance using Structural Equation Modeling.
 

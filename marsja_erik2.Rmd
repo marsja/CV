@@ -311,6 +311,6 @@ library(kableExtra)
 # Column names
 colN <- c("Period", "Subject", "Type", "Clock Hours",
           "Course/Program", "Level", "Language")
-kable(newdata, longtable= T, col.names = colN, format="latex", caption='Undervisningsansvar - en översikt över typ av undervisning, timmar etc. ', booktabs=TRUE) %>% 
+kable(newdata, longtable= T, col.names = colN, format="latex", caption='Teaching responsibilities - an overview of type of teaching, hours, etc.', booktabs=TRUE) %>% 
  column_spec(c(2, 3, 5), width = "5cm") %>% kable_styling(latex_options = "repeat_header") %>% kableExtra::landscape() %>% footnote(paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' '), threeparttable = T)
 ```

@@ -17,7 +17,7 @@ github: marsja
 lang: Swedish, English
 phone: +4670-36 33 662
 subparagraph: yes
-address: Kandidatvägen 1, SE-907 33 Umeå, Sweden
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
 web: www.marsja.se
 CV: TRUE
 ---
@@ -33,9 +33,9 @@ Jan 2019 - \hspace{0.50cm}\textbf{Postdoctoral Researcher}\vspace{1mm}
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
-Division for Disability Resarch, Department of Behavioural Sciences and Learning (IBL), Linköping University.
+Division for Disability Research, Department of Behavioural Sciences and Learning (IBL), Linköping University.
 
-Analysing data from a large database (i.e., n200) and preparing manuscripts in the field of cognitive hearing science. Responsible for arranging the monthly \href{https://liu.se/linnecentrum-head/en}{HEAD} seminar series. This includes contacting national, and international, researchers, booking flights, hotels, as well as setting up equipment for online streaming.
+Analyzing data from a large database (i.e., n200) and preparing manuscripts in the field of cognitive hearing science. Responsible for arranging the monthly \href{https://liu.se/linnecentrum-head/en}{HEAD} seminar series (august 2020 - august 2021). This includes contacting national, and international, researchers, booking flights, hotels, as well as setting up equipment for streaming the seminars online.
 
 \end{changemargin}
 
@@ -51,7 +51,7 @@ Department of Psychology, Umeå University.
 
 \textbf{Project}: How does humans perception of safety differ in a broken communication chain compared to an unbroken communication chain? 
 
-Literature study commissioned by SOS Alarm, an emergency agency (e.g., public-safety answering point), with the results dissiminating in a report.
+Literature study commissioned by SOS Alarm, an emergency agency (e.g., public-safety answering point), with the results disseminating in a report.
 
 \end{changemargin}
 
@@ -128,7 +128,7 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 ### International peer-reviewed journals
 
-Stenbäck, V., **Marsja**, E., Hällgren,  M., Lyxell, B., & Larsby, B. (Accepted). The contribution of age, working memory capacity and inhibitory control on speech-recognition-in-noise in young, and older adult listeners. Journal of Speech, Language, and Hearing Research.
+Stenbäck, V., **Marsja**, E., Hällgren,  M., Lyxell, B., & Larsby, B. (Accepted). The contribution of age, working memory capacity and inhibitory control on speech-recognition-in-noise in young, and older adult listeners. Journal of Speech, Language, and Hearing Research. https://doi.org/10.1044/2021_JSLHR-20-00251
 
 Rosa, E., **Marsja**, E., & Ljungberg, J. K. (2020). Exploring Residual Capacity: The Effectiveness of a Vibrotactile Warning During Increasing Levels of Mental Workload in Simulated Flight Tasks. *Aviation Psychology and Applied Human Factors, 10(1)*, 13–23. https://doi.org//10.1027/2192-0923/a000180
 
@@ -140,9 +140,9 @@ Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G
 
 ### Publications In Preparation/Submitted/Under Revision
 
-**Marsja**, E., Stenbäck, V., Moradi, S., Danielsson, H., & Rönnberg, J. (Submitted). Is Having Hearing Loss Fundamentally different? Multi-group structural equation modeling of the effect of cognitive functioning on speech identification.
+**Marsja**, E., Stenbäck, V., Moradi, S., Danielsson, H., & Rönnberg, J. (Under Revision). Is Having Hearing Loss Fundamentally different? Multi-group structural equation modeling of the effect of cognitive functioning on speech identification.
 
-Stenbäck, V., **Marsja**, E., Ellis, R., & Rönnberg, J. (Under Revision). Relationships between objective and subjective outcome measures of speech recognition in noise.
+Stenbäck, V., **Marsja**, E., Ellis, R., & Rönnberg, J. (Under Review). Relationships between objective and subjective outcome measures of speech recognition in noise.
 
 **Marsja**, E. Elbe, P., & Sörman, D.E. (Manuscript in Preparation). Examining the Factor Structure of the Swedish Translation of the Attentional Control Scale and it's relation to objective measures of attention.
 
@@ -158,7 +158,7 @@ Stenbäck, V., **Marsja**, E., Danielsson, H., Rönnberg, J. (2019, November). L
 
 Bampouni, E., **Marsja**, E., Sörman, D.E., & Ljungberg, K.J (2019, November). Do Action Gamers Have Enhanced Visual Search Skills? a Realistic Task Approach. The 15th SweCog conference of the Swedish Cognitive Science Society, Umeå, Sweden. **Poster**. 
 
-**Marsja**, E., Danielsson, H., Stenbäck, V., Moradi, S., & Rönnberg, J. (2019, June). Examining Relationship Amongst Cognition,
+**Marsja**, E., Danielsson, H., Stenbäck, V., Moradi, S., & Rönnberg, J. (2019, June). Examining Relationship Among Cognition,
 Hearing Loss, Age, & Speech in Noise. Cognitive Hearing Science for Communication, Linköping, Sweden. **Poster**.
 
 Stenbäck, V., Moradi, S., **Marsja**, E., Danielsson, H., & Rönnberg, J. (2019, June). Logical and auditory inference-making in normally-hearing and hearing-impaired listeners. Cognitive Hearing Science for Communication, Linköping, Sweden. **Poster**.
@@ -229,19 +229,17 @@ The majority of lectures, seminars, lab demonstrations, supervision of group pro
 
 ### Supervision of Bachelor Students (Undergraduate Level)
 
-Dahlgren, S. (2020).Department of Computer and Information Science, Linköping University. "Self-determination perceived by
-users in support services pursuant to LSS - An analysis on a municipal level. Bachelor's Thesis in Cognitive Science (18 EcTS). *Main supervisor*
+Dahlgren, S. (2020).Department of Computer and Information Science, Linköping University. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level. Bachelor's Thesis in Cognitive Science (18 EcTS). *Main supervisor*
 
-Lindberg, F. (2020). Department of Computer and Information Science, Linköping University. "Hur ungas attityder kring
-hörselnedsättningar orsakade av fritidsbuller påverkas av deras koppling till sitt framtida jag." (How young people's attitudes to hearing impairments caused by leisure noise are affected by their connection to their future selves.)  Bachelor's Thesis in Cogntive Science (18 ECTS). *Main supervisor*
+Lindberg, F. (2020). Department of Computer and Information Science, Linköping University. "Hur ungas attityder kring hörselnedsättningar orsakade av fritidsbuller påverkas av deras koppling till sitt framtida jag." (How young people's attitudes to hearing impairments caused by leisure noise are affected by their connection to their future selves.)  Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 
 Rombo, A. (2020). Department of Computer and Information Science, Linköping University. "The association between cognition and speech-in-noise perception - Investigating the link between speech-in-noise perception and fluid intelligence in people with and without hearing loss." Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 
 ### Supervision of Master Students (Graduate Level)
 
-Carlbring, J. (2020) Department of Computer and Information Science, Linköping University. "Inclusive Design for Mobile Devices with WCAG and Attentional Resources in Mind." Master's Theis in Cognitive Science (30 ECTS). *Main supervisor*
+Carlbring, J. (2020) Department of Computer and Information Science, Linköping University. "Inclusive Design for Mobile Devices with WCAG and Attentional Resources in Mind." Master's Thesis in Cognitive Science (30 ECTS). *Main supervisor*
 
-Ma, L. (2015). Department of Psychology, Umeå University. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Master's Thesis in Cognitive Science (15 ECTS). *Co-superviser*
+Ma, L. (2015). Department of Psychology, Umeå University. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Master's Thesis in Cognitive Science (15 ECTS). *Co-supervisor*
 
 Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse (To cope leaving abusive relationships: The importance of attachment). Master's Thesis in Clinical Psychology (30 ECTS). *Co-supervisor*
 
@@ -275,8 +273,6 @@ An introduction to R statistical programming language - presented to senior rese
 
 ```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
 rm(list=ls())
-library(stargazer)
-require(xtable)
 
 datadir = "./Data/teachinghours2.csv"
 
@@ -305,25 +301,16 @@ for(index in 1:length(idx.dups)){
   newdata <- insertRow(newdata, ' ',row+1)
   idx.adder = idx.adder + 1
 }
-
-a <- stargazer(newdata, style = "aer", title='Teaching responsibilities - an overview of type of teaching, hours, etc.', notes= paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' '), summary=FALSE, rownames=FALSE, font.size="tiny")
-
 ```
 \newpage
-
-\begin{landscape}
 \pagestyle{empty}
-{
+
 ```{r, echo=FALSE, results='asis'}
-collapse <- function(st) paste(st, collapse="")
-st <- gsub(collapse(rep("c", 7)), collapse(rep("l",7)), a)
-st <- gsub('lllllll\\} ', 'lp\\{4cm\\}p\\{4cm\\}lp\\{5cm\\}ll\\} ', st)
+library(kableExtra)
 
-st <- gsub('Clock.Hours', 'Clock Hours ', st)
-st <- gsub('Course.and.Program', 'Course/Program', st)
-
-st[2:3] <- ''
-cat(st)
+# Column names
+colN <- c("Period", "Subject", "Type", "Clock Hours",
+          "Course/Program", "Level", "Language")
+kable(newdata, longtable= T, col.names = colN, format="latex", caption='Undervisningsansvar - en översikt över typ av undervisning, timmar etc. ', booktabs=TRUE) %>% 
+ column_spec(c(2, 3, 5), width = "5cm") %>% kable_styling(latex_options = "repeat_header") %>% kableExtra::landscape() %>% footnote(paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' '), threeparttable = T)
 ```
-}
-\end{landscape}

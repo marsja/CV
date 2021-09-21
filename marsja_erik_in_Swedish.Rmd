@@ -1,185 +1,294 @@
 ---
 title: "Curriculum Vitae"
-author: Erik Marsja
-address: "Kandidatvägen 1, SE-907 33 Umeå, Sweden"
-email: erik@marsja.se
-web: marsja.se
-phone: "+4670-36 33 662"
-github: marsja
+author: "Erik Marsja"
+date: "`r Sys.Date()`"
 output:
   pdf_document:
-    latex_engine: pdflatex
-    template: template.tex
     keep_tex: yes
+    latex_engine: pdflatex
+    template: templateSE.tex
+  html_document:
+    df_print: paged
   word_document: default
-geometry: margin=1in
-subparagraph: yes
+email: erik@marsja.se
 fontawesome: yes
-date: '`r Sys.Date()`'
+geometry: margin=1.2in
+github: marsja
+lang: Swedish, English
+phone: 070-36 33 662
+subparagraph: yes
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+web: www.marsja.se
+CV: TRUE
+DNR: dnr 2021/0400-3.1
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Nuvarande forskning
+## Anställningar
 
-Jag undersöker hur plötsliga och oväntade förändringar i vår miljö fångar vår uppmärksamhet från vad vi för närvarande är engagerade i. Specifikt, i min avhandling undersökte jag hur plötsliga och oväntade förändringar i auditiv, taktil och kombinationen av både auditiv och taktil (multisensorisk) stimulering påverkar prestation i visuella uppgifter (kategorisering av siffror och korttidsminne). Vid sidan av vad jag studerat under min tid som doktorand så är jag även intresserad av multisensorisk perception och hur vi skapar interna modeller baserat på sensorisk stimulans från två, eller flera, sinnen samtidigt. 
+Jan 2019 - Pågående\hspace{0.50cm}\textbf{Postdoktoral Forskare}\vspace{1mm}
 
-## Forskningsambition
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
 
-Mitt mål är att skapa min akademiska karriär inom kognitiv psykologi. Huvudsakligen inom grundforskning men också mer tillämpad (t.ex. multisensorala larm). Specifikt inom områdena uppmärksamhet, perception och kognitiv kontroll. Jag strävar efter att i slutändan kunna arbeta som en etablerad forskare inom dessa och relaterade områden (t.ex. kognitiv neurovetenskap).
+Avdelningen för Handikappvetenskap, Institutionen för Beteendevetenskap och Lärande, Linköpings Universitet.
+
+\textbf{Arbetsuppgifter}: Analysera data från en stor databas och skriva manuskript inom fältet för kognitiv hörselvetenskap. Ansvarig för att arrangera den månatliga seminarieserien \href{https://liu.se/linnecentrum-head/en}{HEAD} seminar series (augusti 2020 - augusti 2021). Detta inkluderade att kontakta nationella, och internationella, forskare, boka flyg och boende, såväl som lokaler för seminariet och att se till så att seminarierna gick att sända online. Undervisning i framför allt statistik och metod (kvantitativ såväl som kvalitativ).
+
+\end{changemargin}
 
 
-## Utbildning
+Aug 2018 -
 
-2017 \hspace{1.5cm}\textbf{Fil. Dr. i Psykologi}
+okt 2018\hspace{0.75cm}\textbf{Forskarassistent}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Institutionen för Psykologi, Umeå Universitet.
+
+\textbf{Projekttitel}: Upplevd säkerhet och trygghet i nöd- och vårdsituationer.
+
+Gjorde en litteraturstudie på uppdrag av SOS Alarm. Denna litteraturstudie innefattade främst studier av kvalitativ karaktär med inriktning på vilka faktorer som kan påverka känslan av trygghet och säkerhet vid både nöd- och vårdsituationer. Resultatet presenterades i rapport form och muntligt för SOS Alarms innovationsstyrelse.
+
+\end{changemargin}
+
+Okt 2012 -
+
+juni 2018\hspace{0.75cm}\textbf{Doktorand}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Institutionen för Psykologi, Umeå Universitet.
+
+Planering av studier, programmering av experiment, litteratursökning, dataanalys, vetenskaplig kommunikation och många fler. Se avsnittet "Undervisningsansvar" för en översikt över min pedagogiska erfarenhet.
+
+\end{changemargin}
+
+Juni 2011\hspace{0.75cm}\textbf{Projektassistent}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Institutionen för Psykologi, Umeå Universitet.
+
+Rekryterade deltagare och samlade in data.
+
+\end{changemargin}
+
+\newpage
+
+## Examina
+
+2017 \hspace{1.5cm} \textbf{Fil. Dr. i Psykologi}\vspace{1mm}
+
 \hrule
 
 \begin{changemargin}{2.3cm}{2.4cm}
 
-Insititutionen för Psykologi, Umeå Universitet.
+Institutionen för Psykologi, Umeå Universitet.
 
 \textbf{Avhandlingens titel}: Attention capture by sudden and unexpected changes: a multisensory perspective. 
 
-Tillgänglig i DiVA Databas: http://bit.ly/marsjaphd.
+Tillgänglig från DiVA: \sloppy http://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1156775
 
-\textbf{Handledare}: Docent Jessica K. Ljungberg, Professor Gregory Neely, \& Fil. Dr. Patrik Hansson
-
+\textbf{Handledare}: Professor Jessica K. Ljungberg, Professor Gregory Neely, \& Dr. Patrik Hansson
 \end{changemargin}
 
-2012 \hspace{1.5cm}\textbf{Masterexamen i Kognitionsvetenskap}
+2012 \hspace{1.5cm}\textbf{M.Sc. i Kognitionsvetenskap}\vspace{1mm}
+
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
-Insititutionen för Psykologi, Umeå Universitet.
+Institutionen för Psykologi, Umeå Universitet.
 
-\textbf{Uppsatsens titel}: Attention Capture: The Impact of Change in Spatial Sound Source on Behavior. 
+\textbf{Uppsatstitel}: Attention Capture: The Impact of Change in Spatial Sound Source on Behavior. 
     
-\textbf{Handledare}: Docent Jessica K. Ljungberg
-    
+\textbf{Handledare}: Professor Jessica K. Ljungberg
 \end{changemargin}
-
     
-2011 \hspace{1.5cm}\textbf{Kandidatexamen i Kognitionsvetenskap}
+2011 \hspace{1.5cm}\textbf{B.Sc. i Kognitionsvetenskap}\vspace{1mm}
 \hrule
+
 \begin{changemargin}{2.3cm}{2.4cm}
 
-Insititutionen för Psykologi, Umeå Universitet.
+Institutionen för Psykologi, Umeå Universitet.
 
-\textbf{Uppsatsens titel}:  Attention Capture: Studying the Distracting Effect of One’s Own Name. 
+\textbf{Uppsatstitel}:  Attention Capture: Studying the Distracting Effect of One’s Own Name.
 
-Tillgänglig i DiVA Databas: http://bit.ly/marsjabsc.
+Tillgänglig från DiVA: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-46607.
     
-\textbf{Handledare}: Docent Jessica K. Ljungberg
-
+\textbf{Supervisor}: Professor Jessica K. Ljungberg
 \end{changemargin}
 
-## Publikationer
+## Publikationslista
 
-### Internationella refereegranskade tidskrifter
+### Internationalla refereegranskade tidskrifter
 
-**Marsja**, E., Neely, G., & Ljungberg, J. K. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. Experimental Psychology, 65(2), 61–70. http://doi.org/10.1027/1618-3169/a000390
+Stenbäck, V., **Marsja**, E., Hällgren,  M., Lyxell, B., & Larsby, B. (Accepterad). The contribution of age, working memory capacity and inhibitory control on speech-recognition-in-noise in young, and older adult listeners. Journal of Speech, Language, and Hearing Research. https://doi.org/10.1044/2021_JSLHR-20-00251
 
-Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own". Evidence from auditory oddball distraction. Acta Psychologica, 150C, 161–166. doi:10.1016/j.actpsy.2014.05.009.
+Rosa, E., **Marsja**, E., & Ljungberg, J. K. (2020). Exploring Residual Capacity: The Effectiveness of a Vibrotactile Warning During Increasing Levels of Mental Workload in Simulated Flight Tasks. *Aviation Psychology and Applied Human Factors, 10(1)*, 13–23. https://doi.org//10.1027/2192-0923/a000180
 
-### Manuskript Under Preparation/Inskickade/Under Revidering
+**Marsja**, E., Marsh, J.E., Hansson, P., & Neely, G. (2019). Examining the Role of Spatial Changes in Bimodal and Uni-Modal To-Be-Ignored Stimuli and How They Affect Short-Term Memory Processes. *Frontiers In Psychology*. https://doi.org/10.3389/fpsyg.2019.00299
 
-Rosa, E., **Marsja**, E., Ljungberg K.J. (Manuskript under Preperation). Tactile warnings constitute an efficient alarm during high mental workload in simulated flight tasks
+**Marsja**, E., Neely, G., & Ljungberg, K.J. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. *Experimental Psychology, 65(2)*, 61–70. http://doi.org/10.1027/1618-3169/a000390
 
-Marsh, J.E., Vachon, F., Sörqvist, P., **Marsja**, E., Röer J.P., & Ljungberg, K.J. (Under Revidering).  Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
+Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own". Evidence from auditory oddball distraction. *Acta Psychologica, 150C*, 161–166. http://dx.doi.org/10.1016/j.actpsy.2014.05.009
 
-**Marsja**, E., Neely, G., & Ljungberg, K.J (Manuskript under Preperation). Deviance distraction in the auditory and tactile modalities after repeated exposure: differential aspects of tactile and auditory deviants.
+### Publikationer under Förberedelse/inskickade/under revidering 
 
-**Marsja**, E., Marsh, J.E., Hansson, P., & Neely, G. (Manuskript under Preperation). Examining the Role of Spatial Changes in Bimodal and Uni-Modal To-Be-Ignored Stimuli and How They Affect Short-Term Memory Processes.
+**Marsja**, E., Stenbäck, V., Moradi, S., Danielsson, H., & Rönnberg, J. (Under Revidering). Is Having Hearing Loss Fundamentally different? Multi-group structural equation modeling of the effect of cognitive functioning on speech identification.
+
+Stenbäck, V., **Marsja**, E., Ellis, R., & Rönnberg, J. (Under Revidering). Relationships between objective and subjective outcome measures of speech recognition in noise.
+
+**Marsja**, E. Elbe, P., & Sörman, D.E. (Manuskript under Förberedelse). Examining the Factor Structure of the Swedish Translation of the Attentional Control Scale and it's relation to objective measures of attention.
+
+Marsh, J.E., Vachon, F., Sörqvist, P., **Marsja**, E., Röer J.P., & Ljungberg, K.J. (Manuskript under Förberedelse).  Irrelevant vibro-tactile stimuli produce a changing-state effect: Implications for theories of interference in short-term memory.
+
+**Marsja**, E., Neely, G., & Ljungberg, K.J (Manuskript under Förberedelse). Deviance distraction in the auditory and tactile modalities after repeated exposure: differential aspects of tactile and auditory deviants.
 
 ## Konferenspresentationer
 
-**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2017, April). Domain-generality or domain-specificity of the short-term memory: insights from a multisensory distraction paradigm. Re-thinking the Senses Spring School, Dubrovnik, Kroatien **Poster**.
+**Marsja**, E., Danielsson, H., Stenbäck, V., Moradi, S., Rönnberg, J. (2019, november). Examining how Cognitive Functioning, Aging, and Hearing Loss, Affect Speech-in-Noise Performance. Aging and Speech Communication conference, Tampa, Florida, USA. **Poster**.
 
-**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2016, September). Do Spatial Changes in Sounds and Vibrations Affect Visuo-spatial and Verbal Short-Term Memory? Attention and Control: Insights from Distraction, Workshop, University of Central Lancashire, Preston, UK. **Inbjuden talare**.
+Stenbäck, V., **Marsja**, E., Danielsson, H., Rönnberg, J. (2019, november). Logical and Auditory Inference Making: Performance in the HINT in normally-hearing and hearing-impaired listeners. Aging and Speech Communication conference, Tampa, Florida, USA. **Poster**.
 
-**Marsja**, E., Marsh, J.E., Neely G., Hansson P., Ljungberg K.J., (2016, Juni). Spatial Change in Multisensory Distractors Impact on Verbal and Spatial Short Term Memory. International Multisensory Research Forum 17^th^ annual meeting, Suzhou, Kina. **Muntlig presentation**.
+Bampouni, E., **Marsja**, E., Sörman, D.E., & Ljungberg, K.J (2019, november). Do Action Gamers Have Enhanced Visual Search Skills? a Realistic Task Approach. The 15th SweCog conference of the Swedish Cognitive Science Society, Umeå, Sweden. **Poster**. 
 
-**Marsja**, E., Neely G., Ma, L., Ljungberg K.J., (2015, August). Cross-modality matches of intensity and attention capture dimensions of auditory and vibrotactile stimuli. Fechner Day 2015. The 31^st^ Annual Meeting of the International Society for Psychophysics, Québec, Kanada. **Poster**.
+**Marsja**, E., Danielsson, H., Stenbäck, V., Moradi, S., & Rönnberg, J. (2019, juni). Examining Relationship Amongst Cognition,
+Hearing Loss, Age, & Speech in Noise. Cognitive Hearing Science for Communication, Linköping, Sweden. **Poster**.
 
-**Marsja**, E., Neely, G., Parmentier, F.B.R., Ljungberg, K.J., (2014, Oktober) Deviance Distraction Is Contingent on Stimuli Being Presented within the Same Modality. Psychonomic Society’s 55^th^ Annual Meeting. Long Beach, CA, USA. **Poster**.
+Stenbäck, V., Moradi, S., **Marsja**, E., Danielsson, H., & Rönnberg, J. (2019, juni). Logical and auditory inference-making in normally-hearing and hearing-impaired listeners. Cognitive Hearing Science for Communication, Linköping, Sweden. **Poster**.
 
-Ljungberg, K.J., Parmentier, F.B.R., **Marsja**, E., Neely, G., Jones, D., (2014, January). Any Tom, Dick, or Harry will do: Hearing one’s own name distracts no more than any other in a cross-modal oddball task. Experimental Psychology Society Meeting. London, Storbrittanien. **Poster**.
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., & Ljungberg K.J. (2017, april). Domain-generality or domain-specificity of the short-term memory: insights from a multisensory distraction paradigm. Re-thinking the Senses Spring School, Dubrovnik, Croatia. **Poster**.
 
-**Marsja**, E., Neely, G., Parmentier, F.B.R., Ljungberg, K.J., (2013, Oktober). Maintenance of the distractive effect of deviating vibrotactile stimuli in a cross-modal oddball paradigm.  the 29^th^ Annual meeting of the International Society of Psychophysics, Freiburg, Tyskland. **Poster**.
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., & Ljungberg K.J. (2016, september). Do Spatial Changes in Sounds and Vibrations Affect Visuo-spatial and Verbal Short-Term Memory? Attention and Control: Insights from Distraction, Workshop, University of Central Lancashire, Preston, UK. **Inbjuden presentation**.
 
-## Finansiering och Bidrag
+**Marsja**, E., Marsh, J.E., Neely G., Hansson P., & Ljungberg K.J. (2016, juni). Spatial Change in Multisensory Distractors Impact on Verbal and Spatial Short Term Memory. International Multisensory Research Forum 17^th^ annual meeting, Suzhou, CHN. **Oral presentation**.
 
-**6000 SEK** från Institituionen för Psykologi, Umeå Universitet för deltagande i Re-thinking the Senses Spring School, Dubrovnik, Kroatien, 2017.
+**Marsja**, E., Neely G., Ma, L., & Ljungberg K.J., (2015, augusti). Cross-modality matches of intensity and attention capture dimensions of auditory and vibrotactile stimuli. Fechner Day 2015. The 31^st^ Annual Meeting of the International Society for Psychophysics, Québec, CA. **Poster**.
 
-**15000 SEK** from Lars Hiertas Minnesfond för projektet *Är korttidsminnet domän-generellt eller domän-specifikt? (Is short-term memory domain-general or domain specific?)*, 2016.
+**Marsja**, E., Neely, G., Parmentier, F.B.R., & Ljungberg, K.J. (2014, oktober) Deviance Distraction Is Contingent on Stimuli Being Presented within the Same Modality. Psychonomic Society’s 55^th^ Annual Meeting. Long Beach, CA, USA. **Poster**.
 
-**12 000 SEK** från Samhällsvetenskapliga Fakulteten, Umeå Universitet, för deltagande i en workshop kallad Attention and Control: Insights from Distraction and visiting a researcher at the University of Central Lancashire, Preston, UK, 2016. 
+Ljungberg, K.J., Parmentier, F.B.R., **Marsja**, E., Neely, & G. Jones, D., (2014, Januari). Any Tom, Dick, or Harry will do: Hearing one’s own name distracts no more than any other in a cross-modal oddball task. Experimental Psychology Society Meeting. London, UK. **Poster**.
 
-**8000 SEK** från Institituionen för Psykologi, Umeå Universitet, för deltagande i konferensen the 17^th^ International Multisensory Research Forum 15-18 Juni, Souzou, Kina, 2016.
+**Marsja**, E., Neely, G., Parmentier, F.B.R., & Ljungberg, K.J. (2013, oktober). Maintenance of the distractive effect of deviating vibrotactile stimuli in a cross-modal oddball paradigm.  The 29^th^ Annual meeting of the International Society of Psychophysics, Freiburg, DE. **Poster**.
+
+## Populärvetenskapliga och Utbildningsrelaterade Artiklar
+
+**Marsja**, E. (2016, juli). Python Programming in Psychology – From Data Collection to Analysis. *JEPS Bulletin - The Official Blog of the Journal of European Psychology Students*. **Invited Blog Post**. Retrieved from
+\sloppy
+http://blog.efpsa.org/2016/07/12/python-programming-in-psychology-from-data-collection-to-analysis/
+
+## Finansiering och bidrag 
+
+**6000 SEK** från Institutionen för Psykologi, Umeå Universitet, för att delta i "Re-thinking the Senses Spring School", Dubrovnik, Kroatien, 2017.
+
+**15000 SEK** från Lars Hiertas Minnesfond för projektet *Är korttidsminnet domän-generellt eller domän-specifikt? (Is short-term memory domain-general or domain specific?)*, 2016.
+
+**12 000 SEK** från Samhällsvetenskapliga fakulteten, Umeå Universitet, för att delta i workshop:Attention and Control: Insights from Distraction, och för att besöka Dr. John E. Marsh vid the University of Central Lancashire, Preston, UK, 2016. 
+
+**8000 SEK** från Institutionen för Psykologi, Umeå Universitet, för att delta i konferensen the 17^th^ International Multisensory Research Forum 15-18 juni, Souzou, Kina, 2016.
 
 **10 000 SEK**  från JC Kempes minnesfond för projektet *Is everyday distractibility related to attention capture by
 vibrating deviants?*, 2014.
 
-**9 000 SEK**  från Knut och Alice Wallenbergs Stiftelse för att delta i konferenserna Psychonomic Society’s 55^th^ Annual Meeting, 20-23 November, och APCAM, 20 November, Long Beach, USA, 2014. 
+**9 000 SEK**  från Knut och Alice Wallenbergs Stiftelse för att delta i konferenserna Psychonomic Society’s 55^th^ Annual Meeting, 20-23 november, och APCAM, 20:e november, Long Beach, USA, 2014. 
 
-**6000 SEK** från Institituionen för Psykologi, Umeå Universitet för deltagande i konferensen Fechner Day 2013 (the 29^th^ Annual Meeting of the International Society for Psychophysics) 21-25 Oktober, Freiburg i.Br., Tyskland, 2013.
+**6000 SEK** från Institutionen för Psykologi, Umeå Universitet, för att delta i Fechner Day 2013 (the 29^th^ Annual Meeting of the International Society for Psychophysics) 21-25 October, Freiburg i.Br., Tyskland, 2013.
+
+## Referee granskat för tidskrifter:
+
+* Behavior Research Methods
+
+* Frontiers in Psychology
+
+* Journal of Cognitive Psychology
+
+Information om mitt ansvar som granskare finns i min [Publons-profil] (https://www.publons.com/a/1517052/).
+
+## Skicklighets träning
+
+### Träning 
+
+2017 Spring School *Re-Thinking the Senses*, Inter-University Centre, Dubrovnik, Croatia
+
+### Undervisningsansvar  
+
+Primärt i:
+
+* Forskningsmetodik, grundläggande statistik och kvalitativ metod
+* Kognitiv Psykologi 
+* Tillämpad Kognitiv Psykologi
+
+Majoriteten av föreläsningar, seminarier, laboratoriedemonstrationer, handledning av gruppprojekt (både som involverar empiriska och tillämpade projekt) och handledning av uppsatser har skett vid Institutionen för Psykologi, Umeå universitet, Sverige (2014 - 2017) och Institutionen för beteendevetenskap och lärande, Linköpings universitet (IBL: 2019 -). Jag har också hållit workshops vid IBL, Linköpings universitet (2019 -). Vid Umeå universitet och Linköpings universitet har jag hittills undervisat i 950 respektive 550 timmar. Se Tabell 1 för en översikt över mina undervisningsansvar, antal timmar och kurser.
 
 
-## Undervisningserfarenhet
+### Handledning av Kandidatstudenter (grundnivå)
 
-Främst i:
+Rombo, A. (2020). Institutionen för dator- och informationsvetenskap, Linköpings universitet. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level. Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
 
-* Uppmärksamhet
-* Perception
-* Tillämpad kognitiv psykologi
-* Kognitiv psykologi
-* Forskningsmetodik
+Lindberg, F. (2020). Institutionen för dator- och informationsvetenskap, Linköpings universitet. "Hur ungas attityder kring hörselnedsättningar orsakade av fritidsbuller påverkas av deras koppling till sitt framtida jag."  Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
 
-Föreläsningar, seminarier, laboratoriedemonstrationer, handledning av grupprojekt (både empiriska och tillämpade projekt), och handledning av uppsatser har givits vid Institituionen för Psykologi, Umeå Universitet. Jag har hittills undervisat 950 klocktimmar. För en översikt över ämnen, typ av undervisning, och antal timmar se Tabell 1 i Appendix A.
+Dahlgren, S. (2020). Institutionen för dator- och informationsvetenskap, Linköpings universitet. "The association between cognition and speech-in-noise perception - Investigating the link between speech-in-noise perception and fluid intelligence in people with and without hearing loss."  Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
 
+### Handledning av Masterstudenter (avancerad nivå)
 
-### Handledning av Masterstudenter
+Carlbring, J. (2020) Institutionen för dator- och informationsvetenskap, Linköpings universitet.. "Inclusive Design for Mobile Devices with WCAG and Attentional Resources in Mind." Masteruppsats i Kognitionsvetenskap (30hp). *Huvudhandledare* 
 
-Ma, L. (2015). Insititutionen för Psykologi, Umeå Universitet. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Masteruppsats i Kognitionsvetenskap (15 ECTS).
+Ma, L. (2015). Institutionen för Psykologi, Umeå Universitet. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Masteruppsats i Kognitionsvetenskap (15HP). *Medhandledare*
 
-Blide, M. (2014). Insititutionen för Psykologi, Umeå Universitet. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse. Masterupsats i Klinisk Psykologi (30 ECTS).
+Blide, M. (2014). Institutionen för Psykologi, Umeå Universitet. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse. Masteruppsats i Klinisk Psykologi (30HP). *Medhandledare*
 
 
-## Övriga färdigheter
+###  Workshops
 
-* Goda färdigheter i Microsoft Word och Excel
-* Goda färdigheter i statistisk mjukvara så som SPSS och R
-* Goda programmingkunskaper i Python (v2.7.x) och R
-* Grundläggande programmeringskunskaper i Visual Basic, E-basic (E-prime), och MATLAB
-* Grundläggande färdigheter Markdown (e.g., RMarkdown) och \LaTeX
-* Programmerande, och utförande, av experiment i E-prime, MATLAB, och Python (i.e., PsychoPy, OpenSesame, & Expyriment)
+Okt 2018\hspace{0.75cm}\textbf{R Workshop "Step-by-Step"}\vspace{1mm}
 
-### Ansvarområden
+\hrule
+\begin{changemargin}{2.15cm}{2.4cm}
 
-* Vald ordförande PsyDok, doktorandernas kårsektion, vid Institutionen för Psykologi, Umeå Universitet.
 
-\begin{landscape}
-\pagestyle{style2}
+Institutionen för Psykologi, Umeå Universitet.
+
+En introduktion till R statistiskt programmeringsspråk - presenterad för seniorforskare med fokus på grundläggande programmering och R statistiska programmeringsmiljö.
+
+\end{changemargin}
+
+### Ytterligare meriter
+
+* Omfattande kunskap inom statistisk programvara som SPSS, JASP och R statistisk programmeringsmiljö
+* Starka skriptkunskaper i Python (v2.7.x & v3.x.x) och R
+* Betydande färdigheter i programmering och utförande av experiment med både E-prime och Python (dvs. PsychoPy, OpenSesame och Expyriment)
+* Goda kunskaper i Microsoft Word och Excel
+* Grundläggande programmeringskunskaper i Visual Basic, E-basic (E-prime), MATLAB, Bash, JavaScript och PHP
+* Grundläggande färdigheter i Markdown (t.ex. RMarkdown) och \ LaTeX
+
+### Ansvar
+
+* Vald som ordförande för doktorandstudenternas råd vid Institutionen för Psykologi, Umeå universitet.
+
+
+## Referenser
+
+Lämnas på begäran.
 
 ```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
-
 rm(list=ls())
-library(stargazer)
-require(xtable)
 
-#If on Windows:
-if(Sys.getenv("OS") == "Windows_NT"){ datadir = "C:/Users/erkmaa04/Dropbox/BetweenComps/timmar_undervisning/teachinghours_sv.csv"
-}else  { datadir = "~/Dropbox/BetweenComps/timmar_undervisning/teachinghours.csv"
-}
+datadir = "./Data/teachinghours2.csv"
+
 
 insertRow <- function(existingDF, newrow, r) {
   existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
   existingDF[r,] <- newrow
   existingDF
 }
-t.hours <- read.csv(datadir, sep = ';', row.names=NULL)
+t.hours <- read.csv(datadir, sep = ',', row.names=NULL)
 t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
 
 table.data <- cbind(t.hours[9], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:8])
@@ -198,21 +307,18 @@ for(index in 1:length(idx.dups)){
   newdata <- insertRow(newdata, ' ',row+1)
   idx.adder = idx.adder + 1
 }
-# Swedish column names...
-
-names(newdata) <- c("Period", "Ämne", "Typ", "Klocktimmar", "Kurs och Program", "Nivå", "Språk")
-a <- stargazer(newdata, style = "aer", title='Undervisning - en översikt av undervisningsyp, antal timmar, osv', notes= paste0(' Totalt antal klocktimmar:', total.teaching, ', Gr = Grundnivå, Av = Avancerad nivå', ', Sv = Svenska, Eng = Engelska'), summary=FALSE, rownames=FALSE, font.size="tiny")
-
 ```
+
+\newpage
+\pagestyle{empty}
 
 ```{r, echo=FALSE, results='asis'}
-collapse <- function(st) paste(st, collapse="")
-st <- gsub(collapse(rep("c", 7)), collapse(rep("l",7)), a)
-st <- gsub('lllllll\\} ', 'lp\\{4cm\\}p\\{4cm\\}lp\\{5cm\\}ll\\}', st)
-st <- gsub('Clock.Hours', 'Antal timmar ', st)
-st <- gsub('Course.and.Program', 'Kurs/Program', st)
+library(kableExtra)
 
-st[2:3] <- ''
-cat(st)
+# Column names
+colN <- c("Period", "Subject", "Type", "Clock Hours",
+          "Course/Program", "Level", "Language")
+kable(newdata, longtable= T, col.names = colN, format="latex", caption='Undervisningsansvar - en översikt över typ av undervisning, timmar etc. ', booktabs=TRUE) %>% 
+ column_spec(c(2, 3, 5), width = "5cm") %>% kable_styling(latex_options = "repeat_header") %>% kableExtra::landscape() %>% footnote(paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' '), threeparttable = T)
 ```
-\end{landscape}
+

@@ -33,7 +33,7 @@ Jan 2019 - \hspace{0.50cm}\textbf{Postdoctoral Researcher}\vspace{1mm}
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
-Division for Disability Research, Department of Behavioural Sciences and Learning (IBL), Linköping University.
+Disability Research Division, Department of Behavioural Sciences and Learning (IBL), Linköping University.
 
 Analyzing data from a large database (i.e., n200) and preparing manuscripts in the field of cognitive hearing science. Responsible for arranging the monthly \href{https://liu.se/linnecentrum-head/en}{HEAD} seminar series (august 2020 - august 2021). This includes contacting national, and international, researchers, booking flights, hotels, as well as setting up equipment for streaming the seminars online.
 

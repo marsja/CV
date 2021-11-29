@@ -7,16 +7,16 @@ output:
     keep_tex: yes
     latex_engine: pdflatex
     template: template.tex
+  word_document: default
   html_document:
     df_print: paged
-  word_document: default
 email: erik@marsja.se
 fontawesome: yes
 geometry: margin=1.2in
-github: marsja
-lang: Swedish, English
 phone: +4670-36 33 662
 subparagraph: yes
+github: marsja
+lang: Swedish, English
 address: Tvistevägen 26, SE-907 36 Umeå, Sweden
 web: www.marsja.se
 CV: TRUE
@@ -27,6 +27,15 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Academic Positions
+
+Jan 2022 - \hspace{0.50cm}\textbf{Researcher}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Swedish National Road and Transport Research Institute, Linköping, Sweden. 
+
+\end{changemargin}
 
 Jan 2019 - \hspace{0.50cm}\textbf{Postdoctoral Researcher}\vspace{1mm}
 
@@ -75,7 +84,7 @@ June 2011\hspace{0.75cm}\textbf{Undergrad. Research Assistant}\vspace{1mm}
 
 Department of Psychology, Umeå University.
 
-Recruitment of participants and data collection.
+Recruitment of participants and data collection, commenting on later manuscript that ended up in a published paper (see publication 2014). 
 
 \end{changemargin}
 
@@ -151,20 +160,22 @@ http://blog.efpsa.org/2016/07/12/python-programming-in-psychology-from-data-coll
 
 ## Funding and Grants
 
+**299 235 SEK** from Hörselforskningsfonden (the Hearing Research Fund) for the project *Lyssningsansträngning hos individer med hörselnedsättning på grund av ökad digitalisering i arbetslivet (Listening effort in individuals with hearing impairment due to increased digitalisation in working life)*, 2021.
+
 **6000 SEK** from the Department of Psychology, Umeå University, for participating in the Re-thinking the Senses Spring School, Dubrovnik, Croatia, 2017.
 
 **15000 SEK** from Lars Hiertas Minnesfond for the project *Är korttidsminnet domän-generellt eller domän-specifikt? (Is short-term memory domain-general or domain specific?)*, 2016.
 
 **12 000 SEK** from the Faculty of Social sciences, Umeå University, for participating in the workshop Attention and Control: Insights from Distraction, and visiting a researcher at the University of Central Lancashire, Preston, UK, 2016. 
 
-**8000 SEK** from the Department of Psychology, Umeå University, for participating the conference 17^th^ International Multisensory Research Forum 15-18 June, Souzou, China, 2016.
+**8000 SEK** from the Department of Psychology, Umeå University, for participating in the conference 17^th^ International Multisensory Research Forum 15-18 June, Souzou, China, 2016.
 
 **10 000 SEK**  from JC Kempes minnesfond for the project *Is everyday distractibility related to attention capture by
 vibrating deviants?*, 2014.
 
 **9 000 SEK**  from Knut och Alice Wallenbergs Stiftelse for participating in the conferences Psychonomic Society’s 55^th^ Annual Meeting, 20-23 November, and APCAM, 20 November, Long Beach, USA, 2014. 
 
-**6000 SEK** from the Department of Psychology for participating the conference Fechner Day 2013 (the 29^th^ Annual Meeting of the International Society for Psychophysics) 21-25 October, Freiburg i.Br., Germany, 2013.
+**6000 SEK** from the Department of Psychology for participating in the conference Fechner Day 2013 (the 29^th^ Annual Meeting of the International Society for Psychophysics) 21-25 October, Freiburg i.Br., Germany, 2013.
 
 ## Peer-reviewed for Journals:
 
@@ -195,7 +206,7 @@ The majority of lectures, seminars, lab demonstrations, supervision of group pro
 
 ### Supervision of Bachelor Students (Undergraduate Level)
 
-Rombo, A. (2020).  (2020).Department of Computer and Information Science, Linköping University. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level. Bachelor's Thesis in Cognitive Science (18 EcTS). *Main supervisor*
+Rombo, A. (2020). Department of Computer and Information Science, Linköping University. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level. Bachelor's Thesis in Cognitive Science (18 EcTS). *Main supervisor*
 
 Lindberg, F. (2020). Department of Computer and Information Science, Linköping University. "Hur ungas attityder kring hörselnedsättningar orsakade av fritidsbuller påverkas av deras koppling till sitt framtida jag." (How young people's attitudes to hearing impairments caused by leisure noise are affected by their connection to their future selves.)  Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 

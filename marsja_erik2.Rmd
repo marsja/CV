@@ -37,7 +37,9 @@ Swedish National Road and Transport Research Institute, Linköping, Sweden.
 
 \end{changemargin}
 
-Jan 2019 - \hspace{0.50cm}\textbf{Postdoctoral Researcher}\vspace{1mm}
+Jan 2019 - 
+
+Dec 2021\hspace{0.78cm}\textbf{Postdoctoral Researcher}\vspace{1mm}
 
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
@@ -203,10 +205,13 @@ Primarily in:
 
 The majority of lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology, Umeå University, Sweden (2014 - 2017). I have also held workshops, and supervised projects at the Department of Behavioral Science and Learning, Linköping University (2019 - ). At Umeå University and Linköping University, I have so far taught 950  and 550 clock hours, respectively. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
 
-
 ### Supervision of Bachelor Students (Undergraduate Level)
 
-Rombo, A. (2020). Department of Computer and Information Science, Linköping University. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level. Bachelor's Thesis in Cognitive Science (18 EcTS). *Main supervisor*
+Bridal, Olle. (2021). Department of Computer and Information Science, Linköping University.  "Named-entity recognition with BERT for anonymization of medical records". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Mattila, Marianne. (2021). Department of Computer and Information Science, Linköping University. "Synthetic Image Generation Using GANs – Generating Class-Specific Images of Bacterial Growth". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Rombo, A. (2020). Department of Computer and Information Science, Linköping University. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level. Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 
 Lindberg, F. (2020). Department of Computer and Information Science, Linköping University. "Hur ungas attityder kring hörselnedsättningar orsakade av fritidsbuller påverkas av deras koppling till sitt framtida jag." (How young people's attitudes to hearing impairments caused by leisure noise are affected by their connection to their future selves.)  Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 

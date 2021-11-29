@@ -28,7 +28,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Anställningar
 
-Jan 2019 - Pågående\hspace{0.50cm}\textbf{Postdoktoral Forskare}\vspace{1mm}
+Jan 2022 - \hspace{0.50cm}\textbf{Forskare}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Väg- och transportinstitutet (VTI), Linköpings Universitet.
+
+\end{changemargin}
+
+Jan 2019 - 
+
+dec 2021\hspace{0.75cm}\textbf{Postdoktoral Forskare}\vspace{1mm}
 
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
@@ -79,7 +90,6 @@ Rekryterade deltagare och samlade in data.
 
 \end{changemargin}
 
-\newpage
 
 ## Examina
 
@@ -150,6 +160,8 @@ http://blog.efpsa.org/2016/07/12/python-programming-in-psychology-from-data-coll
 
 ## Finansiering och bidrag 
 
+**299 235 SEK** från Hörselforskningsfonden för projektet *Lyssningsansträngning hos individer med hörselnedsättning på grund av ökad digitalisering i arbetslivet*, 2021.
+
 **6000 SEK** från Institutionen för Psykologi, Umeå Universitet, för att delta i "Re-thinking the Senses Spring School", Dubrovnik, Kroatien, 2017.
 
 **15000 SEK** från Lars Hiertas Minnesfond för projektet *Är korttidsminnet domän-generellt eller domän-specifikt? (Is short-term memory domain-general or domain specific?)*, 2016.
@@ -193,7 +205,11 @@ Majoriteten av föreläsningar, seminarier, laboratoriedemonstrationer, handledn
 
 ### Handledning av Kandidatstudenter (grundnivå)
 
-Rombo, A. (2020). Institutionen för dator- och informationsvetenskap, Linköpings universitet. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level. Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
+Bridal, Olle. (2021). Institutionen för dator- och informationsvetenskap, Linköpings universitet. "Named-entity recognition with BERT for anonymization of medical records". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
+
+Mattila, Marianne. (2021). Institutionen för dator- och informationsvetenskap, Linköpings universitet. "Synthetic Image Generation Using GANs – Generating Class-Specific Images of Bacterial Growth". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
+
+Rombo, A. (2020). Institutionen för dator- och informationsvetenskap, Linköpings universitet. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
 
 Lindberg, F. (2020). Institutionen för dator- och informationsvetenskap, Linköpings universitet. "Hur ungas attityder kring hörselnedsättningar orsakade av fritidsbuller påverkas av deras koppling till sitt framtida jag."  Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
 

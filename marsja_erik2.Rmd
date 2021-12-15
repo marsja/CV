@@ -207,9 +207,9 @@ The majority of lectures, seminars, lab demonstrations, supervision of group pro
 
 ### Supervision of Bachelor Students (Undergraduate Level)
 
-Bridal, Olle. (2021). Department of Computer and Information Science, Linköping University.  "Named-entity recognition with BERT for anonymization of medical records". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+Bridal, O. (2021). Department of Computer and Information Science, Linköping University.  "Named-entity recognition with BERT for anonymization of medical records". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 
-Mattila, Marianne. (2021). Department of Computer and Information Science, Linköping University. "Synthetic Image Generation Using GANs – Generating Class-Specific Images of Bacterial Growth". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+Mattila, M. (2021). Department of Computer and Information Science, Linköping University. "Synthetic Image Generation Using GANs – Generating Class-Specific Images of Bacterial Growth". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 
 Rombo, A. (2020). Department of Computer and Information Science, Linköping University. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level. Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 

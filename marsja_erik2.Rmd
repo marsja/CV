@@ -35,7 +35,7 @@ Nov 2022 \hspace{0.75cm}\textbf{Researcher}\vspace{1mm}
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
-Swedish National Road and Transport Research Institute, Linköping, Sweden. Working 80/% of a full-time position.
+Swedish National Road and Transport Research Institute, Linköping, Sweden. Working 80\% of a full-time position.
 
 \end{changemargin}
 
@@ -49,7 +49,7 @@ Nov 2021 \hspace{0.75cm}\textbf{Postdoctoral Researcher}\vspace{1mm}
 
 Disability Research Division, Department of Behavioural Sciences and Learning (IBL), Linköping University.
 
-Analyzing data from a large database (i.e., n200) and preparing manuscripts in the field of cognitive hearing science. Conducting qualitative research and about digitalization, listening effort, and work-life (see Funding and Grants). Working 20/% of a full-time position.
+Analyzing data from a large database (i.e., n200) and preparing manuscripts in the field of cognitive hearing science. Conducting qualitative research and about digitalization, listening effort, and work-life (see Funding and Grants). Working 20\% of a full-time position.
 
 \end{changemargin}
 

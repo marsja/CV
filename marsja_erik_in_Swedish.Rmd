@@ -218,9 +218,12 @@ Alla föreläsningar, seminarier, laboratoriedemonstrationer, handledning av gru
 
 ### Handledning av Kandidatstudenter (grundnivå)
 
-Bridal, Olle. (2021). Institutionen för dator- och informationsvetenskap, Linköpings Universitet. "Named-entity recognition with BERT for anonymization of medical records". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
+Jerdhaf, O. (2021). Institutionen för dator- och informationsvetenskap, Linköpings Universitet. "Discovering Implant Terms in Medical Records". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
 
-Mattila, Marianne. (2021). Institutionen för dator- och informationsvetenskap, Linköpings Universitet. "Synthetic Image Generation Using GANs – Generating Class-Specific Images of Bacterial Growth". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
+
+Bridal, O. (2021). Institutionen för dator- och informationsvetenskap, Linköpings Universitet. "Named-entity recognition with BERT for anonymization of medical records". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
+
+Mattila, M. (2021). Institutionen för dator- och informationsvetenskap, Linköpings Universitet. "Synthetic Image Generation Using GANs – Generating Class-Specific Images of Bacterial Growth". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
 
 Rombo, A. (2020). Institutionen för dator- och informationsvetenskap, Linköpings Universitet. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
 

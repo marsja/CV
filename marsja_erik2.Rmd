@@ -35,7 +35,8 @@ Nov 2022 \hspace{0.75cm}\textbf{Researcher}\vspace{1mm}
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
-Swedish National Road and Transport Research Institute, Linköping, Sweden. Working 80\% of a full-time position.
+People in the transport system, Swedish National Road and Transport Research Institute, Linköping, Sweden. Working 80\% of a full-time position.
+
 
 \end{changemargin}
 
@@ -219,9 +220,11 @@ Primarily in:
 * Cognitive Psychology (attention, perception, & working memory)
 * Applied Cognitive Psychology (attention and perception)
 
-The majority of lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology, Umeå University, Sweden (2014 - 2017). I have also held workshops, and supervised projects at the Department of Behavioral Science and Learning, Linköping University (2019 - ). At Umeå University and Linköping University, I have so far taught 950  and 824 clock hours, respectively. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
+All lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology, Umeå University, Sweden (2014 - 2017) and the Department of Behavioral Science and Learning, Linköping University (2019 - ). At Linköping University I have also held workshops, and supervised projects. I have so far taught 950  and 824 clock hours. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
 
 ### Supervision of Bachelor Students (Undergraduate Level)
+
+Jerdhaf, O. (2021).  Department of Computer and Information Science, Linköping University.  "Discovering Implant Terms in Medical Records". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 
 Bridal, O. (2021). Department of Computer and Information Science, Linköping University.  "Named-entity recognition with BERT for anonymization of medical records". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 
@@ -284,11 +287,11 @@ insertRow <- function(existingDF, newrow, r) {
 }
 t.hours <- read.csv(datadir, sep = ',', row.names=NULL)
 t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
-
-table.data <- cbind(t.hours[9], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:8])
-table.data <- table.data[table.data$Type != 'NOT HELD YET',]
+table.data <- cbind(t.hours[10], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:8])
 dups <- duplicated(table.data[,1]) | duplicated(table.data[,1])
 table.data[which(dups),]$Period <- ' '
+
+total.teaching <- sum(table.data$Timmar)
 
 total.teaching <- sum(table.data$Clock.Hours)
 

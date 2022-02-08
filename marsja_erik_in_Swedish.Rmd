@@ -220,7 +220,6 @@ Alla föreläsningar, seminarier, laboratoriedemonstrationer, handledning av gru
 
 Jerdhaf, O. (2021). Institutionen för dator- och informationsvetenskap, Linköpings Universitet. "Discovering Implant Terms in Medical Records". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
 
-
 Bridal, O. (2021). Institutionen för dator- och informationsvetenskap, Linköpings Universitet. "Named-entity recognition with BERT for anonymization of medical records". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
 
 Mattila, M. (2021). Institutionen för dator- och informationsvetenskap, Linköpings Universitet. "Synthetic Image Generation Using GANs – Generating Class-Specific Images of Bacterial Growth". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*

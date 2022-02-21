@@ -308,7 +308,7 @@ library(kableExtra)
 
 # Column names
 colN <- c("Period", "Ämne", "Typ av Undervisning", "Timmar",
-          "Kurs/Programm", "Nivå", "Språk")
+          "Kurs/Program", "Nivå", "Språk")
 kable(newdata, longtable= T, col.names = colN, format="latex", caption='Undervisningsansvar - en översikt över typ av undervisning, timmar etc. ', booktabs=TRUE) %>% 
  column_spec(c(1, 2, 3, 4, 5, 6), width = c("1.5cm", rep("5cm", 2), "1.2cm", "5cm", "1.4cm", "1cm")) %>% kable_styling(latex_options = "repeat_header") %>% kableExtra::landscape() %>% footnote(paste(' Totalt antal timmar:', total.teaching, ', Sv = Svenska, Eng = Engelska, VT = Vårtermin, HT = Hösttermin, VT och HT = kurs som sträcker sig över ett läsår', sep = ' '), threeparttable = T)
 ```

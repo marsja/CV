@@ -4,14 +4,14 @@
 \usepackage{everypage}
 
 \newcommand{\Lpagenumber}{\ifdim\textwidth=\linewidth\else\bgroup
-  \dimendef\margin=0 %use \margin instead of \dimen0
-  \ifodd\value{page}\margin=\oddsidemargin
-  \else\margin=\evensidemargin
-  \fi
-  \raisebox{\dimexpr -\topmargin-\headheight-\headsep-0.5\linewidth}[0pt][0pt]{%
-    \rlap{\hspace{\dimexpr \margin+\textheight+\footskip}%
+\dimendef\margin=0 %use \margin instead of \dimen0
+\ifodd\value{page}\margin=\oddsidemargin
+\else\margin=\evensidemargin
+\fi
+\raisebox{\dimexpr -\topmargin-\headheight-\headsep-0.5\linewidth}[0pt][0pt]{%
+  \rlap{\hspace{\dimexpr \margin+\textheight+\footskip}%
     \llap{\rotatebox{90}{ CV  - Erik Marsja 
-- \thepage\hspace{1pt}(\pageref{LastPage})}}}}%
+      - \thepage\hspace{1pt}(\pageref{LastPage})}}}}%
 \egroup\fi}
 \AddEverypageHook{\Lpagenumber}%
 
@@ -27,7 +27,7 @@
 \usepackage[scaled=.90]{helvet}% Helvetica, served as a model for arial
 
 % Added for new tabl:
-\usepackage{booktabs}
+  \usepackage{booktabs}
 \usepackage{threeparttablex}
 \usepackage{longtable}
 
@@ -290,11 +290,17 @@ Tillgänglig från DiVA: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:umu:div
 \subsubsection{Internationalla refereegranskade
 tidskrifter}\label{internationalla-refereegranskade-tidskrifter}}
 
+Stenbäck, V., \textbf{Marsja}, E., Ellis, R., \& Rönnberg, J.
+(Accepted). Relationships between objective and subjective outcome
+measures of speech recognition in noise. \emph{International Journal of
+Audiology}.
+
 \textbf{Marsja}, E., Stenbäck, V., Moradi, S., Danielsson, H., \&
 Rönnberg, J. (2022). Is Having Hearing Loss Fundamentally different?
 Multi-group structural equation modeling of the effect of cognitive
 functioning on speech identification. \emph{Ear \& Hearing}.
 \url{https://doi.org/10.1097/AUD.0000000000001196}
+\href{https://bit.ly/EANDH22}{(PDF)}
 
 Stenbäck, V., \textbf{Marsja}, E., Hällgren, M., Lyxell, B., \& Larsby,
 B. (2021). The Contribution of Age, Working Memory Capacity, and
@@ -314,6 +320,7 @@ Examining the Role of Spatial Changes in Bimodal and Uni-Modal
 To-Be-Ignored Stimuli and How They Affect Short-Term Memory Processes.
 \emph{Frontiers In Psychology}.
 \url{https://doi.org/10.3389/fpsyg.2019.00299}
+\href{https://bit.ly/3LkKD19}{(PDF)}
 
 \textbf{Marsja}, E., Neely, G., \& Ljungberg, K.J. (2018). Investigating
 Deviance Distraction and the Impact of the Modality of the To-Be-Ignored
@@ -324,15 +331,11 @@ Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., \textbf{Marsja},
 E., \& Neely, G. (2014). ``What's in a name?'' ``No more than when it's
 mine own''. Evidence from auditory oddball distraction. \emph{Acta
 Psychologica, 150C}, 161--166.
-\url{http://dx.doi.org/10.1016/j.actpsy.2014.05.009}
+\href{http://doi.org/10.1027/1618-3169/a000390}{http://dx.doi.org/10.1016/j.actpsy.2014.05.009}
 
 \hypertarget{publikationer-under-fuxf6rberedelseinskickadeunder-revidering}{%
 \subsubsection{Publikationer under Förberedelse/inskickade/under
 revidering}\label{publikationer-under-fuxf6rberedelseinskickadeunder-revidering}}
-
-Stenbäck, V., \textbf{Marsja}, E., Ellis, R., \& Rönnberg, J.
-(Submitted). Relationships between objective and subjective outcome
-measures of speech recognition in noise.
 
 Stenbäck, V., \textbf{Marsja}, E., Hällgren, M., Lyxell, B., \& Larsby,
 B. (Submitted). Informational masking and listening effort in
@@ -641,12 +644,12 @@ En introduktion till R statistiska programmeringsspråk - presenterad för senio
 \begin{longtable}[t]{>{\raggedright\arraybackslash}p{1.5cm}>{\raggedright\arraybackslash}p{5cm}>{\raggedright\arraybackslash}p{5cm}>{\raggedright\arraybackslash}p{1.2cm}>{\raggedright\arraybackslash}p{5cm}>{\raggedright\arraybackslash}p{1.4cm}l}
 \caption{\label{tab:unnamed-chunk-5}Undervisningsansvar - en översikt över typ av undervisning, timmar etc. }\\
 \toprule
-Period & Ämne & Typ av Undervisning & Timmar & Kurs/Programm & Nivå & Språk\\
+Period & Ämne & Typ av Undervisning & Timmar & Kurs/Program & Nivå & Språk\\
 \midrule
 \endfirsthead
 \caption[]{Undervisningsansvar - en översikt över typ av undervisning, timmar etc.  \textit{(continued)}}\\
 \toprule
-Period & Ämne & Typ av Undervisning & Timmar & Kurs/Programm & Nivå & Språk\\
+Period & Ämne & Typ av Undervisning & Timmar & Kurs/Program & Nivå & Språk\\
 \midrule
 \endhead
 

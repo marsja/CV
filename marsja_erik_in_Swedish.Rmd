@@ -33,7 +33,7 @@ Jan 2022 - \hspace{0.50cm}\textbf{Postdoktoral Forskare}\vspace{1mm}
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
-Avdelningen för Handikappvetenskap, Institutionen för Beteendevetenskap och Lärande, Linköpings Universitet (20 procent av en heltidstjänst). 
+Avdelningen för Funktionsnedsättning och Samhälle, Institutionen för Beteendevetenskap och Lärande, Linköpings Universitet (20 procent av en heltidstjänst). 
 
 \textbf{Arbetsuppgifter}: Arbeta med projektet "Lyssningsansträngning hos individer med hörselnedsättning på grund av ökad digitalisering i arbetslivet" (se sektionen "Finansiering och bidrag").
 
@@ -44,7 +44,7 @@ Jan 2022 - \hspace{0.50cm}\textbf{Forskare}\vspace{1mm}
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
-Väg- och transportinstitutet (VTI), Linköping (80 procent av en heltidstjänst).
+Statens Väg- och transportforskningsinstitut (VTI), Linköping (80 procent av en heltidstjänst).
 
 \textbf{Arbetsuppgifter}: Bedriva forskning om framtidens mobilitet för individer med särskilda förutsättningar, bidra med min kognitionspsykologiska expertis i olika forskningsprojekt.
 
@@ -149,12 +149,12 @@ Tillgänglig från DiVA: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:umu:div
 
 ## Publikationslista
 
-### Internationalla refereegranskade tidskrifter
+### Accepterade/I Tryck/Publicerade
 
 ```{r child = 'peer-reviewed.Rmd'}
 ```
 
-### Publikationer under Förberedelse/inskickade/under revidering 
+### Under Förberedelse/inskickade/under revidering 
 
 ```{r child = 'not-accepted.Rmd'}
 ```

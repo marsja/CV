@@ -154,13 +154,13 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 ## Publications
 
-### International peer-reviewed journals
+### Accepted/In press/Published
 
 ```{r child = 'peer-reviewed.Rmd'}
 ```
 
 
-### Publications In Preparation/Submitted/Under Revision
+### In Preparation/Submitted/Under Revision
 
 ```{r child = 'not-accepted.Rmd'}
 ```

@@ -1,4 +1,4 @@
-Stenbäck, V., **Marsja**, E., Ellis, R., & Rönnberg, J. (Accepted). Relationships between objective and subjective outcome measures of speech recognition in noise. *International Journal of Audiology*. [https://doi.org/10.1080/14992027.2022.2047232](https://doi.org/10.1080/14992027.2022.2047232)
+Stenbäck, V., **Marsja**, E., Ellis, R., & Rönnberg, J. (2022). Relationships between objective and subjective outcome measures of speech recognition in noise. *International Journal of Audiology*. [https://doi.org/10.1080/14992027.2022.2047232](https://doi.org/10.1080/14992027.2022.2047232) [(PDF)](https://bit.ly/IJA2022)
 
 **Marsja**, E., Stenbäck, V., Moradi, S., Danielsson, H., & Rönnberg, J. (2022). Is Having Hearing Loss Fundamentally different? Multi-group structural equation modeling of the effect of cognitive functioning on speech identification. *Ear and Hearing*. [https://doi.org/10.1097/AUD.0000000000001196](https://doi.org/10.1097/AUD.0000000000001196) [(PDF)](https://bit.ly/EANDH22)
 
@@ -8,6 +8,6 @@ Rosa, E., **Marsja**, E., & Ljungberg, J. K. (2020). Exploring Residual Capacity
 
 **Marsja**, E., Marsh, J.E., Hansson, P., & Neely, G. (2019). Examining the Role of Spatial Changes in Bimodal and Uni-Modal To-Be-Ignored Stimuli and How They Affect Short-Term Memory Processes. *Frontiers In Psychology*. [https://doi.org/10.3389/fpsyg.2019.00299](https://doi.org/10.3389/fpsyg.2019.00299) [(PDF)](https://bit.ly/3LkKD19)
 
-**Marsja**, E., Neely, G., & Ljungberg, K.J. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. *Experimental Psychology, 65*(2), 61–70. [http://doi.org/10.1027/1618-3169/a000390](http://doi.org/10.1027/1618-3169/a000390)
+**Marsja**, E., Neely, G., & Ljungberg, K.J. (2018). Investigating Deviance Distraction and the Impact of the Modality of the To-Be-Ignored Stimuli. *Experimental Psychology, 65*(2), 61–70. [http://doi.org/10.1027/1618-3169/a000390](http://doi.org/10.1027/1618-3169/a000390) [(Skript och data tillgängligt: https://osf.io/amd2h/.)](https://osf.io/amd2h/.)
 
 Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**, E., & Neely, G. (2014). “What’s in a name?” “No more than when it’s mine own". Evidence from auditory oddball distraction. *Acta Psychologica, 150C*, 161–166. [http://dx.doi.org/10.1016/j.actpsy.2014.05.009](http://doi.org/10.1027/1618-3169/a000390)

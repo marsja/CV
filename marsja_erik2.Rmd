@@ -20,6 +20,7 @@ lang: Swedish, English
 address: Tvistevägen 26, SE-907 36 Umeå, Sweden
 web: www.marsja.se
 CV: TRUE
+csl: apa7.csl
 ---
 
 ```{r setup, include=FALSE}
@@ -234,7 +235,7 @@ Rombo, A. (2020). Department of Computer and Information Science, Linköping Uni
 
 Lindberg, F. (2020). Department of Computer and Information Science, Linköping University. "Hur ungas attityder kring hörselnedsättningar orsakade av fritidsbuller påverkas av deras koppling till sitt framtida jag." (How young people's attitudes to hearing impairments caused by leisure noise are affected by their connection to their future selves.)  Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 
-Dahlgren, S. Department of Computer and Information Science, Linköping University. "The association between cognition and speech-in-noise perception - Investigating the link between speech-in-noise perception and fluid intelligence in people with and without hearing loss." Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+Dahlgren, S. (2020) Department of Computer and Information Science, Linköping University. "The association between cognition and speech-in-noise perception - Investigating the link between speech-in-noise perception and fluid intelligence in people with and without hearing loss." Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 
 ### Supervision of Master Students (Graduate Level)
 

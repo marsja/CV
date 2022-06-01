@@ -1,0 +1,192 @@
+---
+title: "Disability Researcher"
+author: "Erik Marsja, PhD"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    keep_tex: yes
+    latex_engine: pdflatex
+    template: template.tex
+  word_document: default
+  html_document:
+    df_print: paged
+email: erik@marsja.se
+fontawesome: yes
+geometry: margin=1.2in
+github: marsja
+lang: Swedish, English
+phone: +4670-36 33 662
+subparagraph: yes
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+web: www.marsja.se
+CV: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Experience
+
+2019 - 2022\hspace{0.6cm}\textbf{Postdoctoral Researcher, Dept. of Behavioral Sciences and Learning,}
+\hspace{0.6cm}\textbf{Linköpings University}
+
+2018 - 2018\hspace{0.6cm}\textbf{Postdoctoral Research Assistant, Dept. of Psychology, Umeå University}\vspace{1mm}
+
+2012 - 2018\hspace{0.6cm}\textbf{PhD Student and Teaching Assistant, Dept. of Psychology, Umeå University}\vspace{1mm}
+
+June 2011\hspace{0.6cm}\textbf{Undergrad. Research Assistant, Dept. of Psychology, Umeå University}\vspace{1mm}
+
+## Education
+
+2017\hspace{0.8cm} \textbf{Ph.D. in Psychology, Dept. of Psychology, Umeå University}\vspace{1mm}
+
+
+2012\hspace{0.8cm}\textbf{M.Sc. in Cognitive Science, Dept. of Psychology, Umeå University}\vspace{1mm}
+
+
+2011\hspace{0.8cm}\textbf{B.Sc. in Cognitive Science, , Dept. of Psychology, Umeå University}\vspace{1mm}
+
+
+## Selected Publications
+
+### International peer-reviewed journals
+
+```{r child = 'peer-reviewed.Rmd'}
+```
+
+## Conference Presentations
+
+```{r child = 'conference.Rmd'}
+```
+
+
+## Popular Science and Education-Related Articles
+
+**Marsja**, E. (2016, July). Python Programming in Psychology – From Data Collection to Analysis. *JEPS Bulletin - The Official Blog of the Journal of European Psychology Students*. **Invited Blog Post**. Retrieved from
+\sloppy
+http://blog.efpsa.org/2016/07/12/python-programming-in-psychology-from-data-collection-to-analysis/
+
+## Selected Funding and Grants
+
+
+**15000 SEK** from Lars Hiertas Minnesfond for the project *Är korttidsminnet domän-generellt eller domän-specifikt? (Is short-term memory domain-general or domain specific?)*, 2016.
+
+**12 000 SEK** from the Faculty of Social sciences, Umeå University, for participating in the workshop Attention and Control: Insights from Distraction, and visiting a researcher at the University of Central Lancashire, Preston, UK, 2016. 
+
+
+**10 000 SEK**  from JC Kempes minnesfond for the project *Is everyday distractibility related to attention capture by
+vibrating deviants?*, 2014.
+
+## Peer-reviewed for Journals:
+
+* Behavior Research Methods
+
+* Frontiers in Psychology
+
+* Journal of Cognitive Psychology
+
+Information about my responsibilities as a peer-reviewer can be found in my [Publons profile](https://www.publons.com/a/1517052/).
+
+## Skills & Training
+
+### Training
+
+2017 Spring School *Re-Thinking the Senses*, Inter-University Centre, Dubrovnik, Croatia
+
+### Teaching  
+
+The majority of lectures, seminars, lab demonstrations, supervision of group projects (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology, Umeå University, Sweden (2014 - 2017). I have also held workshops, and supervised projects at the Department of Behavioral Science and Learning, Linköping University (2019 - ). At Umeå University and Linköping University, I have so far taught 950  and 550 clock hours, respectively. At Linköping University I have supervised thesis' projects at both undergraduate and graduate level covering areas such as disability research, cognitive science (incl. e.g. artificial intelligence, psychology, human-computer interaction) and pedagogy. I have primarily taught in:
+
+* Research Methods & Basic Statistics
+* Cognitive Psychology (attention, perception, & working memory)
+* Applied Cognitive Psychology (attention and perception)
+
+
+### Supervision of Bachelor Students (Undergraduate Level)
+
+Rombo, A. (2020). Department of Computer and Information Science, Linköping University. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level. Bachelor's Thesis in Cognitive Science (18 EcTS). *Main supervisor*
+
+Lindberg, F. (2020). Department of Computer and Information Science, Linköping University. "Hur ungas attityder kring hörselnedsättningar orsakade av fritidsbuller påverkas av deras koppling till sitt framtida jag." (How young people's attitudes to hearing impairments caused by leisure noise are affected by their connection to their future selves.)  Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Dahlgren, S. Department of Computer and Information Science, Linköping University. "The association between cognition and speech-in-noise perception - Investigating the link between speech-in-noise perception and fluid intelligence in people with and without hearing loss." Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+### Supervision of Master Students (Graduate Level)
+
+Carlbring, J. (2020) Department of Computer and Information Science, Linköping University. "Inclusive Design for Mobile Devices with WCAG and Attentional Resources in Mind." Master's Thesis in Cognitive Science (30 ECTS). *Main supervisor*
+
+Ma, L. (2015). Department of Psychology, Umeå University. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Master's Thesis in Cognitive Science (15 ECTS). *Co-supervisor*
+
+Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse (To cope leaving abusive relationships: The importance of attachment). Master's Thesis in Clinical Psychology (30 ECTS). *Co-supervisor*
+
+
+### Teaching Workshops
+
+Oct 2018\hspace{0.75cm}\textbf{R Workshop "Step-by-Step"}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.15cm}{2.4cm}
+
+
+Department of Psychology, Umeå University.
+
+An introduction to R statistical programming language - presented to senior researchers with a focus on basic programming and the R environment.
+
+\end{changemargin}
+
+### Additional skills
+
+* Extensive knowledge in statistical software such as SPSS, JASP, and R statistical programming environment
+* Strong scripting skills in Python (v2.7.x & v3.x.x) and R
+* Substantial skills in programming and performing experiments using both E-prime and Python (i.e., PsychoPy, OpenSesame, & Expyriment)
+* Good skills in Microsoft Word and Excel
+* Basic programming skills in Visual Basic, E-basic (E-prime), MATLAB, Bash, JavaScript, and PHP
+* Basic skills in Markdown (e.g., RMarkdown) and \LaTeX
+
+### Responsibilities
+
+* Elected chairperson of the Ph.D. students Council of the Department of Psychology, Umeå University.
+
+```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
+rm(list=ls())
+
+datadir = "./Data/teachinghours2.csv"
+
+
+insertRow <- function(existingDF, newrow, r) {
+  existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
+  existingDF[r,] <- newrow
+  existingDF
+}
+t.hours <- read.csv(datadir, sep = ',', row.names=NULL)
+t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
+
+table.data <- cbind(t.hours[9], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:8])
+table.data <- table.data[table.data$Type != 'NOT HELD YET',]
+dups <- duplicated(table.data[,1]) | duplicated(table.data[,1])
+table.data[which(dups),]$Period <- ' '
+
+total.teaching <- sum(table.data$Clock.Hours)
+
+#Creating empty rows.. i hope
+idx.dups <- which(!dups[-1])
+idx.adder <- 0
+for(index in 1:length(idx.dups)){
+  row <-idx.dups[index]+idx.adder
+  ifelse(index == 1, newdata <- table.data, newdata <- newdata)
+  newdata <- insertRow(newdata, ' ',row+1)
+  idx.adder = idx.adder + 1
+}
+```
+\newpage
+\pagestyle{empty}
+
+```{r, echo=FALSE, results='asis'}
+library(kableExtra)
+
+# Column names
+colN <- c("Period", "Subject", "Type", "Clock Hours",
+          "Course/Program", "Level", "Language")
+kable(newdata, longtable= T, col.names = colN, format="latex", caption='Teaching responsibilities - an overview of type of teaching, hours, etc.', booktabs=TRUE) %>% 
+ column_spec(c(2, 3, 5), width = "5cm") %>% kable_styling(latex_options = "repeat_header") %>% kableExtra::landscape() %>% footnote(paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' '), threeparttable = T)
+```

@@ -1,0 +1,44 @@
+---
+title: "Personligt Brev"
+author: "Erik Marsja"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    keep_tex: yes
+    latex_engine: pdflatex
+    template: templateSE.tex
+  html_document:
+    df_print: paged
+  word_document: default
+email: erik@marsja.se
+fontawesome: yes
+geometry: margin=1.2in
+github: marsja
+lang: Swedish, English
+phone: +4670-3633662
+subparagraph: yes
+address: Tvistevägen 26, SE-907 36 Umeå, Swefden
+web: www.marsja.se
+cletter: TRUE
+DNR: AN 2.2.1-1756-21
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Till den/de det berör,
+
+Med detta brev, och bifogade handlingar, vill jag uttrycka mitt genuina intresse för tjänsten forskare vid Väg- och Transportinstitutet (VTI), Linköping. Efter att bedrivit grundforskning och undervisat vid universitet finner jag det väldigt intressant att få arbeta med forskning med ett mer tillämpat perspektiv. Detta eftersom det är en utomordentlig möjlighet att kunna bidra mer direkt till samhället med många av de färdigheter som jag utvecklat under min tid som forskare. Sammantaget har min forskning fokuserat på olika aspekter av uppmärksamhet och distraktion, hörsel, ålder och kognition. Jag har förvärvat goda kunskaper inom multisensorisk uppmärksamhet och kognitiv hörselvetenskap. Under min tid som postdoktor har jag erhållit kunskap inom handikappvetenskap genom undervisning, deltagande i seminarier och konferenser såväl som genom min egen forskning (ffa. inriktat mot hörselnedsättning). Dessa erfarenheter skulle gagna mig i en tjänst hos er.
+
+Min undervisning inkluderar både kvantitativ och kvalitativ metod, kognitiv psykologi med fokus på såväl grundforskning som tillämpning. Jag har varit involverad i handledning av projekt där studenter arbetar tillsammans med externa företag. Dessa projekt, inklusive uppsatser, täcker områden som psykologi, interaktion mellan människa och dator (t.ex. utvärdering av produktdesign), maskininlärning, insamling och analys av data för företag samt handikappvetenskap. Majoriteten av dessa projekt har använt sig av kvantitativ metod men även ett par med kvalitativ metod. Dessutom har jag deltagit i flera internationella konferenser, undervisat för internationella studenter och samarbetat med internationella forskare och svenska företag som SOS alarm. Det gör att jag är van att samarbeta med människor i olika typer av fora. Jag har en bakgrund inom kognitionsvetenskap och har förutom min expertis inom kognitiv psykologi, kognitiv hörselvetenskap, och handikappvetenskap en generell kunskap inom alla kognitionsvetenskapliga områden, inklusive datavetenskap (t.ex. programmering, människa-dator-interaktion och artificiell intelligens). Detta passar er tvärvetenskapliga profil.
+
+Jag är även intresserad av ny teknik och hur den kan användas för att t.ex. förenkla vardagen för alla, inklusive individer med funktionsnedsättningar. Detta intresse har, för att nämna ett exempel, lett till ett samarbete där vi undersökte hur taktila varningssignaler fungerar vid hög mental belastning (se bifogat CV). Min kunskap inom multisensorisk perception och uppmärksamhet, kan göra skillnad för individer med funktionsnedsättning exv. synnedsättning eller för individer i situationer där t.ex. stress medför hög mental belastning. Detta skulle vara till gagn för både samhälle och individ.
+På fritiden tycker jag om att läsa, laga mat och baka surdegsbröd. Jag gillar också att fjällvandra och umgås med min familj och vänner. Fiske är en relativt ny hobby. Ibland tycker jag om att blogga (skriva statistik- och programmeringsguider).
+
+Jag ser fram emot att växa i en intellektuellt utmanande miljö och att arbeta med fokus på interaktionen mellan människa och teknik. En tjänst hos er skulle utöka mina färdigheter till att innefatta mer tillämpad forskning. Jag tror starkt att min erfarenhet och meriter är till stor nytta för VTI såväl som forskarsamhället.
+Tveka inte att kontakta mig via 0703633662 eller erik@marsja.se.
+
+Vänliga Hälsningar,
+
+Erik Marsja

@@ -1,0 +1,560 @@
+\documentclass[]{article}
+\usepackage{pdflscape}
+
+\usepackage{everypage}
+
+\newcommand{\Lpagenumber}{\ifdim\textwidth=\linewidth\else\bgroup
+  \dimendef\margin=0 %use \margin instead of \dimen0
+  \ifodd\value{page}\margin=\oddsidemargin
+  \else\margin=\evensidemargin
+  \fi
+  \raisebox{\dimexpr -\topmargin-\headheight-\headsep-0.5\linewidth}[0pt][0pt]{%
+    \rlap{\hspace{\dimexpr \margin+\textheight+\footskip}%
+    \llap{\rotatebox{90}{ CV  - Erik Marsja 
+- \thepage\hspace{1pt}(\pageref{LastPage})}}}}%
+\egroup\fi}
+\AddEverypageHook{\Lpagenumber}%
+
+\usepackage{adjustbox}
+\usepackage{titling}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{titlesec}
+\usepackage[scaled=.90]{helvet}% Helvetica, served as a model for arial
+
+% Added for new table:
+\usepackage{booktabs}
+\usepackage{threeparttablex}
+\usepackage{longtable}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\fancyfoot[CO,CE]{  CV -   Erik Marsja -  \thepage\hspace{1pt}(\pageref{LastPage})}
+\fancypagestyle{plain}{\pagestyle{fancy}}
+
+\usepackage[margin=1.2in]{geometry}
+
+% Font awesome
+\usepackage{fontawesome}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% For tables
+
+
+% Tightlist
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% URLS
+\usepackage[hidelinks]{hyperref}
+\usepackage{breakurl}
+\usepackage{float} % here for H placement parameter
+
+% Appendix header style
+
+\fancypagestyle{style2}{
+\fancyhf{}
+\fancyhead[C]{Appendix 1}
+}
+
+
+% For Changing the margins (Education)
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+%For displaying the table in landscape format
+\usepackage[absolute]{textpos}
+
+\fancypagestyle{lscape}{% 
+\fancyhf{} % clear all header and footer fields 
+\fancyfoot[LE]{%
+\begin{textblock}{20}(1,5){\rotatebox{90}{\leftmark}}\end{textblock}
+\begin{textblock}{1}(13,10.5){\rotatebox{90}{\thepage}}\end{textblock}}
+\fancyfoot[LO] {%
+\begin{textblock}{1}(13,10.5){\rotatebox{90}{\thepage}}\end{textblock}
+\begin{textblock}{20}(1,13.25){\rotatebox{90}{\rightmark}}\end{textblock}}
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt}}
+
+\setlength{\TPHorizModule}{1cm}
+\setlength{\TPVertModule}{1cm}
+
+% Appendix
+\fancypagestyle{style2}{
+\fancyhf{}
+\fancyhead[C]{Appendix 1}
+\renewcommand{\headrulewidth}{1pt}
+}
+
+
+
+\newcommand\secbar {
+    \tikz[baseline, trim left=3.2cm] 
+    {
+        \fill [white] (3cm,0.1ex) rectangle +(0.2cm,1.1ex);
+        \draw [gray!95, fill=gray!80] (0cm,0.1ex) rectangle (3cm,1.1ex);        
+    }
+}
+\newcommand\subsecbar {
+    \tikz[baseline, trim left=0.15cm] 
+    {
+        \fill [white] (2cm,0.1ex) rectangle +(0.2cm,1.1ex);
+        \fill [blue!40] (0cm,0.1ex) rectangle (2cm,1.1ex);      
+    }
+}
+
+\newcommand\subsubsecbar {
+    \tikz[baseline, trim left=0.15cm] 
+    {
+        \fill [white] (1cm,0.1ex) rectangle +(0.2cm,1.1ex);
+        \fill [blue!40] (0cm,0.1ex) rectangle (2cm,1.1ex);      
+    }
+}
+
+\titleformat{\section}{\large}{}{0cm}{\secbar}
+\titleformat{\subsection}{\large}{}{0cm}{\normalfont\sffamily\Large\bfseries\subsecbar}
+\titleformat{\subsubsection}{}{}{0cm}{\normalfont\sffamily\large\bfseries}
+
+% No first line paragraph indent
+\usepackage{parskip}
+\usepackage{enumitem}
+
+
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\begin{document}
+
+\centerline{\huge \textbf{Erik Marsja,
+PhD} | \textcolor{darkgray}{Disability Researcher}}
+
+\vspace{2 mm}
+
+\hrule
+
+\begin{table}[h]
+\centering
+\begin{tabularx}{\textwidth}{@{}lYl@{}}
+\textbf{Home Address}: & & 
+\\Tvistevägen 26, SE-907 36 Umeå, Sweden & & 
+\\\\
+
+ \faPhone \hspace{1 mm}  +4670-36 33
+662  \hspace{1 mm}  &  & \faEnvelopeO \hspace{1 mm} \href{mailto:}{\tt \href{mailto:erik@marsja.se}{\nolinkurl{erik@marsja.se}}} \hspace{1 mm}  \\
+ \faGlobe \hspace{1 mm} \href{http://www.marsja.se}{\tt www.marsja.se}   &  & \faGithub \hspace{1 mm} \href{http://github.com/marsja}{\tt marsja} \hspace{1 mm}  \\
+ \multicolumn{3}{c}{}
+ \\\hline
+\end{tabularx}
+\end{table}
+
+\hypertarget{experience}{%
+\subsection{Experience}\label{experience}}
+
+2019 -
+2022\hspace{0.6cm}\textbf{Postdoctoral Researcher, Dept. of Behavioral Sciences and Learning,}
+\hspace{0.6cm}\textbf{Linköpings University}
+
+2018 -
+2018\hspace{0.6cm}\textbf{Postdoctoral Research Assistant, Dept. of Psychology, Umeå University}\vspace{1mm}
+
+2012 -
+2018\hspace{0.6cm}\textbf{PhD Student and Teaching Assistant, Dept. of Psychology, Umeå University}\vspace{1mm}
+
+June
+2011\hspace{0.6cm}\textbf{Undergrad. Research Assistant, Dept. of Psychology, Umeå University}\vspace{1mm}
+
+\hypertarget{education}{%
+\subsection{Education}\label{education}}
+
+2017\hspace{0.8cm}
+\textbf{Ph.D. in Psychology, Dept. of Psychology, Umeå University}\vspace{1mm}
+
+2012\hspace{0.8cm}\textbf{M.Sc. in Cognitive Science, Dept. of Psychology, Umeå University}\vspace{1mm}
+
+2011\hspace{0.8cm}\textbf{B.Sc. in Cognitive Science, , Dept. of Psychology, Umeå University}\vspace{1mm}
+
+\hypertarget{selected-publications}{%
+\subsection{Selected Publications}\label{selected-publications}}
+
+\hypertarget{international-peer-reviewed-journals}{%
+\subsubsection{International peer-reviewed
+journals}\label{international-peer-reviewed-journals}}
+
+\textbf{Marsja}, E., Stenbäck, V., Moradi, S., Danielsson, H., \&
+Rönnberg, J. (2022). Is Having Hearing Loss Fundamentally different?
+Multi-group structural equation modeling of the effect of cognitive
+functioning on speech identification. \emph{Ear \& Hearing}.
+\url{https://doi.org/10.1097/AUD.0000000000001196}
+\href{https://bit.ly/EANDH22}{(PDF)}
+
+Stenbäck, V., \textbf{Marsja}, E., Hällgren, M., Lyxell, B., \& Larsby,
+B. (2021). The Contribution of Age, Working Memory Capacity, and
+Inhibitory Control on Speech Recognition in Noise in Young and Older
+Adult Listeners. \emph{Journal of Speech, Language, and Hearing
+Research, 64}(11), 4513--4523.
+\url{https://doi.org/10.1044/2021_JSLHR-20-00251}
+
+Rosa, E., \textbf{Marsja}, E., \& Ljungberg, J. K. (2020). Exploring
+Residual Capacity: The Effectiveness of a Vibrotactile Warning During
+Increasing Levels of Mental Workload in Simulated Flight Tasks.
+\emph{Aviation Psychology and Applied Human Factors, 10}(1), 13--23.
+\url{https://doi.org//10.1027/2192-0923/a000180}
+
+\textbf{Marsja}, E., Marsh, J.E., Hansson, P., \& Neely, G. (2019).
+Examining the Role of Spatial Changes in Bimodal and Uni-Modal
+To-Be-Ignored Stimuli and How They Affect Short-Term Memory Processes.
+\emph{Frontiers In Psychology}.
+\url{https://doi.org/10.3389/fpsyg.2019.00299}
+\href{https://bit.ly/3LkKD19}{(PDF)}
+
+\textbf{Marsja}, E., Neely, G., \& Ljungberg, K.J. (2018). Investigating
+Deviance Distraction and the Impact of the Modality of the To-Be-Ignored
+Stimuli. \emph{Experimental Psychology, 65}(2), 61--70.
+\url{http://doi.org/10.1027/1618-3169/a000390}
+
+Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., \textbf{Marsja},
+E., \& Neely, G. (2014). ``What's in a name?'' ``No more than when it's
+mine own''. Evidence from auditory oddball distraction. \emph{Acta
+Psychologica, 150C}, 161--166.
+\href{http://doi.org/10.1027/1618-3169/a000390}{http://dx.doi.org/10.1016/j.actpsy.2014.05.009}
+
+\hypertarget{conference-presentations}{%
+\subsection{Conference Presentations}\label{conference-presentations}}
+
+\textbf{Marsja}, E., Danielsson, H., Stenbäck, V., Moradi, S., Rönnberg,
+J. (2019, November). Examining how Cognitive Functioning, Aging, and
+Hearing Loss, Affect Speech-in-Noise Performance. Aging and Speech
+Communication conference, Tampa, Florida, USA. \textbf{Poster}.
+
+Stenbäck, V., \textbf{Marsja}, E., Danielsson, H., Rönnberg, J. (2019,
+November). Logical and Auditory Inference Making: Performance in the
+HINT in normally-hearing and hearing-impaired listeners. Aging and
+Speech Communication conference, Tampa, Florida, USA. \textbf{Poster}.
+
+Bampouni, E., \textbf{Marsja}, E., Sörman, D.E., \& Ljungberg, K.J
+(2019, November). Do Action Gamers Have Enhanced Visual Search Skills? a
+Realistic Task Approach. The 15th SweCog conference of the Swedish
+Cognitive Science Society, Umeå, Sweden. \textbf{Poster}.
+
+\textbf{Marsja}, E., Danielsson, H., Stenbäck, V., Moradi, S., \&
+Rönnberg, J. (2019, June). Examining Relationship Amongst Cognition,
+Hearing Loss, Age, \& Speech in Noise. Cognitive Hearing Science for
+Communication, Linköping, Sweden. \textbf{Poster}.
+
+Stenbäck, V., Moradi, S., \textbf{Marsja}, E., Danielsson, H., \&
+Rönnberg, J. (2019, June). Logical and auditory inference-making in
+normally-hearing and hearing-impaired listeners. Cognitive Hearing
+Science for Communication, Linköping, Sweden. \textbf{Poster}.
+
+\textbf{Marsja}, E., Marsh, J.E., Neely G., Hansson P., \& Ljungberg
+K.J. (2017, April). Domain-generality or domain-specificity of the
+short-term memory: insights from a multisensory distraction paradigm.
+Re-thinking the Senses Spring School, Dubrovnik, Croatia.
+\textbf{Poster}.
+
+\textbf{Marsja}, E., Marsh, J.E., Neely G., Hansson P., \& Ljungberg
+K.J. (2016, September). Do Spatial Changes in Sounds and Vibrations
+Affect Visuo-spatial and Verbal Short-Term Memory? Attention and
+Control: Insights from Distraction, Workshop, University of Central
+Lancashire, Preston, UK. \textbf{Invited presentation}.
+
+\textbf{Marsja}, E., Marsh, J.E., Neely G., Hansson P., \& Ljungberg
+K.J. (2016, June). Spatial Change in Multisensory Distractors Impact on
+Verbal and Spatial Short Term Memory. International Multisensory
+Research Forum 17\textsuperscript{th} annual meeting, Suzhou, CHN.
+\textbf{Oral presentation}.
+
+\textbf{Marsja}, E., Neely G., Ma, L., \& Ljungberg K.J., (2015,
+August). Cross-modality matches of intensity and attention capture
+dimensions of auditory and vibrotactile stimuli. Fechner Day 2015. The
+31\textsuperscript{st} Annual Meeting of the International Society for
+Psychophysics, Québec, CA. \textbf{Poster}.
+
+\textbf{Marsja}, E., Neely, G., Parmentier, F.B.R., \& Ljungberg, K.J.
+(2014, October) Deviance Distraction Is Contingent on Stimuli Being
+Presented within the Same Modality. Psychonomic Society's
+55\textsuperscript{th} Annual Meeting. Long Beach, CA, USA.
+\textbf{Poster}.
+
+Ljungberg, K.J., Parmentier, F.B.R., \textbf{Marsja}, E., Neely, \& G.
+Jones, D., (2014, January). Any Tom, Dick, or Harry will do: Hearing
+one's own name distracts no more than any other in a cross-modal oddball
+task. Experimental Psychology Society Meeting. London, UK.
+\textbf{Poster}.
+
+\textbf{Marsja}, E., Neely, G., Parmentier, F.B.R., \& Ljungberg, K.J.
+(2013, October). Maintenance of the distractive effect of deviating
+vibrotactile stimuli in a cross-modal oddball paradigm. The
+29\textsuperscript{th} Annual meeting of the International Society of
+Psychophysics, Freiburg, DE. \textbf{Poster}.
+
+\hypertarget{popular-science-and-education-related-articles}{%
+\subsection{Popular Science and Education-Related
+Articles}\label{popular-science-and-education-related-articles}}
+
+\textbf{Marsja}, E. (2016, July). Python Programming in Psychology --
+From Data Collection to Analysis. \emph{JEPS Bulletin - The Official
+Blog of the Journal of European Psychology Students}. \textbf{Invited
+Blog Post}. Retrieved from \sloppy
+\url{http://blog.efpsa.org/2016/07/12/python-programming-in-psychology-from-data-collection-to-analysis/}
+
+\hypertarget{selected-funding-and-grants}{%
+\subsection{Selected Funding and
+Grants}\label{selected-funding-and-grants}}
+
+\textbf{15000 SEK} from Lars Hiertas Minnesfond for the project \emph{Är
+korttidsminnet domän-generellt eller domän-specifikt? (Is short-term
+memory domain-general or domain specific?)}, 2016.
+
+\textbf{12 000 SEK} from the Faculty of Social sciences, Umeå
+University, for participating in the workshop Attention and Control:
+Insights from Distraction, and visiting a researcher at the University
+of Central Lancashire, Preston, UK, 2016.
+
+\textbf{10 000 SEK} from JC Kempes minnesfond for the project \emph{Is
+everyday distractibility related to attention capture by vibrating
+deviants?}, 2014.
+
+\hypertarget{peer-reviewed-for-journals}{%
+\subsection{Peer-reviewed for
+Journals:}\label{peer-reviewed-for-journals}}
+
+\begin{itemize}
+\item
+  Behavior Research Methods
+\item
+  Frontiers in Psychology
+\item
+  Journal of Cognitive Psychology
+\end{itemize}
+
+Information about my responsibilities as a peer-reviewer can be found in
+my \href{https://www.publons.com/a/1517052/}{Publons profile}.
+
+\hypertarget{skills-training}{%
+\subsection{Skills \& Training}\label{skills-training}}
+
+\hypertarget{training}{%
+\subsubsection{Training}\label{training}}
+
+2017 Spring School \emph{Re-Thinking the Senses}, Inter-University
+Centre, Dubrovnik, Croatia
+
+\hypertarget{teaching}{%
+\subsubsection{Teaching}\label{teaching}}
+
+The majority of lectures, seminars, lab demonstrations, supervision of
+group projects (both involving empirical and applied projects) and
+supervision of thesis' have been given at the Department of Psychology,
+Umeå University, Sweden (2014 - 2017). I have also held workshops, and
+supervised projects at the Department of Behavioral Science and
+Learning, Linköping University (2019 - ). At Umeå University and
+Linköping University, I have so far taught 950 and 550 clock hours,
+respectively. At Linköping University I have supervised thesis' projects
+at both undergraduate and graduate level covering areas such as
+disability research, cognitive science (incl.~e.g.~artificial
+intelligence, psychology, human-computer interaction) and pedagogy. I
+have primarily taught in:
+
+\begin{itemize}
+\tightlist
+\item
+  Research Methods \& Basic Statistics
+\item
+  Cognitive Psychology (attention, perception, \& working memory)
+\item
+  Applied Cognitive Psychology (attention and perception)
+\end{itemize}
+
+\hypertarget{supervision-of-bachelor-students-undergraduate-level}{%
+\subsubsection{Supervision of Bachelor Students (Undergraduate
+Level)}\label{supervision-of-bachelor-students-undergraduate-level}}
+
+Rombo, A. (2020). Department of Computer and Information Science,
+Linköping University. ``Self-determination perceived by users in support
+services pursuant to LSS - An analysis on a municipal level. Bachelor's
+Thesis in Cognitive Science (18 EcTS). \emph{Main supervisor}
+
+Lindberg, F. (2020). Department of Computer and Information Science,
+Linköping University. ``Hur ungas attityder kring hörselnedsättningar
+orsakade av fritidsbuller påverkas av deras koppling till sitt framtida
+jag.'' (How young people's attitudes to hearing impairments caused by
+leisure noise are affected by their connection to their future selves.)
+Bachelor's Thesis in Cognitive Science (18 ECTS). \emph{Main supervisor}
+
+Dahlgren, S. Department of Computer and Information Science, Linköping
+University. ``The association between cognition and speech-in-noise
+perception - Investigating the link between speech-in-noise perception
+and fluid intelligence in people with and without hearing loss.''
+Bachelor's Thesis in Cognitive Science (18 ECTS). \emph{Main supervisor}
+
+\hypertarget{supervision-of-master-students-graduate-level}{%
+\subsubsection{Supervision of Master Students (Graduate
+Level)}\label{supervision-of-master-students-graduate-level}}
+
+Carlbring, J. (2020) Department of Computer and Information Science,
+Linköping University. ``Inclusive Design for Mobile Devices with WCAG
+and Attentional Resources in Mind.'' Master's Thesis in Cognitive
+Science (30 ECTS). \emph{Main supervisor}
+
+Ma, L. (2015). Department of Psychology, Umeå University. ``Cross-Modal
+Matching of Distractibility in Auditory and Tactile Stimuli''. Master's
+Thesis in Cognitive Science (15 ECTS). \emph{Co-supervisor}
+
+Blide, M. (2014). Department of Psychology, Umeå University. ``Att orka
+lämna ett misshandelsförhållande: Anknytningens beydelse (To cope
+leaving abusive relationships: The importance of attachment). Master's
+Thesis in Clinical Psychology (30 ECTS). \emph{Co-supervisor}
+
+\hypertarget{teaching-workshops}{%
+\subsubsection{Teaching Workshops}\label{teaching-workshops}}
+
+Oct 2018\hspace{0.75cm}\textbf{R Workshop "Step-by-Step"}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.15cm}{2.4cm}
+
+
+Department of Psychology, Umeå University.
+
+An introduction to R statistical programming language - presented to senior researchers with a focus on basic programming and the R environment.
+
+\end{changemargin}
+
+\hypertarget{additional-skills}{%
+\subsubsection{Additional skills}\label{additional-skills}}
+
+\begin{itemize}
+\tightlist
+\item
+  Extensive knowledge in statistical software such as SPSS, JASP, and R
+  statistical programming environment
+\item
+  Strong scripting skills in Python (v2.7.x \& v3.x.x) and R
+\item
+  Substantial skills in programming and performing experiments using
+  both E-prime and Python (i.e., PsychoPy, OpenSesame, \& Expyriment)
+\item
+  Good skills in Microsoft Word and Excel
+\item
+  Basic programming skills in Visual Basic, E-basic (E-prime), MATLAB,
+  Bash, JavaScript, and PHP
+\item
+  Basic skills in Markdown (e.g., RMarkdown) and \LaTeX
+\end{itemize}
+
+\hypertarget{responsibilities}{%
+\subsubsection{Responsibilities}\label{responsibilities}}
+
+\begin{itemize}
+\tightlist
+\item
+  Elected chairperson of the Ph.D.~students Council of the Department of
+  Psychology, Umeå University.
+\end{itemize}
+
+\newpage
+\pagestyle{empty}
+
+\begin{landscape}
+\begin{ThreePartTable}
+\begin{TableNotes}
+\item \textit{Note: } 
+\item  Total of clock hours: 1774 , UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.
+\end{TableNotes}
+\begin{longtable}[t]{l>{\raggedright\arraybackslash}p{5cm}>{\raggedright\arraybackslash}p{5cm}l>{\raggedright\arraybackslash}p{5cm}ll}
+\caption{\label{tab:unnamed-chunk-4}Teaching responsibilities - an overview of type of teaching, hours, etc.}\\
+\toprule
+Period & Subject & Type & Clock Hours & Course/Program & Level & Language\\
+\midrule
+\endfirsthead
+\caption[]{Teaching responsibilities - an overview of type of teaching, hours, etc. \textit{(continued)}}\\
+\toprule
+Period & Subject & Type & Clock Hours & Course/Program & Level & Language\\
+\midrule
+\endhead
+
+\endfoot
+\bottomrule
+\insertTableNotes
+\endlastfoot
+UmeÃ¥ University & Scientific communication, research methods, research ethics & Lectures, seminars, supervision & 60 & Psychological test and research methods/Statistical and Empirial Methods, the Clinical Psychologist program/the Bachelor's Program in Cognitive Science & UG & Swe\\
+UmeÃ¥ University & Cognitive Psychology & Supervision of projects & 20 & Introduction to Psychology, the Clincial Psychologist Program & UG & \vphantom{1} Swe\\
+UmeÃ¥ University & Clinical Psychology & Co-supervision of thesis project & 20 & Master Thesis in Psychology, 30 ECTS, the Clinical Psychologist Program & G & Eng\\
+UmeÃ¥ University & Applied Cognitive Science & Supervision of projects & 40 & Project in Cognitive Science, the Bachelor's Program in Cognitive Science & UG & \vphantom{1} Swe\\
+UmeÃ¥ University & Cognitive Psychology & Supervision of projects & 20 & Introduction to Psychology, the Clincial Psychologist Program & UG & Swe\\
+\addlinespace
+UmeÃ¥ University & Cognitive Psychology & Supervision of projects & 24 & Introduction to Psychology, the Clincial Psychologist Program & UG & Swe\\
+UmeÃ¥ University & Cognitive Psychology & Lectures, seminars, supervision of projects & 20 & Basic psychology and sport psychology, the Coaching Program & UG & Swe\\
+UmeÃ¥ University & Cognitive Psychology & Supervision of thesis project & 15 & Master Thesis in Cognitive Science, 15 ECTS, the Master's Program in Cognitive Science & G & Eng\\
+UmeÃ¥ University & Applied Cognitive Science & Supervision of projects & 110 & Project in Cognitive Science, the Bachelor's Program in Cognitive Science & UG & \vphantom{1} Swe\\
+UmeÃ¥ University & Cognitive Psychology & Supervision of projects & 24 & Cognitive Psychology, the Clinical Psychologist Program & UG & Swe\\
+\addlinespace
+UmeÃ¥ University & Qualitative methods & Seminars & 20 & the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program & UG & Swe\\
+UmeÃ¥ University & Cognitive Psychology & Lab demonstrations & 30 & 2:1 Cognition, the Clinical Psychologist Program & UG & \vphantom{3} Eng\\
+UmeÃ¥ University & Cognitive Psychology: Attention & Lectures, seminars, supervision of projects & 60 & Applied Cognitive Psychology, the Bachelor's Program in Cognitive Science & UG & Swe\\
+UmeÃ¥ University & Applied Cognitive Science & Supervision of projects & 110 & Project in Cognitive Science, the Bachelor's Program in Cognitive Science & UG & Swe\\
+UmeÃ¥ University & Qualitative and Quantitative methods & Seminars, computer labs & 30 & the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program & UG & \vphantom{1} Swe\\
+\addlinespace
+UmeÃ¥ University & Cognitive Psychology & Lab demonstrations & 30 & 2:1 Cognition, the Clinical Psychologist Program & UG & \vphantom{2} Eng\\
+UmeÃ¥ University & Qualitative and Quantitative methods & Seminars, computer labs & 30 & the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program & UG & Swe\\
+UmeÃ¥ University & Cognitive Psychology: Perception, Attention, and Consciousness & Lectures & 24 & Perception, the Bachelor's Program in Cognitive Science & UG & Swe\\
+UmeÃ¥ University & Clinical Psychology & Seminars & 9 & Master Thesis in Psychology, 30 ECTS, the Clinical Psychologist Program & G & Swe\\
+UmeÃ¥ University & Cognitive Psychology & Lab demonstrations & 30 & 2:1 Cognition, the Clinical Psychologist Program & UG & \vphantom{1} Eng\\
+\addlinespace
+UmeÃ¥ University & Cognitive Psychology, Applied: Attention & Lectures, seminar & 20 & Applied Cognitive Psychology, the Bachelor's Program in Cognitive Science & UG & Swe\\
+UmeÃ¥ University & Applied Cognitive Science & Supervision of projects & 40 & Project in Cognitive Science, the Bachelor's Program in Cognitive Science & UG & Swe\\
+UmeÃ¥ University & Qualatitive and Quantative research methods & Seminars, computer labs & 30 & the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program & UG & Swe\\
+UmeÃ¥ University & Clinical Psychology & Seminars & 30 & Master Thesis in Psychology, 30 ECTS, the Clinical Psychologist Program & G & Swe\\
+UmeÃ¥ University & Cognitive Psychology & Lab demonstrations & 30 & 2:1 Cognition, the Clinical Psychologist Program & UG & Eng\\
+\addlinespace
+UmeÃ¥ University & Cognitive Psychology: Attention and Consciousness & Lectures, seminars & 24 & Perception, the Bachelor's Program in Cognitive Science & UG & Swe\\
+UmeÃ¥ University & Developmental Psychology & Seminar leader & 50 & Learning and teaching, pedagogy & UG & Swe\\
+ &  &  &  &  &  & \\
+LinkÃ¶ping University & Research Methods & Workshops in SPSS & 18 & Human Resources, Special Pedagogists & G & Swe\\
+LinkÃ¶ping University & Applied Cognitive Science & Supervision of Projects & 24 & Applied Cognitive Science, the Bachelor's Program in Cognitive Science & UG & Eng\\
+\addlinespace
+LinkÃ¶ping University & Pedagogy & Examination of Thesis & 6 & Masther Thesis in Special Pedagogy, 30 ECTS, the Specialist Pedagogy Program & G & Swe\\
+LinkÃ¶ping University & Quantative methods, theory of science & Seminar leader, grading exams & 62 & Theory of Science and Research Methods, Pedagogy & UG & Swe\\
+LinkÃ¶ping University & Cognitive Science & Seminar leader, grading exams & 20 & Cognitive Science - Methods, the Master's Program in Cognitive Science & G & Swe\\
+LinkÃ¶ping University & Disability Research & Lectures, workshops, examining & 40 & Theory of Science and Research Methods, Disability Research II and III & UG & Swe\\
+LinkÃ¶ping University & Perception & Lectures & 12 & Neuropsychology and Neuroscience, the Clinical Psychologist Program & G & Swe\\
+\addlinespace
+LinkÃ¶ping University & Applied Learning Disabilities & Supervision of groups (Problem-based learning) & 16 & Cognitive Psychology, the Clinical Psychologists Program & UG & \vphantom{1} Swe\\
+LinkÃ¶ping University & Adult life and Aging & Supervision of groups (Problem-based learning) & 20 & Developmental Psychology, the Clinical Psychologists Program & UG & \vphantom{1} Swe\\
+LinkÃ¶ping University & Quantative methods & Lectures & 92 & Methods for Research and Development in Educational Institutions, Pedagogy & G & Swe\\
+LinkÃ¶ping University & Applied Cognitive Science & Supervision & 24 & Applied Cognitive Science, the Bachelor's Program in Cognitive Science & UG & Eng\\
+LinkÃ¶ping University & Cognitive Science & Supervision, Examinating & 45 & Bachelor's Thesis in Cognitive Science, the Bachelor's Program in Cognitive Science & UG & \vphantom{1} Swe\\
+\addlinespace
+LinkÃ¶ping University & Cognitive Science & Supervision & 20 & Masther's Thesis in Cognitive Science, the Master's Program in Cognitive Science & G & Swe\\
+LinkÃ¶ping University & Disability Research & Lectures, workshops, examining & 80 & Theory of Science and Research Methods, Disability Research II and III & UG & \vphantom{1} Swe\\
+LinkÃ¶ping University & Quantative methods, theory of science & Seminar leader, grading exams & 50 & Theory of Science and Research Methods, Pedagogy & UG & Swe\\
+LinkÃ¶ping University & Applied Cognitive Science & Supervision & 20 & Applied Cognitive Science, the Bachelor's Program in Cognitive Science & UG & Eng\\
+LinkÃ¶ping University &  & Supervision of research project & 8 & Research Project, the Master's Programme in Cognitive Science & G & Swe\\
+\addlinespace
+LinkÃ¶ping University & Cognitive Science & Supervision, Examinating & 45 & Bachelor's Thesis in Cognitive Science, the Bachelor's Program in Cognitive Science & UG & Swe\\
+LinkÃ¶ping University & Disability Research & Supervision of theses & 30 & University Diploma Thesis, Disability Research II & UG & Swe\\
+LinkÃ¶ping University & Disability Research & Lectures, workshops, examining & 80 & Theory of Science and Research Methods, Disability Research II and III & UG & Swe\\
+LinkÃ¶ping University & Disability Research & Lectures, examination & 40 & Introduction to Research methods and Ethics & UG & Swe\\
+LinkÃ¶ping University & Research Methods & Supervision of groups (Problem-based learning) & 36 & Research Methods, the Clinical Psychologists Program & UG & Swe\\
+\addlinespace
+LinkÃ¶ping University & Applied Learning Disabilities & Supervision of groups (Problem-based learning) & 16 & Cognitive Psychology, the Clinical Psychologists Program & UG & Swe\\
+LinkÃ¶ping University & Adult life and Aging & Supervision of groups (Problem-based learning) & 20 & Developmental Psychology, the Clinical Psychologists Program & UG & Swe\\*
+\end{longtable}
+\end{ThreePartTable}
+\end{landscape}
+
+\end{document}

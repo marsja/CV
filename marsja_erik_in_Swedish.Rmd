@@ -28,6 +28,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Anställningar
 
+
+Jan 2023 - \hspace{0.75cm}\textbf{Biträdande Lektor}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Avdelningen för Funktionsnedsättning och Samhälle, Institutionen för Beteendevetenskap och Lärande, Linköpings Universitet. 
+
+\end{changemargin}
+
 Jan 2022 - \hspace{0.50cm}\textbf{Postdoktoral Forskare}\vspace{1mm}
 
 \hrule
@@ -160,16 +170,20 @@ Tillgänglig från DiVA: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:umu:div
 ```
 
 
-## Konferenspresentationer
+### Konferenspresentationer
 
 ```{r child = 'conference.Rmd'}
 ```
 
-## Populärvetenskapliga och Utbildningsrelaterade Artiklar
+### Populärvetenskapliga och Utbildningsrelaterade Artiklar
 
 **Marsja**, E. (2016, juli). Python Programming in Psychology – From Data Collection to Analysis. *JEPS Bulletin - The Official Blog of the Journal of European Psychology Students*. **Invited Blog Post**. Retrieved from
 \sloppy
 http://blog.efpsa.org/2016/07/12/python-programming-in-psychology-from-data-collection-to-analysis/
+
+### Övriga Publikationer
+
+**Marsja**, E. (2018). *Upplevd Säkerhet och Trygghet i Nöd- och Vårdsituationer*. Umeå, Umeå University.  
 
 ## Finansiering och bidrag 
 

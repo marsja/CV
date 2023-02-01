@@ -1,8 +1,8 @@
 Thellman, S., **Marsja**, E., Anund A., & Ziemke T., (2023, March). Will It Yield? Expectations on Automated Shuttle Bus Interactions With Pedestrians and Bicyclists. Human-Robot Interaction, Stockholm, Sweden. **Late-Breaking Report** (Short paper).
 
-**Marsja**, E., Danielsson, H., Stenbäck, V., Moradi, S., Rönnberg, J. (2019, November). Examining how Cognitive Functioning, Aging, and Hearing Loss, Affect Speech-in-Noise Performance. Aging and Speech Communication conference, Tampa, Florida, USA. **Poster**.
+**Marsja**, E., Danielsson, H., Stenbäck, V., Moradi, S., & Rönnberg, J. (2019, November). Examining how Cognitive Functioning, Aging, and Hearing Loss, Affect Speech-in-Noise Performance. Aging and Speech Communication conference, Tampa, Florida, USA. **Poster**.
 
-Stenbäck, V., **Marsja**, E., Danielsson, H., Rönnberg, J. (2019, November). Logical and Auditory Inference Making: Performance in the HINT in normally-hearing and hearing-impaired listeners. Aging and Speech Communication conference, Tampa, Florida, USA. **Poster**.
+Stenbäck, V., **Marsja**, E., Danielsson, H., & Rönnberg, J. (2019, November). Logical and Auditory Inference Making: Performance in the HINT in normally-hearing and hearing-impaired listeners. Aging and Speech Communication conference, Tampa, Florida, USA. **Poster**.
 
 Bampouni, E., **Marsja**, E., Sörman, D.E., & Ljungberg, K.J (2019, November). Do Action Gamers Have Enhanced Visual Search Skills? a Realistic Task Approach. The 15th SweCog conference of the Swedish Cognitive Science Society, Umeå, Sweden. **Poster**. 
 
@@ -21,6 +21,6 @@ Stenbäck, V., Moradi, S., **Marsja**, E., Danielsson, H., & Rönnberg, J. (2019
 
 **Marsja**, E., Neely, G., Parmentier, F.B.R., & Ljungberg, K.J. (2014, October) Deviance Distraction Is Contingent on Stimuli Being Presented within the Same Modality. Psychonomic Society’s 55^th^ Annual Meeting. Long Beach, CA, USA. **Poster**.
 
-Ljungberg, K.J., Parmentier, F.B.R., **Marsja**, E., Neely, & G. Jones, D., (2014, January). Any Tom, Dick, or Harry will do: Hearing one’s own name distracts no more than any other in a cross-modal oddball task. Experimental Psychology Society Meeting. London, UK. **Poster**.
+Ljungberg, K.J., Parmentier, F.B.R., **Marsja**, E., Neely, G. & Jones, D., (2014, January). Any Tom, Dick, or Harry will do: Hearing one’s own name distracts no more than any other in a cross-modal oddball task. Experimental Psychology Society Meeting. London, UK. **Poster**.
 
 **Marsja**, E., Neely, G., Parmentier, F.B.R., & Ljungberg, K.J. (2013, October). Maintenance of the distractive effect of deviating vibrotactile stimuli in a cross-modal oddball paradigm.  The 29^th^ Annual meeting of the International Society of Psychophysics, Freiburg, DE. **Poster**.

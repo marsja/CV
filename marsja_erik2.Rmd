@@ -339,7 +339,8 @@ for(index in 1:length(idx.dups)){
 \newpage
 \pagestyle{empty}
 ```
-```{r, echo=FALSE, results='asis'}
+
+```{r, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
 library(kableExtra)
 
 # Column names

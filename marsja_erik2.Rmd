@@ -247,10 +247,9 @@ All lectures, seminars, lab demonstrations, supervision of group project (both i
 
 ### Supervision of Bachelor Students (Undergraduate Level)
 
-Lundgren, E. (2023). Department of Computer and Information Science, Linköping University. "Delays in Videoconferencing -The Effects of Asynchronous Speech on Listening Effort and Comprehension". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+Lundgren, E. (2023). Department of Computer and Information Science, Linköping University. "Delays in Videoconferencing - The Effects of Asynchronous Speech on Listening Effort and Comprehension". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 
-Bernsland, A. (2023). Department of Computer and Information Science, Linköping University. "'Disgusting pictures' - A study exploring webpages´ experienced credibility".
-based upon their visual design elements. Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+Bernsland, A. (2023). Department of Computer and Information Science, Linköping University. "'Disgusting pictures' - A study exploring webpages´ experienced credibility based upon their visual design elements." Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 
 Jerdhaf, O. (2021). Department of Computer and Information Science, Linköping University. "[Discovering Implant Terms in Medical Records](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&pid=diva2%3A1621364&c=1&searchType=SIMPLE&language=sv&query=Jerdhaf&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 
@@ -303,6 +302,7 @@ An introduction to R statistical programming language - presented to senior rese
 -   Elected chairperson of the Ph.D. students Council of the Department of Psychology, Umeå University.
 
 ```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
+library(dplyr)
 rm(list=ls())
 
 datadir = "./Data/teachinghours2.csv"
@@ -315,7 +315,8 @@ insertRow <- function(existingDF, newrow, r) {
 }
 t.hours <- read.csv(datadir, sep = ',', row.names=NULL)
 t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
-table.data <- cbind(t.hours[10], t.hours[6], t.hours[5], t.hours[3], t.hours[1], t.hours[7:8])
+table.data <- t.hours %>% 
+  select(Period, Subject, Type, Clock.Hours, Course.and.Program, Level, Language)
 dups <- duplicated(table.data[,1]) | duplicated(table.data[,1])
 table.data[which(dups),]$Period <- ' '
 

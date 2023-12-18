@@ -8,8 +8,6 @@ output:
     latex_engine: pdflatex
     template: template.tex
   word_document: default
-  html_document:
-    df_print: paged
 email: erik@marsja.se
 fontawesome: yes
 geometry: margin=1.2in
@@ -200,6 +198,8 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 ## Funding and Grants
 
+**4 170 000 SEK** from the Swedish Research Council for the project *The temporal architecture of imitative interaction during the first three months of life* (PI: Prof. Emeritus Heimann). 2023.
+
 **299 235 SEK** from Hörselforskningsfonden (the Hearing Research Fund) for the project *Lyssningsansträngning hos individer med hörselnedsättning på grund av ökad digitalisering i arbetslivet (Listening effort in individuals with hearing impairment due to increased digitalisation in working life)*, 2021.
 
 **6000 SEK** from the Department of Psychology, Umeå University, for participating in the Re-thinking the Senses Spring School, Dubrovnik, Croatia, 2017.
@@ -218,11 +218,11 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 ## Peer-Reviewed for Journals:
 
+-   The Journal of the Acoustical Society of America
+  
 -   Journal of Speech, Language, and Hearing Research
 
 -   Scientific Reports   
-
--   The Journal of the Acoustical Society of America
 
 -   Behavior Research Methods
 
@@ -243,7 +243,7 @@ Primarily in:
 -   Research Methods & Statistics
 -   Cognitive Psychology (attention, perception, & working memory)
 
-All lectures, seminars, lab demonstrations, supervision of group project (both involving empirical and applied projects) and supervision of thesis' have been given at the Department of Psychology, Umeå University, Sweden (2014 - 2017) and the Department of Behavioral Science and Learning, Linköping University (2019 - ). At Linköping University I have also held workshops, and supervised projects. I have so far taught 1118 and 950 clock hours, at Linköping and Umeå University respectively. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
+All lectures, seminars, lab demonstrations, supervision of group projects (both involving empirical and applied projects), and supervision of thesis' have been given at the Department of Psychology, Umeå University, Sweden (2014 - 2017) and the Department of Behavioral Science and Learning, Linköping University (2019 - ). At Linköping University, I have also held workshops and supervised projects. I have taught 1118 and 950 clock hours at Linköping and Umeå University, respectively. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
 
 ### Supervision of Bachelor Students (Undergraduate Level)
 
@@ -303,7 +303,6 @@ An introduction to R statistical programming language - presented to senior rese
 
 ```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
 library(dplyr)
-rm(list=ls())
 
 datadir = "./Data/teachinghours2.csv"
 
@@ -341,11 +340,21 @@ for(index in 1:length(idx.dups)){
 ```
 
 ```{r, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
-library(kableExtra)
+#library(knitr)
+#library(kableExtra)
+library(flextable)
 
 # Column names
-colN <- c("Period", "Subject", "Type", "Clock Hours",
+colnames(newdata) <- c("Period", "Subject", "Type", "Clock Hours",
           "Course/Program", "Level", "Language")
-kable(newdata, longtable= T, col.names = colN, format="latex", caption='Teaching responsibilities - an overview of type of teaching, hours, etc.', booktabs=TRUE) %>% 
- column_spec(c(2, 3, 5), width = "5cm") %>% kable_styling(latex_options = "repeat_header") %>% kableExtra::landscape() %>% footnote(paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' '), threeparttable = T)
+# kableExtra::kbl(newdata, longtable= T, col.names = colN, format="latex", caption='Teaching responsibilities - an overview of type of teaching, hours, etc.', booktabs=TRUE) %>% 
+#  kableExtra::column_spec(c(2, 3, 5), width = "5cm") %>% 
+#   kableExtra::kable_styling(latex_options = "repeat_header") %>% 
+#   kableExtra::landscape() %>% 
+#   kableExtra::footnote(paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' '), threeparttable = T)
+teach_tab <- flextable(newdata) %>%
+   add_footer_lines(paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' ')) %>%
+  set_caption(caption = "Teaching responsibilities - an overview of type of teaching, hours, etc.") 
+
+teach_tab
 ```

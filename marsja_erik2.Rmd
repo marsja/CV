@@ -218,6 +218,8 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 ## Peer-Reviewed for Journals:
 
+-   Auditory Perception & Cognition
+
 -   The Journal of the Acoustical Society of America
   
 -   Journal of Speech, Language, and Hearing Research

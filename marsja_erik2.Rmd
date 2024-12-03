@@ -192,7 +192,9 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 ## Science Outreach
 
-**Marsja**, E., (November, 2022). The Contribution of Age, Hearing Status, Cognition, Background Masker on Speech Recognition in Noise and Listening Effort. Presentation at the Journal Club at Oticon Medical, Nice, France.
+**Marsja**, E. (October, 2024). Listening Effort in Video Meetings: Positive and Negative Experiences of Employees with Hearing Loss. Presentation for Employed (Professional) Members of the Swedish Association of the Hard of Hearing People, Linköping, Sweden.
+
+**Marsja**, E. (November, 2022). The Contribution of Age, Hearing Status, Cognition, Background Masker on Speech Recognition in Noise and Listening Effort. Presentation at the Journal Club at Oticon Medical, Nice, France.
 
 **Marsja**, E., & Stenbäck, V., (June, 2022). Current and Ongoing Projects on Hearing loss, Cognition, Psychosocial Perspectives, Video Meetings and Listening Effort. Presentation for the Hearing Clinics (Öron- näs- och halsklinikerna), Region Östergötland, Sweden.
 
@@ -218,19 +220,23 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 ## Peer-Reviewed for Journals:
 
+-   Acta Psychologica   
+
+-   Behavior Research Methods
+
+-   BMC Psychology
+
+-   Frontiers in Psychology
+
 -   Auditory Perception & Cognition
+
+-   Journal of Cognitive Psychology
 
 -   The Journal of the Acoustical Society of America
   
 -   Journal of Speech, Language, and Hearing Research
 
 -   Scientific Reports   
-
--   Behavior Research Methods
-
--   Frontiers in Psychology
-
--   Journal of Cognitive Psychology
 
 ## Skills & Training
 
@@ -245,7 +251,7 @@ Primarily in:
 -   Research Methods & Statistics
 -   Cognitive Psychology (attention, perception, & working memory)
 
-All lectures, seminars, lab demonstrations, supervision of group projects (both involving empirical and applied projects), and supervision of thesis' have been given at the Department of Psychology, Umeå University, Sweden (2014 - 2017) and the Department of Behavioral Science and Learning, Linköping University (2019 - ). At Linköping University, I have also held workshops and supervised projects. I have taught 1118 and 950 clock hours at Linköping and Umeå University, respectively. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
+All lectures, seminars, lab demonstrations, supervision of group projects (both involving empirical and applied projects), and supervision of thesis' have been given at the Department of Psychology, Umeå University, Sweden (2014 - 2017) and the Department of Behavioral Science and Learning, Linköping University (2019 - ). At Linköping University, I have also held workshops and supervised projects. I have taught 1794 and 950 clock hours at Linköping and Umeå University, respectively. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
 
 ### Supervision of Bachelor Students (Undergraduate Level)
 

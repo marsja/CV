@@ -220,15 +220,15 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 ## Peer-Reviewed for Journals:
 
--   Acta Psychologica   
+-   Acta Psychologica  
+
+-   Auditory Perception & Cognition
 
 -   Behavior Research Methods
 
 -   BMC Psychology
 
 -   Frontiers in Psychology
-
--   Auditory Perception & Cognition
 
 -   Journal of Cognitive Psychology
 

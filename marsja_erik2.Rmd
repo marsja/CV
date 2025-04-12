@@ -41,7 +41,7 @@ Jan 2022 -
 
 Dec 2022 \hspace{0.75cm}\textbf{Researcher}\vspace{1mm}
 
-```{=tex}
+
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
@@ -49,12 +49,12 @@ People in the transport system, Swedish National Road and Transport Research Ins
 
 
 \end{changemargin}
-```
+
 Jan 2022 -
 
 Nov 2021 \hspace{0.75cm}\textbf{Postdoctoral Researcher}\vspace{1mm}
 
-```{=tex}
+
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
@@ -63,12 +63,12 @@ Disability Research Division, Department of Behavioural Sciences and Learning (I
 Analyzing data from a large database (i.e., n200) and preparing manuscripts in the field of cognitive hearing science. Conducting qualitative research and about digitalization, listening effort, and work-life (see Funding and Grants). Working 20\% of a full-time position.
 
 \end{changemargin}
-```
+
 Jan 2019 -
 
 Dec 2021\hspace{0.78cm}\textbf{Postdoctoral Researcher}\vspace{1mm}
 
-```{=tex}
+
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
@@ -77,12 +77,12 @@ Disability Research Division, Department of Behavioural Sciences and Learning (I
 Analyzing data from a large database (i.e., n200) and preparing manuscripts in the field of cognitive hearing science. Responsible for arranging the monthly\href{https://liu.se/linnecentrum-head/en}{HEAD/DRD} seminar series (august 2020 – august 2021). This includes contacting national and international researchers, booking flights and hotels, and setting up equipment for streaming the seminars online. Teaching and supervising.
 
 \end{changemargin}
-```
+
 Aug 2018 -
 
 Oct 2018\hspace{0.75cm}\textbf{Postdoctoral Research Assistant}\vspace{1mm}
 
-```{=tex}
+
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
@@ -93,12 +93,12 @@ Department of Psychology, Umeå University.
 Literature study commissioned by SOS Alarm, an emergency agency (e.g., public-safety answering point), with the results disseminating in a report.
 
 \end{changemargin}
-```
+
 Oct 2012 -
 
 June 2018\hspace{0.75cm}\textbf{PhD Student and Teaching Assistant}\vspace{1mm}
 
-```{=tex}
+
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
@@ -107,10 +107,10 @@ Department of Psychology, Umeå University.
 Planning of studies, programming of experiments, literature search, data analysis, scientific communication, and many more. See the section "Teaching responsibilities" for an overview of my pedagogical experience.
 
 \end{changemargin}
-```
+
 June 2011\hspace{0.75cm}\textbf{Undergrad. Research Assistant}\vspace{1mm}
 
-```{=tex}
+
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
@@ -119,7 +119,7 @@ Department of Psychology, Umeå University.
 Recruitment of participants and data collection, commenting on later manuscript that ended up in a published paper (see publication 2014). 
 
 \end{changemargin}
-```
+
 \newpage
 
 ## Degrees and Titles
@@ -128,7 +128,7 @@ Recruitment of participants and data collection, commenting on later manuscript 
 
 \hrule
 
-```{=tex}
+
 \begin{changemargin}{2.3cm}{2.4cm}
 
 Department of Psychology, Umeå University.
@@ -139,10 +139,10 @@ Available from the DiVA Database: \sloppy http://umu.diva-portal.org/smash/recor
 
 \textbf{Supervisors}: Associate Professor Jessica K. Ljungberg, Professor Gregory Neely, \& Dr. Patrik Hansson
 \end{changemargin}
-```
+
 2012 \hspace{1.5cm}\textbf{M.Sc. in Cognitive Science}\vspace{1mm}
 
-```{=tex}
+
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
 
@@ -152,12 +152,12 @@ Department of Psychology, Umeå University.
     
 \textbf{Supervisor}: Associate Professor Jessica K. Ljungberg
 \end{changemargin}
-```
+
 2011 \hspace{1.5cm}\textbf{B.Sc. in Cognitive Science}\vspace{1mm}
 
 \hrule
 
-```{=tex}
+
 \begin{changemargin}{2.3cm}{2.4cm}
 
 Department of Psychology, Umeå University.
@@ -168,7 +168,7 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
     
 \textbf{Supervisor}: Associate Professor Jessica K. Ljungberg
 \end{changemargin}
-```
+
 ## Publications
 
 ### Accepted/In press/Published
@@ -230,9 +230,9 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 -   Frontiers in Psychology
 
--   Journal of Cognitive Psychology
-
 -   The Journal of the Acoustical Society of America
+
+-   Journal of Cognitive Psychology
   
 -   Journal of Speech, Language, and Hearing Research
 
@@ -283,7 +283,7 @@ Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna e
 
 Oct 2018\hspace{0.75cm}\textbf{R Workshop "Step-by-Step"}\vspace{1mm}
 
-```{=tex}
+
 \hrule
 \begin{changemargin}{2.15cm}{2.4cm}
 
@@ -293,7 +293,7 @@ Department of Psychology, Umeå University.
 An introduction to R statistical programming language - presented to senior researchers with a focus on basic programming and the R environment.
 
 \end{changemargin}
-```
+
 
 ### Additional skills
 
@@ -342,10 +342,10 @@ for(index in 1:length(idx.dups)){
 }
 ```
 
-```{=tex}
+
 \newpage
 \pagestyle{empty}
-```
+
 
 ```{r, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
 #library(knitr)

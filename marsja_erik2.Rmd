@@ -200,7 +200,9 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 ## Funding and Grants
 
-**4 170 000 SEK** from the Swedish Research Council for the project *The temporal architecture of imitative interaction during the first three months of life* (PI: Prof. Emeritus Heimann). 2023.
+**3 391 904 SEK** from Afa Försäkring for the project *Digital Arbetsmiljö för Alla – Riktlinjer och Policyrekommendationer för Delaktighet vid Hörselnedsättning (Digital Work Environment for All – Guidelines and Policy Recommendations for Participation for People with Hearing Loss)*, 2025.
+
+**4 170 000 SEK** from the Swedish Research Council for the project *The temporal architecture of imitative interaction during the first three months of life* (PI: Prof. Emeritus Heimann), 2023.
 
 **299 235 SEK** from Hörselforskningsfonden (the Hearing Research Fund) for the project *Lyssningsansträngning hos individer med hörselnedsättning på grund av ökad digitalisering i arbetslivet (Listening effort in individuals with hearing impairment due to increased digitalisation in working life)*, 2021.
 

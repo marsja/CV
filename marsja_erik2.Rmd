@@ -230,6 +230,8 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 -   BMC Psychology
 
+-   Experimental Gerontology
+
 -   Frontiers in Psychology
 
 -   The Journal of the Acoustical Society of America

@@ -259,6 +259,14 @@ All lectures, seminars, lab demonstrations, supervision of group projects (both 
 
 ### Supervision of Bachelor Students (Undergraduate Level)
 
+Pernodd, J. (2024). Department of Computer and Information Science, Linköping University. "Påverkan av Hörselnedsättning på Äldres Ögonrörelsemönster och Upplevelse i Kollektivtrafiken (The Effect of Hearing Impairment on Eye Movement Patterns and Experience in Public Transportation for the Elderly )".  Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Pusker, M. (2024). Department of Computer and Information Science, Linköping University. "Lyssna på Tystnaden: En studie om upplevelserna av att resa med autonom kollektivtrafik för individer med hörselnedsättning (Listen to the Silence : A Study on the Experiences of Traveling with Autonomous Public Transport for Individuals with Hearing Impairment)".  Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Turén, F. (2024). Department of Computer and Information Science, Linköping University. "Mot en Självkörande Framtid: En studie i vilka faktorer som påverkar beteendemässiga intentioner att användasjälvkörande bussar (Towards a Self-Driving Future : A study on the factors influencing behavioral intentions to use autonomous buses)".  Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Fernlund, F. (2023). Department of Computer and Information Science, Linköping University. "Examining the effects of text support and noise during video meetings on listening effort and comprehension". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
 Lundgren, E. (2023). Department of Computer and Information Science, Linköping University. "Delays in Videoconferencing - The Effects of Asynchronous Speech on Listening Effort and Comprehension". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 
 Bernsland, A. (2023). Department of Computer and Information Science, Linköping University. "'Disgusting pictures' - A study exploring webpages´ experienced credibility based upon their visual design elements." Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
@@ -276,6 +284,8 @@ Lindberg, F. (2020). Department of Computer and Information Science, Linköping 
 Dahlgren, S. (2020) Department of Computer and Information Science, Linköping University. "[The association between cognition and speech-in-noise perception - Investigating the link between speech-in-noise perception and fluid intelligence in people with and without hearing loss](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1443600&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
 
 ### Supervision of Master Students (Graduate Level)
+
+Andersson, J. & Sjöström, G. (2024). Department of Behavioural Sciences and Learning, Linköping Unviersity. "Visuellt brusreducerande glasögon - kan det hjälpa elever med intellektuell funktionsnedsättning att rikta och bibehålla fokus/uppmärksamhet? (Can QuietFrames Glasses Help Students with Intellectual Disabilities to Retain Focus/Attention?)". Master's Thesis in Special Needs (15 ECTS). *Main supervisor*
 
 Carlbring, J. (2020) Department of Computer and Information Science, Linköping University. "[Inclusive Design for Mobile Devices with WCAG and Attentional Resources in Mind](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1441358&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Master's Thesis in Cognitive Science (30 ECTS). *Main supervisor*
 

@@ -1,52 +1,85 @@
-﻿Course and Program,Year,Clock Hours,Semester,Type,Subject,Level,Language,University
-"Psychological test and research methods/Statistical and Empirial Methods, the Clinical Psychologist program/the Bachelor's Program in Cognitive Science",2014,60,VT,"Lectures, seminars, supervision","Scientific communication, research methods, research ethics",UG,Swe,Umeå University
-"Introduction to Psychology, the Clincial Psychologist Program",2014,20,VT,Supervision of projects,Cognitive Psychology,UG,Swe,Umeå University
-"Master Thesis in Psychology, 30 ECTS, the Clinical Psychologist Program",2014,20,HT,Co-supervision of thesis project,Clinical Psychology,G,Eng,Umeå University
-"Project in Cognitive Science, the Bachelor's Program in Cognitive Science",2014,40,HT,Supervision of projects,Applied Cognitive Science,UG,Swe,Umeå University
-"Introduction to Psychology, the Clincial Psychologist Program",2014,20,HT,Supervision of projects,Cognitive Psychology,UG,Swe,Umeå University
-"Introduction to Psychology, the Clincial Psychologist Program",2015,24,VT,Supervision of projects,Cognitive Psychology,UG,Swe,Umeå University
-"Basic psychology and sport psychology, the Coaching Program",2015,20,VT,"Lectures, seminars, supervision of projects",Cognitive Psychology,UG,Swe,Umeå University
-"Master Thesis in Cognitive Science, 15 ECTS, the Master's Program in Cognitive Science",2015,15,VT,Supervision of thesis project,Cognitive Psychology,G,Eng,Umeå University
-"Project in Cognitive Science, the Bachelor's Program in Cognitive Science",2015,110,VT,Supervision of projects,Applied Cognitive Science,UG,Swe,Umeå University
-"Cognitive Psychology, the Clinical Psychologist Program",2015,24,HT,Supervision of projects,Cognitive Psychology,UG,Swe,Umeå University
-"the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program",2015,20,HT,Seminars,Qualitative methods,UG,Swe,Umeå University
-"2:1 Cognition, the Clinical Psychologist Program",2016,30,VT,Lab demonstrations,Cognitive Psychology,UG,Eng,Umeå University
-"Applied Cognitive Psychology, the Bachelor's Program in Cognitive Science",2016,60,VT,"Lectures, seminars, supervision of projects",Cognitive Psychology: Attention,UG,Swe,Umeå University
-"Project in Cognitive Science, the Bachelor's Program in Cognitive Science",2016,110,VT,Supervision of projects,Applied Cognitive Science,UG,Swe,Umeå University
-"the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program",2016,30,VT,"Seminars, computer labs",Qualitative and Quantitative methods,UG,Swe,Umeå University
-"2:1 Cognition, the Clinical Psychologist Program",2016,30,HT,Lab demonstrations,Cognitive Psychology,UG,Eng,Umeå University
-"the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program",2016,30,HT,"Seminars, computer labs",Qualitative and Quantitative methods,UG,Swe,Umeå University
-"Perception, the Bachelor's Program in Cognitive Science",2016,24,HT,Lectures,"Cognitive Psychology: Perception, Attention, and Consciousness",UG,Swe,Umeå University
-"Master Thesis in Psychology, 30 ECTS, the Clinical Psychologist Program",2016,9,HT,Seminars,Clinical Psychology,G,Swe,Umeå University
-"2:1 Cognition, the Clinical Psychologist Program",2017,30,HT,Lab demonstrations,Cognitive Psychology,UG,Eng,Umeå University
-"Applied Cognitive Psychology, the Bachelor's Program in Cognitive Science",2017,20,VT,"Lectures, seminar","Cognitive Psychology, Applied: Attention",UG,Swe,Umeå University
-"Project in Cognitive Science, the Bachelor's Program in Cognitive Science",2017,40,VT,Supervision of projects,Applied Cognitive Science,UG,Swe,Umeå University
-"the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program",2017,30,VT,"Seminars, computer labs",Qualatitive and Quantative research methods,UG,Swe,Umeå University
-"Master Thesis in Psychology, 30 ECTS, the Clinical Psychologist Program",2017,30,VT,Seminars,Clinical Psychology,G,Swe,Umeå University
-"2:1 Cognition, the Clinical Psychologist Program",2017,30,HT,Lab demonstrations,Cognitive Psychology,UG,Eng,Umeå University
-"Perception, the Bachelor's Program in Cognitive Science",2017,24,HT,"Lectures, seminars",Cognitive Psychology: Attention and Consciousness,UG,Swe,Umeå University
-"Learning and teaching, pedagogy",2017,50,HT,Seminar leader,Developmental Psychology,UG,Swe,Umeå University
-"Human Resources, Special Pedagogists",2019,18,VT,Workshops in SPSS,Research Methods,G,Swe,Linköping University
-"Applied Cognitive Science, the Bachelor's Program in Cognitive Science",2019,24,VT,Supervision of Projects,Applied Cognitive Science,UG,Eng,Linköping University
-"Masther Thesis in Special Pedagogy, 30 ECTS, the Specialist Pedagogy Program",2019,6,VT,Examination of Thesis,Pedagogy,G,Swe,Linköping University
-"Theory of Science and Research Methods, Pedagogy",2019,62,HT,"Seminar leader, grading exams","Quantative methods, theory of science",UG,Swe,Linköping University
-"Cognitive Science - Methods, the Master's Program in Cognitive Science",2019,20,HT,"Seminar leader, grading exams",Cognitive Science,G,Swe,Linköping University
-"Theory of Science and Research Methods, Disability Research II and III",2019,40,HT,"Lectures, workshops, examining",Disability Research,UG,Swe,Linköping University
-"Neuropsychology and Neuroscience, the Clinical Psychologist Program",2019,12,HT,Lectures,Perception,G,Swe,Linköping University
-"Cognitive Psychology, the Clinical Psychologists Program",2019,16,HT,Supervision of groups (Problem-based learning),Applied Learning Disabilities,UG,Swe,Linköping University
-"Developmental Psychology, the Clinical Psychologists Program",2019,20,HT,Supervision of groups (Problem-based learning),Adult life and Aging,UG,Swe,Linköping University
-"Methods for Research and Development in Educational Institutions, Pedagogy",2020,92,HT and VT,Lectures,Quantative methods,G,Swe,Linköping University
-"Applied Cognitive Science, the Bachelor's Program in Cognitive Science",2020,24,VT,Supervision,Applied Cognitive Science,UG,Eng,Linköping University
-"Bachelor's Thesis in Cognitive Science, the Bachelor's Program in Cognitive Science",2020,45,VT,"Supervision, Examinating",Cognitive Science,UG,Swe,Linköping University
-"Masther's Thesis in Cognitive Science, the Master's Program in Cognitive Science",2020,20,VT,Supervision,Cognitive Science,G,Swe,Linköping University
-"Theory of Science and Research Methods, Disability Research II and III",2020,80,HT,"Lectures, workshops, examining",Disability Research,UG,Swe,Linköping University
-"Theory of Science and Research Methods, Pedagogy",2020,50,HT,"Seminar leader, grading exams","Quantative methods, theory of science",UG,Swe,Linköping University
-"Applied Cognitive Science, the Bachelor's Program in Cognitive Science",2021,20,VT,Supervision,Applied Cognitive Science,UG,Eng,Linköping University
-"Research Project, the Master's Programme in Cognitive Science",2021,8,VT,Supervision of research project,,G,Swe,Linköping University
-"Bachelor's Thesis in Cognitive Science, the Bachelor's Program in Cognitive Science",2021,45,VT,"Supervision, Examinating",Cognitive Science,UG,Swe,Linköping University
-"University Diploma Thesis, Disability Research II",2021,30,VT,Supervision of theses,Disability Research,UG,Swe,Linköping University
-"Theory of Science and Research Methods, Disability Research II and III",2021,80,HT,"Lectures, workshops, examining",Disability Research,UG,Swe,Linköping University
-Introduction to Research methods and Ethics,2021,40,HT,"Lectures, examination",Disability Research,UG,Swe,Linköping University
-"Research Methods, the Clinical Psychologists Program",2021,36,HT,Supervision of groups (Problem-based learning),Research Methods,UG,Swe,Linköping University
-"Cognitive Psychology, the Clinical Psychologists Program",2021,16,HT,Supervision of groups (Problem-based learning),Applied Learning Disabilities,UG,Swe,Linköping University
-"Developmental Psychology, the Clinical Psychologists Program",2021,20,HT,Supervision of groups (Problem-based learning),Adult life and Aging,UG,Swe,Linköping University
+Course and Program,Year,Clock Hours,Semester,Type,Subject,Level,Language,University,N,CourseCode
+"Psychological test and research methods/Statistical and Empirial Methods, the Clinical Psychologist program/the Bachelor's Program in Cognitive Science",2014,60,VT,"Lectures, seminars, supervision","Scientific communication, research methods, research ethics",UG,Swe,Umeå University,,
+"Introduction to Psychology, the Clincial Psychologist Program",2014,20,VT,Supervision of projects,Cognitive Psychology,UG,Swe,Umeå University,,
+"Master Thesis in Psychology, 30 ECTS, the Clinical Psychologist Program",2014,20,HT,Co-supervision of thesis project,Clinical Psychology,G,Eng,Umeå University,,
+"Project in Cognitive Science, the Bachelor's Program in Cognitive Science",2014,40,HT,Supervision of projects,Applied Cognitive Science,UG,Swe,Umeå University,,
+"Introduction to Psychology, the Clincial Psychologist Program",2014,20,HT,Supervision of projects,Cognitive Psychology,UG,Swe,Umeå University,,
+"Introduction to Psychology, the Clincial Psychologist Program",2015,24,VT,Supervision of projects,Cognitive Psychology,UG,Swe,Umeå University,,
+"Basic psychology and sport psychology, the Coaching Program",2015,20,VT,"Lectures, seminars, supervision of projects",Cognitive Psychology,UG,Swe,Umeå University,,
+"Master Thesis in Cognitive Science, 15 ECTS, the Master's Program in Cognitive Science",2015,15,VT,Supervision of thesis project,Cognitive Psychology,G,Eng,Umeå University,,
+"Project in Cognitive Science, the Bachelor's Program in Cognitive Science",2015,110,VT,Supervision of projects,Applied Cognitive Science,UG,Swe,Umeå University,,
+"Cognitive Psychology, the Clinical Psychologist Program",2015,24,HT,Supervision of projects,Cognitive Psychology,UG,Swe,Umeå University,,
+"the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program",2015,20,HT,Seminars,Qualitative methods,UG,Swe,Umeå University,,
+"2:1 Cognition, the Clinical Psychologist Program",2016,30,VT,Lab demonstrations,Cognitive Psychology,UG,Eng,Umeå University,,
+"Applied Cognitive Psychology, the Bachelor's Program in Cognitive Science",2016,60,VT,"Lectures, seminars, supervision of projects",Cognitive Psychology: Attention,UG,Swe,Umeå University,,
+"Project in Cognitive Science, the Bachelor's Program in Cognitive Science",2016,110,VT,Supervision of projects,Applied Cognitive Science,UG,Swe,Umeå University,,
+"the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program",2016,30,VT,"Seminars, computer labs",Qualitative and Quantitative methods,UG,Swe,Umeå University,,
+"2:1 Cognition, the Clinical Psychologist Program",2016,30,HT,Lab demonstrations,Cognitive Psychology,UG,Eng,Umeå University,,
+"the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program",2016,30,HT,"Seminars, computer labs",Qualitative and Quantitative methods,UG,Swe,Umeå University,,
+"Perception, the Bachelor's Program in Cognitive Science",2016,24,HT,Lectures,"Cognitive Psychology: Perception, Attention, and Consciousness",UG,Swe,Umeå University,,
+"Master Thesis in Psychology, 30 ECTS, the Clinical Psychologist Program",2016,9,HT,Seminars,Clinical Psychology,G,Swe,Umeå University,,
+"2:1 Cognition, the Clinical Psychologist Program",2017,30,HT,Lab demonstrations,Cognitive Psychology,UG,Eng,Umeå University,,
+"Applied Cognitive Psychology, the Bachelor's Program in Cognitive Science",2017,20,VT,"Lectures, seminar","Cognitive Psychology, Applied: Attention",UG,Swe,Umeå University,,
+"Project in Cognitive Science, the Bachelor's Program in Cognitive Science",2017,40,VT,Supervision of projects,Applied Cognitive Science,UG,Swe,Umeå University,,
+"the Psychology of Organizations, Environment and Work, the Clinical Psychologist Program",2017,30,VT,"Seminars, computer labs",Qualatitive and Quantative research methods,UG,Swe,Umeå University,,
+"Master Thesis in Psychology, 30 ECTS, the Clinical Psychologist Program",2017,30,VT,Seminars,Clinical Psychology,G,Swe,Umeå University,,
+"2:1 Cognition, the Clinical Psychologist Program",2017,30,HT,Lab demonstrations,Cognitive Psychology,UG,Eng,Umeå University,,
+"Perception, the Bachelor's Program in Cognitive Science",2017,24,HT,"Lectures, seminars",Cognitive Psychology: Attention and Consciousness,UG,Swe,Umeå University,,
+"Learning and teaching, pedagogy",2017,50,HT,Seminar leader,Developmental Psychology,UG,Swe,Umeå University,,
+"Human Resources, Special Pedagogists",2019,18,VT,Workshops in SPSS,Research Methods,G,Swe,Linköping University,,
+"Applied Cognitive Science, the Bachelor's Program in Cognitive Science",2019,24,VT,Supervision of Projects,Applied Cognitive Science,UG,Eng,Linköping University,,
+"Masther Thesis in Special Pedagogy, 30 ECTS, the Specialist Pedagogy Program",2019,6,VT,Examination of Thesis,Pedagogy,G,Swe,Linköping University,,
+"Theory of Science and Research Methods, Pedagogy",2019,62,HT,"Seminar leader, grading exams","Quantative methods, theory of science",UG,Swe,Linköping University,,
+"Cognitive Science - Methods, the Master's Program in Cognitive Science",2019,20,HT,"Seminar leader, grading exams",Cognitive Science,G,Swe,Linköping University,,
+"Theory of Science and Research Methods, Disability Research II and III",2019,40,HT,"Lectures, workshops, examining",Disability Research,UG,Swe,Linköping University,,
+"Neuropsychology and Neuroscience, the Clinical Psychologist Program",2019,12,HT,Lectures,Perception,G,Swe,Linköping University,,
+"Cognitive Psychology, the Clinical Psychologists Program",2019,16,HT,Supervision of groups (Problem-based learning),Applied Learning Disabilities,UG,Swe,Linköping University,,
+"Developmental Psychology, the Clinical Psychologists Program",2019,20,HT,Supervision of groups (Problem-based learning),Adult life and Aging,UG,Swe,Linköping University,,
+"Methods for Research and Development in Educational Institutions, Pedagogy",2020,92,HT and VT,Lectures,Quantative methods,G,Swe,Linköping University,,
+"Applied Cognitive Science, the Bachelor's Program in Cognitive Science",2020,24,VT,Supervision,Applied Cognitive Science,UG,Eng,Linköping University,,
+"Bachelor's Thesis in Cognitive Science, the Bachelor's Program in Cognitive Science",2020,45,VT,"Supervision, Examinating",Cognitive Science,UG,Swe,Linköping University,,
+"Master's Thesis in Cognitive Science, the Master's Program in Cognitive Science",2020,20,VT,Supervision,Cognitive Science,G,Swe,Linköping University,,
+"Theory of Science and Research Methods, Disability Research II and III",2020,80,HT,"Lectures, workshops, examining",Disability Research,UG,Swe,Linköping University,,
+"Theory of Science and Research Methods, Pedagogy",2020,50,HT,"Seminar leader, grading exams","Quantative methods, theory of science",UG,Swe,Linköping University,,
+"Applied Cognitive Science, the Bachelor's Program in Cognitive Science",2021,20,VT,Supervision,Applied Cognitive Science,UG,Eng,Linköping University,,
+"Research Project, the Master's Programme in Cognitive Science",2021,8,VT,Supervision of research project,,G,Swe,Linköping University,,
+"Bachelor's Thesis in Cognitive Science, the Bachelor's Program in Cognitive Science",2021,45,VT,"Supervision, Examinating",Cognitive Science,UG,Swe,Linköping University,,
+"University Diploma Thesis, Disability Research II",2021,30,VT,Supervision of theses,Disability Research,UG,Swe,Linköping University,,
+"Theory of Science and Research Methods, Disability Research II and III",2021,80,HT,"Lectures, workshops, examining",Disability Research,UG,Swe,Linköping University,,
+Introduction to Research methods and Ethics,2021,40,HT,"Lectures, examination",Disability Research,UG,Swe,Linköping University,,
+"Research Methods, the Clinical Psychologists Program",2021,36,HT,Supervision of groups (Problem-based learning),Research Methods,UG,Swe,Linköping University,5,
+"Cognitive Psychology, the Clinical Psychologists Program",2021,16,HT,Supervision of groups (Problem-based learning),Applied Learning Disabilities,UG,Swe,Linköping University,5,
+"Developmental Psychology, the Clinical Psychologists Program",2021,20,HT,Supervision of groups (Problem-based learning),Adult life and Aging,UG,Swe,Linköping University,5,
+"Applied Cognitive Science, the Bachelor's Program in Cognitive Science",2022,20,VT,Supervision,Applied Cognitive Science,UG,Eng,Linköping University,7,729G81
+Evaluation and Cognitive Measurement,2023,80,VT,"Course leader, Lectures, Seminars, Supervision, Examinator",Cognitive Science,G,Swe,Linköping University,5,769A27
+Advanced Statistics,2023,80,VT,"Course leader, Lectures, Seminars, Supervision, Examinator",Cognitive Science,G,Swe,Linköping University,5,769A26
+Cognitive Science Project I,2023,68,VT,"Course leader, Seminar Leader, Supervision, Examinator",Cognitive Science,G,Swe,Linköping University,15,769A28
+Disability Research II,2023,46,VT,Supervision,Disability Research,UG,Swe,Linköping University,4,752G02
+"Bachelor's Thesis in Cognitive Science, the Bachelor's Program in Cognitive Science",2023,45,VT,"Supervision, Examinating",Cognitive Science,UG,Swe,Linköping University,,
+Quasi-Experimentation and Statistical Analysis,2023,231,HT,"Course Leader, Lectures, Seminars, Examinator",Cognitive Science,UG,Eng,Linköping University,,
+Cognitive Science - Methods,2023,36,HT,"Seminars, Group supervisions",Cognitive Science,G,Swe,Linköping University,,
+Cognitive Psychology 2 - Neuropsychology and Cognitive Neuroscience,2023,16,HT,Supervision of groups (Problem-based learning),Clinical Psychology,UG,Swe,Linköping University,,
+Developmental Psychology 2 - Infants and preschool age,2023,16,HT,Supervision of groups (Problem-based learning),Clinical Psychology,UG,Swe,Linköping University,,
+Organizational psychology 1 - foundations and theories,2023,16,HT,Supervision of groups (Problem-based learning),Clinical Psychology,UG,Swe,Linköping University,,
+Group and Social Psychology – Applied knowledge,2023,16,HT,Supervision of groups (Problem-based learning),Clinical Psychology,UG,Swe,Linköping University,,
+Research Methods,2023,20,HT,"Run R-scripts, read reports",Clinical Psychology,UG,Swe,Linköping University,,
+Disability Research II,2024,36,VT,Supervision of theses,Disability Research,UG,Swe,Linköping University,,752G11
+Cognitive Science Project I,2024,45,VT,"Course leader, Seminar Leader, Supervision, Examinator",Cognitive Science,G,Swe,Linköping University,,
+Evaluation and Cognitive Measurement,2024,30,VT,"Course Leader, Lectures, Seminars, Examinator",Cognitive Science,G,Swe,Linköping University,,
+"Applied Cognitive Science, the Bachelor's Program in Cognitive Science",2024,42,VT,Supervision,Applied Cognitive Science,UG,Eng,Linköping University,,
+"Bachelor's Thesis in Cognitive Science, the Bachelor's Program in Cognitive Science",2024,47,VT,"Supervision, Examinating",Cognitive Science,UG,Swe,Linköping University,,
+Research Methodology,2024,56,VT,"Lecture, seminars, labs",Human Resources Program,UG,Swe,Linköping University,,
+Master's Thesis in Special Needs Education,2024,24,VT,Supervision of thesis project,Special Education,G,Swe,Linköping University,,
+Quasi-Experimentation and Statistical Analysis,2024,83,HT,"Course Leader, Lectures, Examinator",Cognitive Science,UG,Eng,Linköping University,,
+Cognitive Science - Methods,2024,36,HT,"Seminars, Group supervisions",Cognitive Science,G,Swe,Linköping University,,
+Cognitive Psychology 2 - Neuropsychology and Cognitive Neuroscience,2024,16,HT,Supervision of groups (Problem-based learning),Clinical Psychology,UG,Swe,Linköping University,,
+Disability Research I,2024,33,HT,Lectures,Disability Research,UG,Swe,Linköping University,,
+Advanced Statistics,2025,70,VT,"Course leader, Lectures, Seminars, Supervision, Examinator",Cognitive Science,G,Swe,Linköping University,5,769A26
+Cognitive Science Project I,2025,132,VT,"Course leader, Seminar Leader, Supervision, Examinator",Cognitive Science,G,Swe,Linköping University,,
+Disability Research II,2025,62,VT,Supervision,Disability Research,UG,Swe,Linköping University,,752G11
+Evaluation and Cognitive Measurement,2025,57,VT,"Course Leader, Lectures, Seminars, Examinator",Cognitive Science,G,Swe,Linköping University,4,752G02
+"Applied Cognitive Science, the Bachelor's Program in Cognitive Science",2025,21,VT,Supervision,Applied Cognitive Science,UG,Eng,Linköping University,,
+Disability Research I,2025,46,VT,Lectures,Disability Research,UG,Swe,Linköping University,,
+Master's Thesis in Special Needs Education,2025,24,VT,Supervision of thesis project,Special Needs Education,G,Swe,Linköping University,,
+Research Methodology,2025,86,VT,"Lecture, seminars, labs",Human Resources Program,UG,Swe,Linköping University,,
+Bachelor's Thesis in Disability Research,2025,30,VT,Supervision of thesis project,Disability Research,G,Swe,Linköping University,,

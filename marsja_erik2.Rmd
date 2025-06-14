@@ -250,12 +250,45 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 ### Teaching
 
+```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
+library(dplyr)
+
+datadir = "./Data/teachinghours2.csv"
+
+
+insertRow <- function(existingDF, newrow, r) {
+  existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
+  existingDF[r,] <- newrow
+  existingDF
+}
+t.hours <- read.csv(datadir, sep = ',', row.names=NULL)
+t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
+table.data <- t.hours %>% 
+  select(Period, Subject, Type, Clock.Hours, Course.and.Program, Level, Language)
+dups <- duplicated(table.data[,1]) | duplicated(table.data[,1])
+table.data[which(dups),]$Period <- ' '
+
+total.teaching <- sum(table.data$Timmar)
+
+total.teaching <- sum(table.data$Clock.Hours)
+
+#Creating empty rows.. i hope
+idx.dups <- which(!dups[-1])
+idx.adder <- 0
+for(index in 1:length(idx.dups)){
+  row <-idx.dups[index]+idx.adder
+  ifelse(index == 1, newdata <- table.data, newdata <- newdata)
+  newdata <- insertRow(newdata, ' ',row+1)
+  idx.adder = idx.adder + 1
+}
+```
+
 Primarily in:
 
 -   Research Methods & Statistics
 -   Cognitive Psychology (attention, perception, & working memory)
 
-All lectures, seminars, lab demonstrations, supervision of group projects (both involving empirical and applied projects), and supervision of thesis' have been given at the Department of Psychology, Umeå University, Sweden (2014 - 2017) and the Department of Behavioral Science and Learning, Linköping University (2019 - ). At Linköping University, I have also held workshops and supervised projects. I have taught 1794 and 950 clock hours at Linköping and Umeå University, respectively. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
+All lectures, seminars, lab demonstrations, supervision of group projects (both involving empirical and applied projects), and supervision of thesis' have been given at the Department of Psychology, Umeå University, Sweden (2014 - 2017) and the Department of Behavioral Science and Learning, Linköping University (2019 - ). At Linköping University, I have also held workshops and supervised projects. I have taught 2490 and 950 clock hours at Linköping and Umeå University, respectively. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
 
 ### Supervision of Bachelor Students (Undergraduate Level)
 
@@ -323,38 +356,6 @@ An introduction to R statistical programming language - presented to senior rese
 -   Organizer of the monthly HEAD/DRD Seminar Series (e.g., contacting and inviting national and international researchers, booking tickets and accommodation)
 -   Elected chairperson of the Ph.D. students Council of the Department of Psychology, Umeå University.
 
-```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
-library(dplyr)
-
-datadir = "./Data/teachinghours2.csv"
-
-
-insertRow <- function(existingDF, newrow, r) {
-  existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
-  existingDF[r,] <- newrow
-  existingDF
-}
-t.hours <- read.csv(datadir, sep = ',', row.names=NULL)
-t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
-table.data <- t.hours %>% 
-  select(Period, Subject, Type, Clock.Hours, Course.and.Program, Level, Language)
-dups <- duplicated(table.data[,1]) | duplicated(table.data[,1])
-table.data[which(dups),]$Period <- ' '
-
-total.teaching <- sum(table.data$Timmar)
-
-total.teaching <- sum(table.data$Clock.Hours)
-
-#Creating empty rows.. i hope
-idx.dups <- which(!dups[-1])
-idx.adder <- 0
-for(index in 1:length(idx.dups)){
-  row <-idx.dups[index]+idx.adder
-  ifelse(index == 1, newdata <- table.data, newdata <- newdata)
-  newdata <- insertRow(newdata, ' ',row+1)
-  idx.adder = idx.adder + 1
-}
-```
 
 
 \newpage

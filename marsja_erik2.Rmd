@@ -224,6 +224,8 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 -   Acta Psychologica  
 
+-   Attention, Perception, & Psychophysics
+
 -   Auditory Perception & Cognition
 
 -   Behavior Research Methods
@@ -233,6 +235,8 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 -   Experimental Gerontology
 
 -   Frontiers in Psychology
+
+-   International Journal of Clinical Practice
 
 -   The Journal of the Acoustical Society of America
 
@@ -318,6 +322,9 @@ Dahlgren, S. (2020) Department of Computer and Information Science, Linköping U
 
 ### Supervision of Master Students (Graduate Level)
 
+Borgstrand, M. & Malm, L. (2024). Department of Behavioural Sciences and Learning, Linköping Unviersity. "Jag behövde bara ett annat sätt att förstå: En intervjustudie om unga kvinnor med ADHD och deras upplevelser av matematikundervisningen i grundskolan
+ (I Just Needed Another Way to Understand : An Interview Study about Young Women with ADHD and Their Experiences of Mathematics Education in Primary School)". Master's Thesis in Special Needs (15 ECTS). *Main supervisor*
+
 Andersson, J. & Sjöström, G. (2024). Department of Behavioural Sciences and Learning, Linköping Unviersity. "Visuellt brusreducerande glasögon - kan det hjälpa elever med intellektuell funktionsnedsättning att rikta och bibehålla fokus/uppmärksamhet? (Can QuietFrames Glasses Help Students with Intellectual Disabilities to Retain Focus/Attention?)". Master's Thesis in Special Needs (15 ECTS). *Main supervisor*
 
 Carlbring, J. (2020) Department of Computer and Information Science, Linköping University. "[Inclusive Design for Mobile Devices with WCAG and Attentional Resources in Mind](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1441358&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Master's Thesis in Cognitive Science (30 ECTS). *Main supervisor*
@@ -326,7 +333,7 @@ Ma, L. (2015). Department of Psychology, Umeå University. "Cross-Modal Matching
 
 Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse (To cope leaving abusive relationships: The importance of attachment). Master's Thesis in Clinical Psychology (30 ECTS). *Co-supervisor*
 
-### Teaching Workshops
+### Teaching Workshops  
 
 Oct 2018\hspace{0.75cm}\textbf{R Workshop "Step-by-Step"}\vspace{1mm}
 

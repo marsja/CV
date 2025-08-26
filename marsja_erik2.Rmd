@@ -363,8 +363,6 @@ An introduction to R statistical programming language - presented to senior rese
 -   Organizer of the monthly HEAD/DRD Seminar Series (e.g., contacting and inviting national and international researchers, booking tickets and accommodation)
 -   Elected chairperson of the Ph.D. students Council of the Department of Psychology, Umeå University.
 
-
-
 \newpage
 \pagestyle{empty}
 

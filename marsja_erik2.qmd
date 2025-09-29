@@ -1,0 +1,367 @@
+---
+title: "Curriculum Vitae"
+author: "Erik Marsja"
+date: "`r Sys.Date()`"
+format: 
+  pdf:
+    keep_tex: yes
+    template: template.tex
+email: erik@marsja.se
+fontawesome: yes
+geometry: margin=1.2in
+phone: +4670-36 33 662
+subparagraph: yes
+github: marsja
+lang: Swedish, English
+address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+web: www.marsja.se
+CV: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Positions
+
+Jan 2023 - \hspace{0.75cm}\textbf{Assistant Professor}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Disability Research Division, Department of Behavioural Sciences and Learning (IBL), Linköping University.
+
+\end{changemargin}
+
+
+Jan 2022 -
+
+Dec 2022 \hspace{0.75cm}\textbf{Researcher}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+People in the transport system, Swedish National Road and Transport Research Institute, Linköping, Sweden. Working 80\% of a full-time position.
+
+
+\end{changemargin}
+
+
+Jan 2022 -
+
+Nov 2021 \hspace{0.75cm}\textbf{Postdoctoral Researcher}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Disability Research Division, Department of Behavioural Sciences and Learning (IBL), Linköping University.
+
+Analyzing data from a large database (i.e., n200) and preparing manuscripts in the field of cognitive hearing science. Conducting qualitative research and about digitalization, listening effort, and work-life (see Funding and Grants). Working 20\% of a full-time position.
+
+\end{changemargin}
+
+
+Jan 2019 -
+
+Dec 2021\hspace{0.78cm}\textbf{Postdoctoral Researcher}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Disability Research Division, Department of Behavioural Sciences and Learning (IBL), Linköping University.
+
+Analyzing data from a large database (i.e., n200) and preparing manuscripts in the field of cognitive hearing science. Responsible for arranging the monthly\href{https://liu.se/linnecentrum-head/en}{HEAD/DRD} seminar series (august 2020 – august 2021). This includes contacting national and international researchers, booking flights and hotels, and setting up equipment for streaming the seminars online. Teaching and supervising.
+
+\end{changemargin}
+
+Aug 2018 -
+
+Oct 2018\hspace{0.75cm}\textbf{Postdoctoral Research Assistant}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+\textbf{Project}: How does humans perception of safety differ in a broken communication chain compared to an unbroken communication chain? 
+
+Literature study commissioned by SOS Alarm, an emergency agency (e.g., public-safety answering point), with the results disseminating in a report.
+
+\end{changemargin}
+
+Oct 2012 -
+
+June 2018\hspace{0.75cm}\textbf{PhD Student and Teaching Assistant}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+Planning of studies, programming of experiments, literature search, data analysis, scientific communication, and many more. See the section "Teaching responsibilities" for an overview of my pedagogical experience.
+
+\end{changemargin}
+
+June 2011\hspace{0.75cm}\textbf{Undergrad. Research Assistant}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+Recruitment of participants and data collection, commenting on later manuscript that ended up in a published paper (see publication 2014). 
+
+\end{changemargin}
+
+\newpage
+
+## Degrees and Titles
+
+2017 \hspace{1.5cm} \textbf{Ph.D. in Psychology}\vspace{1mm}
+
+\hrule
+
+
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+\textbf{Thesis title}: Attention capture by sudden and unexpected changes: a multisensory perspective. 
+
+Available from the DiVA Database: \sloppy http://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1156775
+
+\textbf{Supervisors}: Associate Professor Jessica K. Ljungberg, Professor Gregory Neely, \& Dr. Patrik Hansson
+\end{changemargin}
+
+2012 \hspace{1.5cm}\textbf{M.Sc. in Cognitive Science}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+\textbf{Thesis title}: Attention Capture: The Impact of Change in Spatial Sound Source on Behavior. 
+    
+\textbf{Supervisor}: Associate Professor Jessica K. Ljungberg
+\end{changemargin}
+
+2011 \hspace{1.5cm}\textbf{B.Sc. in Cognitive Science}\vspace{1mm}
+
+\hrule
+
+
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+\textbf{Thesis title}:  Attention Capture: Studying the Distracting Effect of One’s Own Name.
+
+Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-46607.
+    
+\textbf{Supervisor}: Associate Professor Jessica K. Ljungberg
+\end{changemargin}
+
+## Publications
+
+### Accepted/In press/Published
+
+```{r child = 'peer-reviewed.Rmd'}
+```
+
+### In Preparation/Submitted/Under Revision
+
+```{r child = 'not-accepted.Rmd'}
+```
+
+## Conference Presentations
+
+```{r child = 'conference.Rmd'}
+```
+
+## Popular Science and Education-Related Articles
+
+**Marsja**, E. (2016, July). Python Programming in Psychology -- From Data Collection to Analysis. *JEPS Bulletin - The Official Blog of the Journal of European Psychology Students*. **Invited Blog Post**. Retrieved from \sloppy <http://blog.efpsa.org/2016/07/12/python-programming-in-psychology-from-data-collection-to-analysis/>
+
+## Science Outreach
+
+
+**Marsja**, E., (November, 2022). The Contribution of Age, Hearing Status, Cognition, Background Masker on Speech Recognition in Noise and Listening Effort. Presentation at the Journal Club at Oticon Medical, Nice, France.
+
+**Marsja**, E., & Stenbäck, V., (June, 2022). Current and Ongoing Projects on Hearing loss, Cognition, Psychosocial Perspectives, Video Meetings and Listening Effort. Presentation for the Hearing Clinics (Öron- näs- och halsklinikerna), Region Östergötland, Sweden.
+
+## Funding and Grants
+
+**4 170 000 SEK** from the Swedish Research Council for the project *The temporal architecture of imitative interaction during the first three months of life* (PI: Prof. Emeritus Heimann), 2023.
+
+**299 235 SEK** from Hörselforskningsfonden (the Hearing Research Fund) for the project *Lyssningsansträngning hos individer med hörselnedsättning på grund av ökad digitalisering i arbetslivet (Listening effort in individuals with hearing impairment due to increased digitalisation in working life)*, 2021.
+
+**6000 SEK** from the Department of Psychology, Umeå University, for participating in the Re-thinking the Senses Spring School, Dubrovnik, Croatia, 2017.
+
+**15000 SEK** from Lars Hiertas Minnesfond for the project *Är korttidsminnet domän-generellt eller domän-specifikt? (Is short-term memory domain-general or domain specific?)*, 2016.
+
+**12 000 SEK** from the Faculty of Social sciences, Umeå University, for participating in the workshop Attention and Control: Insights from Distraction, and visiting a researcher at the University of Central Lancashire, Preston, UK, 2016.
+
+**8000 SEK** from the Department of Psychology, Umeå University, for participating in the conference 17^th^ International Multisensory Research Forum 15-18 June, Souzou, China, 2016.
+
+**10 000 SEK** from JC Kempes minnesfond for the project *Is everyday distractibility related to attention capture by vibrating deviants?*, 2014.
+
+**9 000 SEK** from Knut och Alice Wallenbergs Stiftelse for participating in the conferences Psychonomic Society's 55^th^ Annual Meeting, 20-23 November, and APCAM, 20 November, Long Beach, USA, 2014.
+
+**6000 SEK** from the Department of Psychology for participating in the conference Fechner Day 2013 (the 29^th^ Annual Meeting of the International Society for Psychophysics) 21-25 October, Freiburg i.Br., Germany, 2013.
+
+## Peer-Reviewed for Journals:
+
+-   Acta Psychologica
+
+-   Behavior Research Methods
+
+-   BMC Psychology
+
+-   Frontiers in Psychology
+
+-   The Journal of the Acoustical Society of America
+
+-   Journal of Cognitive Psychology
+
+-   Journal of Speech, Language, and Hearing Research
+
+-   Scientific Reports
+
+
+
+
+## Skills & Training
+
+### Training
+
+2017 Spring School *Re-Thinking the Senses*, Inter-University Centre, Dubrovnik, Croatia
+
+### Teaching
+
+Primarily in:
+
+-   Research Methods & Statistics
+-   Cognitive Psychology (attention, perception, & working memory)
+
+All lectures, seminars, lab demonstrations, supervision of group projects (both involving empirical and applied projects), and supervision of thesis' have been given at the Department of Psychology, Umeå University, Sweden (2014 - 2017) and the Department of Behavioral Science and Learning, Linköping University (2019 - ). At Linköping University, I have also held workshops and supervised projects. I have taught 1118 and 950 clock hours at Linköping and Umeå University, respectively. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
+
+### Supervision of Bachelor Students (Undergraduate Level)
+
+Lundgren, E. (2023). Department of Computer and Information Science, Linköping University. "Delays in Videoconferencing - The Effects of Asynchronous Speech on Listening Effort and Comprehension". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Bernsland, A. (2023). Department of Computer and Information Science, Linköping University. "'Disgusting pictures' - A study exploring webpages´ experienced credibility based upon their visual design elements." Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Jerdhaf, O. (2021). Department of Computer and Information Science, Linköping University. "[Discovering Implant Terms in Medical Records](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&pid=diva2%3A1621364&c=1&searchType=SIMPLE&language=sv&query=Jerdhaf&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Bridal, O. (2021). Department of Computer and Information Science, Linköping University. "[Named-entity recognition with BERT for anonymization of medical records](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1566701&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Mattila, M. (2021). Department of Computer and Information Science, Linköping University. "Synthetic Image Generation Using GANs -- Generating Class-Specific Images of Bacterial Growth". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Rombo, A. (2020). Department of Computer and Information Science, Linköping University. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level. Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Lindberg, F. (2020). Department of Computer and Information Science, Linköping University. "[Hur ungas attityder kring hörselnedsättningar orsakade av fritidsbuller påverkas av deras koppling till sitt framtida jag.](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1468019&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)"(How young people's attitudes to hearing impairments caused by leisure noise are affected by their connection to their future selves.) Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Dahlgren, S. (2020) Department of Computer and Information Science, Linköping University. "[The association between cognition and speech-in-noise perception - Investigating the link between speech-in-noise perception and fluid intelligence in people with and without hearing loss](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1443600&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+### Supervision of Master Students (Graduate Level)
+
+Carlbring, J. (2020) Department of Computer and Information Science, Linköping University. "[Inclusive Design for Mobile Devices with WCAG and Attentional Resources in Mind](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1441358&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Master's Thesis in Cognitive Science (30 ECTS). *Main supervisor*
+
+Ma, L. (2015). Department of Psychology, Umeå University. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Master's Thesis in Cognitive Science (15 ECTS). *Co-supervisor*
+
+Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse (To cope leaving abusive relationships: The importance of attachment). Master's Thesis in Clinical Psychology (30 ECTS). *Co-supervisor*
+
+### Teaching Workshops
+
+Oct 2018\hspace{0.75cm}\textbf{R Workshop "Step-by-Step"}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.15cm}{2.4cm}
+
+
+Department of Psychology, Umeå University.
+
+An introduction to R statistical programming language - presented to senior researchers with a focus on basic programming and the R environment.
+
+\end{changemargin}
+
+### Additional skills
+
+-   Extensive knowledge in statistical software such as SPSS, JASP, and R statistical programming environment
+-   Strong scripting skills in Python (v2.7.x & v3.x.x) and R
+-   Substantial skills in programming and performing experiments using both E-prime and Python (i.e., PsychoPy, OpenSesame, & Expyriment)
+-   Good skills in Microsoft Word and Excel
+-   Basic programming skills in Visual Basic, E-basic (E-prime), MATLAB, Bash, JavaScript, and PHP
+-   Basic skills in Markdown (e.g., RMarkdown) and \LaTeX
+
+### Responsibilities
+
+-   Organizer of the monthly HEAD/DRD Seminar Series (e.g., contacting and inviting national and international researchers, booking tickets and accommodation)
+-   Elected chairperson of the Ph.D. students Council of the Department of Psychology, Umeå University.
+
+```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
+library(dplyr)
+
+datadir = "./Data/teachinghours2.csv"
+
+
+insertRow <- function(existingDF, newrow, r) {
+  existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
+  existingDF[r,] <- newrow
+  existingDF
+}
+t.hours <- read.csv(datadir, sep = ',', row.names=NULL)
+t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
+table.data <- t.hours %>% 
+  select(Period, Subject, Type, Clock.Hours, Course.and.Program, Level, Language)
+dups <- duplicated(table.data[,1]) | duplicated(table.data[,1])
+table.data[which(dups),]$Period <- ' '
+
+total.teaching <- sum(table.data$Timmar)
+
+total.teaching <- sum(table.data$Clock.Hours)
+
+#Creating empty rows.. i hope
+idx.dups <- which(!dups[-1])
+idx.adder <- 0
+for(index in 1:length(idx.dups)){
+  row <-idx.dups[index]+idx.adder
+  ifelse(index == 1, newdata <- table.data, newdata <- newdata)
+  newdata <- insertRow(newdata, ' ',row+1)
+  idx.adder = idx.adder + 1
+}
+```
+
+
+\newpage
+\pagestyle{empty}
+
+```{r, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
+#library(knitr)
+#library(kableExtra)
+library(flextable)
+
+# Column names
+colnames(newdata) <- c("Period", "Subject", "Type", "Clock Hours",
+          "Course/Program", "Level", "Language")
+# kableExtra::kbl(newdata, longtable= T, col.names = colN, format="latex", caption='Teaching responsibilities - an overview of type of teaching, hours, etc.', booktabs=TRUE) %>% 
+#  kableExtra::column_spec(c(2, 3, 5), width = "5cm") %>% 
+#   kableExtra::kable_styling(latex_options = "repeat_header") %>% 
+#   kableExtra::landscape() %>% 
+#   kableExtra::footnote(paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' '), threeparttable = T)
+teach_tab <- flextable(newdata) %>%
+   add_footer_lines(paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' ')) %>%
+  set_caption(caption = "Teaching responsibilities - an overview of type of teaching, hours, etc.") 
+
+teach_tab
+
+```

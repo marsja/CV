@@ -380,6 +380,7 @@ kableExtra::kbl(newdata, longtable= T, format="latex", caption='Teaching respons
   kableExtra::kable_styling(latex_options = "repeat_header") %>%
   kableExtra::landscape() %>%
   kableExtra::footnote(paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' '), threeparttable = T)
+
 teach_tab <- flextable(newdata) %>%
    add_footer_lines(paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' ')) %>%
   set_caption(caption = "Teaching responsibilities - an overview of type of teaching, hours, etc.") 

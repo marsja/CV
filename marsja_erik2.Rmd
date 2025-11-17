@@ -15,7 +15,7 @@ phone: +4670-36 33 662
 subparagraph: yes
 github: marsja
 lang: Swedish, English
-address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+address: Kanalgatan 20, SE-612 31 Finspång, Sweden
 web: www.marsja.se
 CV: TRUE
 csl: apa7.csl
@@ -171,12 +171,12 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 ## Publications
 
-### Accepted/In press/Published
+### Accepted/Published
 
 ```{r child = 'peer-reviewed.Rmd'}
 ```
 
-### In Preparation/Submitted/Under Revision
+### Submitted/Under Revision/In Preparataion
 
 ```{r child = 'not-accepted.Rmd'}
 ```

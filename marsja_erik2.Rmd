@@ -185,7 +185,7 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 ```{r child = 'peer-reviewed.Rmd'}
 ```
 
-### Submitted/Under Revision/In Preparataion
+### Submitted/Under Revision/In Preparataion (n = 10)
 
 ```{r child = 'not-accepted.Rmd'}
 ```

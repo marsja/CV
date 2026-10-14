@@ -1,0 +1,1203 @@
+---
+title: "Curriculum Vitae"
+author: "Erik Marsja"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    keep_tex: yes
+    latex_engine: pdflatex
+    template: template.tex
+  word_document: default
+email: erik@marsja.se
+fontawesome: yes
+geometry: margin=1.2in
+phone: +4670-36 33 662
+subparagraph: yes
+github: marsja
+lang: Swedish, English
+address: Kanalgatan 20, SE-612 31 Finspång, Sweden
+web: www.marsja.se
+CV: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Positions
+
+Jan 2023 -\hspace{0.70cm}\textbf{Assistant Professor}\vspace{1mm}
+
+```{=tex}
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Disability Research Division, Department of Behavioural Sciences and Learning (IBL), Linköping University.
+
+\end{changemargin}
+```
+Jan 2022 -
+
+Dec 2022 \hspace{0.75cm}\textbf{Researcher}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+People in the transport system, Swedish National Road and Transport Research Institute, Linköping, Sweden. Working 80\% of a full-time position.
+
+
+\end{changemargin}
+
+Jan 2022 -
+
+Nov 2021 \hspace{0.75cm}\textbf{Postdoctoral Researcher}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Disability Research Division, Department of Behavioural Sciences and Learning (IBL), Linköping University.
+
+Analyzing data from a large database (i.e., n200) and preparing manuscripts in the field of cognitive hearing science. Conducting qualitative research and about digitalization, listening effort, and work-life (see Funding and Grants). Working 20\% of a full-time position.
+
+\end{changemargin}
+
+Jan 2019 -
+
+Dec 2021\hspace{0.78cm}\textbf{Postdoctoral Researcher}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Disability Research Division, Department of Behavioural Sciences and Learning (IBL), Linköping University.
+
+Analyzing data from a large database (i.e., n200) and preparing manuscripts in the field of cognitive hearing science. Responsible for arranging the monthly\href{https://liu.se/linnecentrum-head/en}{HEAD/DRD} seminar series (august 2020 – august 2021). This includes contacting national and international researchers, booking flights and hotels, and setting up equipment for streaming the seminars online. Teaching and supervising.
+
+\end{changemargin}
+
+Aug 2018 -
+
+Oct 2018\hspace{0.75cm}\textbf{Postdoctoral Research Assistant}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+\textbf{Project}: How does humans perception of safety differ in a broken communication chain compared to an unbroken communication chain? 
+
+Literature study commissioned by SOS Alarm, an emergency agency (e.g., public-safety answering point), with the results disseminating in a report.
+
+\end{changemargin}
+
+Oct 2012 -
+
+June 2018\hspace{0.75cm}\textbf{PhD Student and Teaching Assistant}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+Planning of studies, programming of experiments, literature search, data analysis, scientific communication, and many more. See the section "Teaching responsibilities" for an overview of my pedagogical experience.
+
+\end{changemargin}
+
+June 2011\hspace{0.75cm}\textbf{Undergrad. Research Assistant}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+Recruitment of participants and data collection, commenting on later manuscript that ended up in a published paper (see publication 2014). 
+
+\end{changemargin}
+
+\newpage
+
+## Degrees and Titles
+
+2026 \hspace{1.5cm} \textbf{Docent (Associate Professor) in Disability Research}
+
+\hrule
+
+\begin{changemargin}{2.3cm}{2.4cm}
+Department of Behavioural Sciences and Learning, Linköping University.
+\end{changemargin}
+
+
+2017 \hspace{1.5cm} \textbf{Ph.D. in Psychology}\vspace{1mm}
+
+\hrule
+
+
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+\textbf{Thesis title}: Attention capture by sudden and unexpected changes: a multisensory perspective. 
+
+Available from the DiVA Database: \sloppy http://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1156775
+
+\textbf{Supervisors}: Associate Professor Jessica K. Ljungberg, Professor Gregory Neely, \& Dr. Patrik Hansson
+\end{changemargin}
+
+2012 \hspace{1.5cm}\textbf{M.Sc. in Cognitive Science}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+\textbf{Thesis title}: Attention Capture: The Impact of Change in Spatial Sound Source on Behavior. 
+    
+\textbf{Supervisor}: Associate Professor Jessica K. Ljungberg
+\end{changemargin}
+
+2011 \hspace{1.5cm}\textbf{B.Sc. in Cognitive Science}\vspace{1mm}
+
+\hrule
+
+
+\begin{changemargin}{2.3cm}{2.4cm}
+
+Department of Psychology, Umeå University.
+
+\textbf{Thesis title}:  Attention Capture: Studying the Distracting Effect of One’s Own Name.
+
+Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-46607.
+    
+\textbf{Supervisor}: Associate Professor Jessica K. Ljungberg
+\end{changemargin}
+
+## Publications
+
+```{r publications-setup, include=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
+library(readxl)
+library(dplyr)
+library(stringr)
+library(purrr)
+
+source("update_doi.R")
+
+# Kontrollera saknade DOI:er och uppdatera Excel-filen.
+# Om Crossref tillfälligt inte fungerar byggs CV:t ändå.
+doi_update <- tryCatch(
+  update_publication_dois(
+    xlsx_path = "./Data/marsja_publications.xlsx",
+    sheet = "publications",
+    write_changes = TRUE,
+    create_backup = TRUE
+  ),
+  error = function(e) {
+    warning("DOI update skipped: ", conditionMessage(e))
+    NULL
+  }
+)
+
+# Läs filen efter DOI-uppdateringen
+pubs <- read_excel(
+  "./Data/marsja_publications.xlsx",
+  sheet = "publications"
+) |>
+  filter(include_cv %in% TRUE) |>
+  mutate(
+    source_order = row_number(),
+    status = str_to_lower(status),
+    year_sort = suppressWarnings(as.numeric(year))
+  ) |>
+  arrange(
+    desc(is.na(year_sort)),
+    desc(year_sort),
+    desc(source_order)
+  ) |>
+  mutate(
+    display_order = row_number()
+  )
+has_value <- function(x) {
+  length(x) == 1 &&
+    !is.na(x) &&
+    nzchar(trimws(as.character(x)))
+}
+
+
+split_authors <- function(x) {
+  if (!has_value(x)) {
+    return(character())
+  }
+
+  str_split(x, "\\s*;\\s*")[[1]] |>
+    str_trim()
+}
+
+
+is_erik <- function(x) {
+  str_detect(
+    str_squish(x),
+    regex("^Marsja,\\s*E\\.?$", ignore_case = TRUE)
+  )
+}
+
+
+format_authors <- function(x) {
+  authors <- split_authors(x)
+
+  if (length(authors) == 0) {
+    return("")
+  }
+
+  authors <- if_else(
+    is_erik(authors),
+    str_replace(
+      authors,
+      regex("\\bMarsja\\b", ignore_case = TRUE),
+      "**Marsja**"
+    ),
+    authors
+  )
+
+  n_authors <- length(authors)
+
+  if (n_authors == 1) {
+    return(authors)
+  }
+
+  if (n_authors == 2) {
+    return(paste0(authors[1], ", & ", authors[2]))
+  }
+
+  paste0(
+    paste(authors[1:(n_authors - 1)], collapse = ", "),
+    ", & ",
+    authors[n_authors]
+  )
+}
+
+format_publication <- function(order) {
+  x <- pubs |>
+    filter(display_order == order)
+
+  status <- tolower(as.character(x$status[[1]]))
+
+  year_text <- if (has_value(x$year[[1]])) {
+    as.character(x$year[[1]])
+  } else if (status == "accepted") {
+    "Accepted"
+  } else if (status == "online_first") {
+    "Online first"
+  } else {
+    ""
+  }
+
+  journal_text <- paste0("*", x$journal[[1]])
+
+  if (has_value(x$volume[[1]])) {
+    journal_text <- paste0(
+      journal_text,
+      ", ",
+      x$volume[[1]]
+    )
+  }
+
+  journal_text <- paste0(journal_text, "*")
+
+  if (has_value(x$issue[[1]])) {
+    journal_text <- paste0(
+      journal_text,
+      "(",
+      x$issue[[1]],
+      ")"
+    )
+  }
+
+  if (has_value(x$pages[[1]])) {
+    journal_text <- paste0(
+      journal_text,
+      ", ",
+      x$pages[[1]]
+    )
+  }
+
+  citation <- paste0(
+    format_authors(x$authors[[1]]),
+    " (",
+    year_text,
+    "). ",
+    x$title[[1]],
+    ". ",
+    journal_text,
+    "."
+  )
+
+  if (has_value(x$doi[[1]])) {
+    doi <- str_remove(
+      as.character(x$doi[[1]]),
+      regex(
+        "^https?://(dx\\.)?doi\\.org/",
+        ignore_case = TRUE
+      )
+    )
+
+    doi_url <- paste0("https://doi.org/", doi)
+
+    citation <- paste0(
+      citation,
+      " [",
+      doi_url,
+      "](",
+      doi_url,
+      ")"
+    )
+  }
+
+  if (has_value(x$pdf_url[[1]])) {
+    citation <- paste0(
+      citation,
+      " ([PDF](",
+      x$pdf_url[[1]],
+      "))"
+    )
+  }
+
+  citation
+}
+
+
+author_positions <- map(
+  pubs$authors,
+  split_authors
+)
+
+n_articles <- nrow(pubs)
+
+n_first <- sum(
+  map_lgl(
+    author_positions,
+    ~ length(.x) > 0 && is_erik(.x[[1]])
+  )
+)
+
+n_last <- sum(
+  map_lgl(
+    author_positions,
+    ~ length(.x) > 0 && is_erik(.x[[length(.x)]])
+  )
+)
+```
+
+### Accepted/Published
+
+```{r publication-list, echo=FALSE, results='asis'}
+cat(
+  paste0(
+    "**",
+    n_articles,
+    " peer-reviewed journal articles**",
+    " (",
+    n_first,
+    " as first author; ",
+    n_last,
+    " as last author).",
+    "\n\n"
+  )
+)
+
+publication_list <- pubs |>
+  pull(display_order) |>
+  map_chr(format_publication)
+
+cat(
+  paste0(
+    "- ",
+    publication_list,
+    collapse = "\n\n"
+  )
+)
+```
+
+
+
+### Ongoing Manuscripts and Registered Reports
+
+```{r manuscripts, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
+library(dplyr)
+library(readxl)
+library(stringr)
+library(purrr)
+
+as_flag <- function(x) {
+  tolower(trimws(as.character(x))) %in% c(
+    "true", "t", "yes", "1"
+  )
+}
+
+has_text <- function(x) {
+  !is.na(x) & nzchar(trimws(as.character(x)))
+}
+
+
+manuscripts <- read_excel(
+  "./Data/marsja_publications.xlsx",
+    sheet = "manuscripts"
+) |>
+  mutate(
+    source_order = row_number(),
+    status = str_to_lower(str_trim(status)),
+    double_blind = as_flag(double_blind),
+    include_cv = as_flag(include_cv),
+    status_group = case_when(
+      status == "stage_1_accepted" ~ "stage_1_accepted",
+      status == "under_revision" ~ "under_revision",
+      status %in% c(
+        "submitted",
+        "protocol_submitted"
+      ) ~ "submitted",
+      status == "in_preparation" ~ "in_preparation",
+      TRUE ~ status
+    )
+  ) |>
+  filter(include_cv)
+
+n_stage_1_accepted <- sum(
+  manuscripts$status_group == "stage_1_accepted",
+  na.rm = TRUE
+)
+
+n_under_revision <- sum(
+  manuscripts$status_group == "under_revision",
+  na.rm = TRUE
+)
+
+n_submitted <- sum(
+  manuscripts$status_group == "submitted",
+  na.rm = TRUE
+)
+
+n_in_preparation <- sum(
+  manuscripts$status_group == "in_preparation",
+  na.rm = TRUE
+)
+
+n_double_blind <- sum(
+  manuscripts$double_blind,
+  na.rm = TRUE
+)
+
+n_manuscripts <- nrow(manuscripts)
+
+category_summary <- paste0(
+  "**", n_manuscripts, " ongoing manuscripts:** ",
+  n_stage_1_accepted,
+  " Stage 1 Registered Report with in-principle acceptance, ",
+  n_under_revision, " under revision, ",
+  n_submitted, " submitted, and ",
+  n_in_preparation, " in preparation."
+)
+
+writeLines(c(category_summary, ""))
+
+if (n_double_blind > 0) {
+  omitted_text <- if (n_double_blind == 1) {
+    paste0(
+      n_double_blind,
+      " manuscript currently undergoing double-blind peer review ",
+      "is omitted from the public list below to preserve author anonymity."
+    )
+  } else {
+    paste0(
+      n_double_blind,
+      " manuscripts currently undergoing double-blind peer review ",
+      "are omitted from the public list below to preserve author anonymity."
+    )
+  }
+
+  writeLines(c(omitted_text, ""))
+}
+
+format_manuscript_authors <- function(x) {
+  authors <- str_split(x, "\\s*;\\s*")[[1]] |>
+    str_trim()
+
+  authors <- if_else(
+    str_detect(
+      authors,
+      regex("\\bMarsja\\b", ignore_case = TRUE)
+    ),
+    str_replace(
+      authors,
+      regex("\\bMarsja\\b", ignore_case = TRUE),
+      "**Marsja**"
+    ),
+    authors
+  )
+
+  n_authors <- length(authors)
+
+  if (n_authors == 1) {
+    return(authors)
+  }
+
+  if (n_authors == 2) {
+    return(paste0(authors[1], ", & ", authors[2]))
+  }
+
+  paste0(
+    paste(authors[1:(n_authors - 1)], collapse = ", "),
+    ", & ",
+    authors[n_authors]
+  )
+}
+
+format_manuscript <- function(authors, title, status, url) {
+  status_text <- case_when(
+    status == "stage_1_accepted" ~ paste0(
+      "Stage 1 Registered Report with ",
+      "in-principle acceptance"
+    ),
+    status == "under_revision" ~ "Under revision",
+    status == "submitted" ~ "Submitted",
+    status == "protocol_submitted" ~ "Protocol submitted",
+    status == "in_preparation" ~ "In preparation",
+    TRUE ~ str_to_sentence(
+      str_replace_all(status, "_", " ")
+    )
+  )
+
+  title_text <- if (has_text(url)) {
+    paste0("[", title, "](", url, ")", ". ", "[", url, "](", url, ")")
+  } else {
+    title
+  }
+
+  paste0(
+    format_manuscript_authors(authors),
+    " (",
+    status_text,
+    "). ",
+    title_text,
+    "."
+  )
+}
+
+visible_manuscripts <- manuscripts |>
+  filter(!double_blind) |>
+  mutate(
+    status_order = case_when(
+      status_group == "stage_1_accepted" ~ 1L,
+      status_group == "under_revision" ~ 2L,
+      status_group == "submitted" ~ 3L,
+      status_group == "in_preparation" ~ 4L,
+      TRUE ~ 5L
+    )
+  ) |>
+  arrange(
+    status_order,
+    desc(source_order)
+  )
+
+formatted_manuscripts <- pmap_chr(
+  visible_manuscripts |>
+    select(authors, title, status, url),
+  format_manuscript
+)
+
+if (length(formatted_manuscripts) > 0) {
+  cat(
+    paste0("- ", formatted_manuscripts),
+    sep = "\n\n"
+  )
+}
+
+```
+
+## Conference Presentations
+
+```{r conferences, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
+library(dplyr)
+library(readxl)
+library(stringr)
+library(purrr)
+
+conference_flag <- function(x) {
+  tolower(trimws(as.character(x))) %in% c(
+    "true", "t", "yes", "1"
+  )
+}
+
+conference_has_text <- function(x) {
+  length(x) == 1 &&
+    !is.na(x) &&
+    nzchar(trimws(as.character(x)))
+}
+
+conferences <- read_excel(
+  "./Data/marsja_publications.xlsx",
+  sheet = "conferences"
+) |>
+  mutate(
+    source_order = row_number(),
+    include_cv = conference_flag(include_cv),
+    presentation_type = str_to_lower(
+      str_trim(presentation_type)
+    ),
+    year_sort = suppressWarnings(as.numeric(year)),
+    month_sort = match(
+      str_to_lower(month),
+      str_to_lower(month.name)
+    )
+  ) |>
+  filter(include_cv) |>
+  arrange(
+    desc(year_sort),
+    desc(month_sort),
+    source_order
+  )
+
+n_oral <- sum(
+  conferences$presentation_type == "oral",
+  na.rm = TRUE
+)
+
+n_posters <- sum(
+  conferences$presentation_type == "poster",
+  na.rm = TRUE
+)
+
+conference_summary <- paste0(
+  "**",
+  n_oral,
+  " oral presentations and ",
+  n_posters,
+  " posters.**"
+)
+
+writeLines(c(conference_summary, ""))
+
+format_conference_authors <- function(x) {
+  authors <- str_split(x, "\\s*;\\s*")[[1]] |>
+    str_trim()
+
+  authors <- if_else(
+    str_detect(
+      authors,
+      regex("\\bMarsja\\b", ignore_case = TRUE)
+    ),
+    str_replace(
+      authors,
+      regex("\\bMarsja\\b", ignore_case = TRUE),
+      "**Marsja**"
+    ),
+    authors
+  )
+
+  n_authors <- length(authors)
+
+  if (n_authors == 1) {
+    return(authors)
+  }
+
+  if (n_authors == 2) {
+    return(paste0(authors[1], ", & ", authors[2]))
+  }
+
+  paste0(
+    paste(authors[1:(n_authors - 1)], collapse = ", "),
+    ", & ",
+    authors[n_authors]
+  )
+}
+
+format_conference <- function(
+    authors,
+    title,
+    year,
+    month,
+    conference,
+    location,
+    presentation_type,
+    url,
+    notes
+) {
+  date_text <- if (conference_has_text(month)) {
+    paste0(year, ", ", month)
+  } else {
+    as.character(year)
+  }
+
+  title_text <- if (conference_has_text(url)) {
+    paste0("[", title, "](", url, ")")
+  } else {
+    title
+  }
+
+  invited <- conference_has_text(notes) &&
+    str_detect(
+      notes,
+      regex("^invited presentation$", ignore_case = TRUE)
+    )
+
+  presentation_text <- case_when(
+    invited ~ "**Invited presentation**",
+    presentation_type == "oral" ~ "**Oral presentation**",
+    presentation_type == "poster" ~ "**Poster**",
+    presentation_type == "late_breaking_report" ~
+      "**Late-breaking report**",
+    TRUE ~ str_to_sentence(
+      str_replace_all(presentation_type, "_", " ")
+    )
+  )
+
+  citation <- paste0(
+    format_conference_authors(authors),
+    " (",
+    date_text,
+    "). ",
+    title_text,
+    ". ",
+    conference
+  )
+
+  if (conference_has_text(location)) {
+    citation <- paste0(
+      citation,
+      ", ",
+      location
+    )
+  }
+
+  citation <- paste0(
+    citation,
+    ". ",
+    presentation_text
+  )
+
+  if (conference_has_text(notes) && !invited) {
+    citation <- paste0(
+      citation,
+      " (",
+      notes,
+      ")"
+    )
+  }
+
+  paste0(citation, ".")
+}
+
+formatted_conferences <- pmap_chr(
+  conferences |>
+    select(
+      authors,
+      title,
+      year,
+      month,
+      conference,
+      location,
+      presentation_type,
+      url,
+      notes
+    ),
+  format_conference
+)
+
+if (length(formatted_conferences) > 0) {
+  cat(
+    paste0("- ", formatted_conferences),
+    sep = "\n\n"
+  )
+}
+```
+
+## Popular Science and Education-Related Articles
+
+**Marsja**, E. (2016, July). Python Programming in Psychology -- From Data Collection to Analysis. *JEPS Bulletin - The Official Blog of the Journal of European Psychology Students*. **Invited Blog Post**. Retrieved from \sloppy <http://blog.efpsa.org/2016/07/12/python-programming-in-psychology-from-data-collection-to-analysis/>
+
+## Science Outreach
+
+**Marsja**, E. (October, 2024). Listening Effort in Video Meetings: Positive and Negative Experiences of Employees with Hearing Loss. Presentation for Employed (Professional) Members of the Swedish Association of the Hard of Hearing People, Linköping, Sweden.
+
+**Marsja**, E. (November, 2022). The Contribution of Age, Hearing Status, Cognition, Background Masker on Speech Recognition in Noise and Listening Effort. Presentation at the Journal Club at Oticon Medical, Nice, France.
+
+**Marsja**, E., & Stenbäck, V., (June, 2022). Current and Ongoing Projects on Hearing loss, Cognition, Psychosocial Perspectives, Video Meetings and Listening Effort. Presentation for the Hearing Clinics (Öron- näs- och halsklinikerna), Region Östergötland, Sweden.
+
+## Research Grants and Funding
+
+```{r grants, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
+library(dplyr)
+library(readxl)
+library(stringr)
+library(purrr)
+
+grant_flag <- function(x) {
+  tolower(trimws(as.character(x))) %in% c(
+    "true", "t", "yes", "1"
+  )
+}
+
+grant_has_text <- function(x) {
+  length(x) == 1 &&
+    !is.na(x) &&
+    nzchar(trimws(as.character(x)))
+}
+
+format_sek <- function(x) {
+  paste0(
+    format(
+      round(x),
+      big.mark = " ",
+      scientific = FALSE,
+      trim = TRUE
+    ),
+    " SEK"
+  )
+}
+
+lowercase_first <- function(x) {
+  paste0(
+    str_to_lower(str_sub(x, 1, 1)),
+    str_sub(x, 2)
+  )
+}
+
+grants <- read_excel(
+  "./Data/marsja_publications.xlsx",
+  sheet = "grants"
+) |>
+  mutate(
+    source_order = row_number(),
+    amount_sek = suppressWarnings(as.numeric(amount_sek)),
+    year = suppressWarnings(as.integer(year)),
+    project_leader = grant_flag(project_leader),
+    include_cv = grant_flag(include_cv),
+    include_total = grant_flag(include_total)
+  )
+
+total_funding <- grants |>
+  filter(include_total) |>
+  summarise(total = sum(amount_sek, na.rm = TRUE)) |>
+  pull(total)
+
+project_leader_funding <- grants |>
+  filter(
+    include_total,
+    project_leader
+  ) |>
+  summarise(total = sum(amount_sek, na.rm = TRUE)) |>
+  pull(total)
+
+funding_summary <- paste0(
+  "**Funding as project leader:** ",
+  format_sek(project_leader_funding),
+  ". **Total funding:** ",
+  format_sek(total_funding),
+  "."
+)
+
+writeLines(c(funding_summary, ""))
+
+format_grant <- function(
+    funder,
+    amount_sek,
+    year,
+    funding_category,
+    title_or_purpose,
+    notes
+) {
+  purpose_text <- case_when(
+    funding_category == "workshop" ~ paste0(
+      "for hosting the workshop *",
+      title_or_purpose,
+      "*"
+    ),
+    funding_category == "research_project" ~ paste0(
+      "for the project *",
+      title_or_purpose,
+      "*"
+    ),
+    funding_category == "travel" ~ paste0(
+      "for ",
+      lowercase_first(title_or_purpose)
+    ),
+    TRUE ~ paste0(
+      "for ",
+      lowercase_first(title_or_purpose)
+    )
+  )
+
+  citation <- paste0(
+    "**",
+    format_sek(amount_sek),
+    "** from ",
+    funder,
+    " ",
+    purpose_text
+  )
+
+  if (grant_has_text(notes)) {
+    citation <- paste0(
+      citation,
+      " (",
+      notes,
+      ")"
+    )
+  }
+
+  paste0(
+    citation,
+    ", ",
+    year,
+    "."
+  )
+}
+
+visible_grants <- grants |>
+  filter(include_cv) |>
+  arrange(
+    desc(year),
+    desc(source_order)
+  )
+
+formatted_grants <- pmap_chr(
+  visible_grants |>
+    select(
+      funder,
+      amount_sek,
+      year,
+      funding_category,
+      title_or_purpose,
+      notes
+    ),
+  format_grant
+)
+
+if (length(formatted_grants) > 0) {
+  cat(
+    paste0("- ", formatted_grants),
+    sep = "\n\n"
+  )
+}
+```
+
+
+## Peer Review
+
+```{r peer-reviews, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
+library(dplyr)
+library(readxl)
+library(stringr)
+
+as_review_flag <- function(x) {
+  tolower(trimws(as.character(x))) %in% c(
+    "true", "t", "yes", "1"
+  )
+}
+
+peer_reviews <- read_excel(
+  "./Data/marsja_publications.xlsx",
+  sheet = "peer_reviews"
+) |>
+  mutate(
+    include_cv = as_review_flag(include_cv),
+    review_count = suppressWarnings(
+      as.numeric(review_count)
+    )
+  ) |>
+  filter(include_cv)
+
+n_peer_reviews <- sum(
+  peer_reviews$review_count,
+  na.rm = TRUE
+)
+
+journals <- peer_reviews |>
+  filter(
+    !is.na(journal),
+    nzchar(str_trim(journal))
+  ) |>
+  distinct(journal) |>
+  arrange(str_to_lower(journal)) |>
+  pull(journal)
+
+heading_text <- if (n_peer_reviews == 1) {
+  "**1 peer review completed for the following journal:**"
+} else {
+  paste0(
+    "**",
+    n_peer_reviews,
+    " peer reviews completed for the following journals:**"
+  )
+}
+
+journal_text <- paste0(
+  journals,
+  collapse = "; "
+)
+
+writeLines(
+  c(
+    heading_text,
+    "",
+    paste0(journal_text, "."),
+    ""
+  )
+)
+```   
+
+## Skills & Training
+
+### Training
+
+2017 Spring School *Re-Thinking the Senses*, Inter-University Centre, Dubrovnik, Croatia
+
+### Teaching
+
+```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
+library(dplyr)
+
+datadir = "./Data/teachinghours2.csv"
+
+
+insertRow <- function(existingDF, newrow, r) {
+  existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
+  existingDF[r,] <- newrow
+  existingDF
+}
+t.hours <- read.csv(datadir, sep = ',', row.names=NULL)
+t.hours$Period <- with(t.hours, paste(Semester, Year, sep=' '))
+table.data <- t.hours %>% 
+  select(Period, Subject, Type, Clock.Hours, Course.and.Program, Level, Language)
+dups <- duplicated(table.data[,1]) | duplicated(table.data[,1])
+table.data[which(dups),]$Period <- ' '
+
+total.teaching <- sum(table.data$Timmar)
+
+total.teaching <- sum(table.data$Clock.Hours)
+
+#Creating empty rows.. i hope
+idx.dups <- which(!dups[-1])
+idx.adder <- 0
+for(index in 1:length(idx.dups)){
+  row <-idx.dups[index]+idx.adder
+  ifelse(index == 1, newdata <- table.data, newdata <- newdata)
+  newdata <- insertRow(newdata, ' ',row+1)
+  idx.adder = idx.adder + 1
+}
+```
+
+Primarily in:
+
+-   Research Methods & Statistics
+-   Cognitive Psychology (attention, perception, & working memory)
+
+All lectures, seminars, lab demonstrations, supervision of group projects (both involving empirical and applied projects), and supervision of thesis' have been given at the Department of Psychology, Umeå University, Sweden (2014 - 2017) and the Department of Behavioral Science and Learning, Linköping University (2019 - ). At Linköping University, I have also held workshops and supervised projects. I have taught 2490 and 950 clock hours at Linköping and Umeå University, respectively. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
+
+### Supervision of Bachelor Students (Undergraduate Level)
+
+  Pernodd, J. (2024). Department of Computer and Information Science, Linköping University. "Påverkan av Hörselnedsättning på Äldres Ögonrörelsemönster och Upplevelse i Kollektivtrafiken (The Effect of Hearing Impairment on Eye Movement Patterns and Experience in Public Transportation for the Elderly )".  Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+  
+  Pusker, M. (2024). Department of Computer and Information Science, Linköping University. "Lyssna på Tystnaden: En studie om upplevelserna av att resa med autonom kollektivtrafik för individer med hörselnedsättning (Listen to the Silence : A Study on the Experiences of Traveling with Autonomous Public Transport for Individuals with Hearing Impairment)".  Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+  
+  Turén, F. (2024). Department of Computer and Information Science, Linköping University. "Mot en Självkörande Framtid: En studie i vilka faktorer som påverkar beteendemässiga intentioner att användasjälvkörande bussar (Towards a Self-Driving Future : A study on the factors influencing behavioral intentions to use autonomous buses)".  Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+  
+  Fernlund, F. (2023). Department of Computer and Information Science, Linköping University. "Examining the effects of text support and noise during video meetings on listening effort and comprehension". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+  
+  Lundgren, E. (2023). Department of Computer and Information Science, Linköping University. "Delays in Videoconferencing - The Effects of Asynchronous Speech on Listening Effort and Comprehension". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+  
+  Bernsland, A. (2023). Department of Computer and Information Science, Linköping University. "'Disgusting pictures' - A study exploring webpages´ experienced credibility based upon their visual design elements." Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Jerdhaf, O. (2021). Department of Computer and Information Science, Linköping University. "[Discovering Implant Terms in Medical Records](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&pid=diva2%3A1621364&c=1&searchType=SIMPLE&language=sv&query=Jerdhaf&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Bridal, O. (2021). Department of Computer and Information Science, Linköping University. "[Named-entity recognition with BERT for anonymization of medical records](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1566701&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Mattila, M. (2021). Department of Computer and Information Science, Linköping University. "Synthetic Image Generation Using GANs -- Generating Class-Specific Images of Bacterial Growth". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Rombo, A. (2020). Department of Computer and Information Science, Linköping University. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level. Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Lindberg, F. (2020). Department of Computer and Information Science, Linköping University. "[Hur ungas attityder kring hörselnedsättningar orsakade av fritidsbuller påverkas av deras koppling till sitt framtida jag.](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1468019&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)"(How young people's attitudes to hearing impairments caused by leisure noise are affected by their connection to their future selves.) Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+Dahlgren, S. (2020) Department of Computer and Information Science, Linköping University. "[The association between cognition and speech-in-noise perception - Investigating the link between speech-in-noise perception and fluid intelligence in people with and without hearing loss](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1443600&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+
+### Supervision of Master Students (Graduate Level)
+
+Borgstrand, M. & Malm, L. (2024). Department of Behavioural Sciences and Learning, Linköping Unviersity. "Jag behövde bara ett annat sätt att förstå: En intervjustudie om unga kvinnor med ADHD och deras upplevelser av matematikundervisningen i grundskolan
+ (I Just Needed Another Way to Understand : An Interview Study about Young Women with ADHD and Their Experiences of Mathematics Education in Primary School)". Master's Thesis in Special Needs (15 ECTS). *Main supervisor*
+
+Andersson, J. & Sjöström, G. (2024). Department of Behavioural Sciences and Learning, Linköping Unviersity. "Visuellt brusreducerande glasögon - kan det hjälpa elever med intellektuell funktionsnedsättning att rikta och bibehålla fokus/uppmärksamhet? (Can QuietFrames Glasses Help Students with Intellectual Disabilities to Retain Focus/Attention?)". Master's Thesis in Special Needs (15 ECTS). *Main supervisor*
+
+Carlbring, J. (2020) Department of Computer and Information Science, Linköping University. "[Inclusive Design for Mobile Devices with WCAG and Attentional Resources in Mind](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1441358&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Master's Thesis in Cognitive Science (30 ECTS). *Main supervisor*
+
+Ma, L. (2015). Department of Psychology, Umeå University. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Master's Thesis in Cognitive Science (15 ECTS). *Co-supervisor*
+
+Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse (To cope leaving abusive relationships: The importance of attachment). Master's Thesis in Clinical Psychology (30 ECTS). *Co-supervisor*
+
+### Teaching Workshops  
+
+Sep 2026\hspace{0.75cm}\textbf{Introduction to Python Programming}\vspace{1mm}
+
+\hrule
+\begin{changemargin}{2.15cm}{2.4cm}
+
+
+Disability Research Division, Department of Behavioural Sciences and Learning, Linköping University.
+
+An introduction to Python ogramming language - presented to researchers and PhD students with a focus on basic programming using Python.
+\end{changemargin}
+
+Oct 2018\hspace{0.75cm}\textbf{R Workshop "Step-by-Step"}\vspace{1mm}
+
+
+\hrule
+\begin{changemargin}{2.15cm}{2.4cm}
+
+
+Department of Psychology, Umeå University.
+
+An introduction to R statistical programming language - presented to senior researchers with a focus on basic programming and the R environment.
+
+\end{changemargin}
+
+
+### Additional skills
+
+-   Extensive knowledge in statistical software such as SPSS, JASP, and R statistical programming environment
+-   Strong scripting skills in Python (v2.7.x & v3.x.x) and R
+-   Substantial skills in programming and performing experiments using both E-prime and Python (i.e., PsychoPy, OpenSesame, & Expyriment)
+-   Good skills in Microsoft Word and Excel
+-   Basic programming skills in Visual Basic, E-basic (E-prime), MATLAB, Bash, JavaScript, and PHP
+-   Basic skills in Markdown (e.g., RMarkdown) and \LaTeX
+
+### Responsibilities
+
+-   Organizer of the monthly HEAD/DRD Seminar Series (e.g., contacting and inviting national and international researchers, booking tickets and accommodation)
+-   Elected chairperson of the Ph.D. students Council of the Department of Psychology, Umeå University.
+
+\newpage
+\pagestyle{empty}
+
+
+```{r, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
+#library(knitr)
+#library(kableExtra)
+library(flextable)
+
+# Column names
+colnames(newdata) <- c("Period", "Subject", "Type", "Clock Hours",
+          "Course/Program", "Level", "Language")
+kableExtra::kbl(newdata, longtable= T, format="latex", caption='Teaching responsibilities - an overview of type of teaching, hours, etc.', booktabs=TRUE) %>%
+ kableExtra::column_spec(c(2, 3, 5), width = "5cm") %>%
+  kableExtra::kable_styling(latex_options = "repeat_header") %>%
+  kableExtra::landscape() %>%
+  kableExtra::footnote(paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' '), threeparttable = T)
+
+teach_tab <- flextable(newdata) %>%
+   add_footer_lines(paste(' Total of clock hours:', total.teaching, ', UG = Undergraduate, G = Graduate, VT = Spring term, HT = autumn term, * = two courses.', sep = ' ')) %>%
+  set_caption(caption = "Teaching responsibilities - an overview of type of teaching, hours, etc.") 
+
+# teach_tab
+```

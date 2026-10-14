@@ -17,7 +17,7 @@ github: marsja
 lang: Swedish, English
 phone: 070-36 33 662
 subparagraph: yes
-address: Tvistevägen 26, SE-907 36 Umeå, Sweden
+address: Kanalgata 20, 61231, Finspång
 web: www.marsja.se
 CV: TRUE
 ---
@@ -27,7 +27,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Anställningar
-
 
 Jan 2023 - \hspace{0.75cm}\textbf{Biträdande Lektor}\vspace{1mm}
 
@@ -49,7 +48,9 @@ Avdelningen för Funktionsnedsättning och Samhälle, Institutionen för Beteend
 
 \end{changemargin}
 
-Jan 2022 - \hspace{0.50cm}\textbf{Forskare}\vspace{1mm}
+Jan 2022 - 
+
+dec 2022\hspace{0.50cm}\textbf{Forskare}\vspace{1mm}
 
 \hrule
 \begin{changemargin}{2.3cm}{2.4cm}
@@ -187,6 +188,8 @@ http://blog.efpsa.org/2016/07/12/python-programming-in-psychology-from-data-coll
 
 ## Finansiering och bidrag 
 
+**4 170 000 SEK** från Vetenskapsrådet för projektet *Den tidsmässig strukturen bakom imitativt samspel från födelsen och tre månader framåt* ([Länk](https://www.vr.se/swecris#/project/2023-00648_VR)), 2023 (PI: Prof. Emeritus Heimann)
+
 **299 235 SEK** från Hörselforskningsfonden för projektet *Lyssningsansträngning hos individer med hörselnedsättning på grund av ökad digitalisering i arbetslivet*, 2021.
 
 **6000 SEK** från Institutionen för Psykologi, Umeå Universitet, för att delta i "Re-thinking the Senses Spring School", Dubrovnik, Kroatien, 2017.
@@ -206,14 +209,17 @@ vibrating deviants?*, 2014.
 
 ## Refereegranskat för tidskrifter:
 
-* Behavior Research Methods
-
-* Frontiers in Psychology
-
-* Journal of Cognitive Psychology
-
-Information om mitt ansvar som granskare finns i min [Publons-profil] (https://www.publons.com/a/1517052/).
-
+  * The Journal of the Acoustical Society of America
+  
+  * Journal of Speech, Language, and Hearing Research
+  
+  * Scientific Reports   
+  
+  * Behavior Research Methods
+  
+  * Frontiers in Psychology
+  
+  * Journal of Cognitive Psychology
 
 ## Specialistträning 
 
@@ -229,8 +235,16 @@ Primärt i:
 
 Alla föreläsningar, seminarier, laboratoriedemonstrationer, handledning av grupper (både som involverar empiriska och tillämpade projekt) och handledning av uppsatser har skett vid Institutionen för Psykologi, Umeå universitet, Sverige (2014 - 2017) och Institutionen för Beteendevetenskap och lärande, Linköpings Universitet (IBL: 2019 -). Jag har också hållit workshops, examinerat uppsatser, och handlett basgrupper (problembaserat lärande) vid IBL, Linköpings Universitet (2019 -). Vid Umeå Universitet och Linköpings Universitet har jag hittills undervisat i 950 respektive 824 timmar. Se Tabell 1 för en översikt över mina undervisningsansvar, antal timmar och kurser.
 
+### Handledning av Doktorander (Pågående)
+Larsson, S. (2023 - Nuvarande). Doktorand i Funktionsnedsättning och Samhälle.
 
 ### Handledning av Kandidatstudenter (grundnivå)
+
+Fernlund, F. (2023). Institutionen för dator- och informationsvetenskap, Linköpings Universitet. "Examining the effects of text support and noise during video meetings on listening effort and comprehension". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
+
+Lundgren, E. (2023). Institutionen för dator- och informationsvetenskap, Linköpings Universitet. "Delays in Videoconferencing - The Effects of Asynchronous Speech on Listening Effort and Comprehension". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
+
+Bernsland, A. (2023). Institutionen för dator- och informationsvetenskap, Linköpings Universitet. "'Disgusting pictures' - A study exploring webpages´ experienced credibility based upon their visual design elements." Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
 
 Jerdhaf, O. (2021). Institutionen för dator- och informationsvetenskap, Linköpings Universitet. "Discovering Implant Terms in Medical Records". Kandidatuppsats i Kognitionsvetenskap (18HP). *Huvudhandledare*
 

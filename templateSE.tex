@@ -153,13 +153,13 @@ $endif$
 \begin{table}[h]
 \centering
 \begin{tabularx}{\textwidth}{@{}lYl@{}}
-\textbf{Address}: & & $if(dob)$ \textbf{Personnummer:} $endif$
-\\$if(address)$$address$$endif$ & & $if(dob)$ $dob$ $endif$
+\textbf{Address}: $if(dob)$ \textbf{Personnummer:} $endif$
+$if(address)$$address$$endif$ & & $if(dob)$ $dob$ $endif$
 \\\\
 
-$if(phone)$$if(fontawesome)$ \faPhone \hspace{1 mm}$else$\emph{Telefon:}$endif$  $phone$  \hspace{1 mm} $endif$ &  & $if(email)$$if(fontawesome)$\faEnvelopeO \hspace{1 mm}$else$\emph{E-mail:}$endif$ \href{mailto:}{\tt $email$} \hspace{1 mm}$endif$  \\
- $if(web)$$if(fontawesome)$\faGlobe \hspace{1 mm}$else$\emph{WWW:}$endif$ \href{http://$web$}{\tt $web$}  $endif$ &  & $if(github)$$if(fontawesome)$\faGithub \hspace{1 mm}$else$\emph{Github:}$endif$ \href{http://github.com/$github$}{\tt $github$} \hspace{1 mm} $endif$ \\
- \multicolumn{3}{c}{$if(language)$\emph{Languages: }$language$$endif$}
+$if(phone)$$if(fontawesome)$ \faPhone \hspace{0.5 mm}$else$\emph{Telefon:}$endif$  $phone$  \hspace{0.5 mm} $endif$ &  & $if(email)$$if(fontawesome)$\faEnvelopeO \hspace{0.5 mm}$else$\emph{E-mail:}$endif$ \href{mailto:}{\tt $email$} \hspace{0.5 mm}$endif$  \\
+ $if(web)$$if(fontawesome)$\faGlobe \hspace{0.5 mm}$else$\emph{WWW:}$endif$ \href{http://$web$}{\tt $web$}  $endif$ &  & $if(github)$$if(fontawesome)$\faGithub \hspace{0.5 mm}$else$\emph{Github:}$endif$ \href{http://github.com/$github$}{\tt $github$} \hspace{0.5 mm} $endif$ \\
+ \multicolumn{3}{c}{$if(language)$\emph{Språk: }$language$$endif$}
  \\\hline
 \end{tabularx}
 \end{table}

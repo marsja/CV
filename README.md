@@ -2,18 +2,18 @@ Erik Marsja — Academic CV
 ================
 
 - [Erik Marsja](#erik-marsja)
-  - [Positions](#positions)
-  - [Degrees and Titles](#degrees-and-titles)
-  - [Publications](#publications)
-  - [Conference Presentations](#conference-presentations)
-  - [Popular Science and Education-Related
-    Articles](#popular-science-and-education-related-articles)
-  - [Science Outreach](#science-outreach)
-  - [Research Grants and Funding](#research-grants-and-funding)
-  - [Peer Review](#peer-review)
-  - [Skills & Training](#skills--training)
+- [Positions](#positions)
+- [Degrees and Titles](#degrees-and-titles)
+- [Publications](#publications)
+- [Conference Presentations](#conference-presentations)
+- [Popular Science and Education-Related
+  Articles](#popular-science-and-education-related-articles)
+- [Science Outreach](#science-outreach)
+- [Research Grants and Funding](#research-grants-and-funding)
+- [Peer Review](#peer-review)
+- [Skills & Training](#skills--training)
 
-# Erik Marsja
+## Erik Marsja
 
 **Assistant Professor and Docent in Disability Research**\
 Linköping University, Sweden
@@ -134,14 +134,15 @@ Available from DiVA Database:
 **19 peer-reviewed journal articles** (7 as first author; 1 as last
 author).
 
-- **Marsja**, E., Rodrigues, V., Mortazavi, A., & & Blomkvist, J.
-  (Accepted). Public transport for people with hearing impairment: A
-  scoping review. *Journal of Transport & Health*.
-
 - Ning, R., **Marsja**, E., & Holmer, E. (Accepted). The association
   between fluid intelligence and speech-in-noise performance in
   hearing-aid users is moderated by masker type and intelligibility
   criterion. *Journal of Speech, Language, and Hearing Research*.
+
+- **Marsja**, E., Rodrigues, V., Mortazavi, A., & & Blomkvist, J.
+  (2027). Public transport for people with hearing impairment: A scoping
+  review. *Journal of Transport & Health, 52*, 102454.
+  <https://doi.org/10.1016/j.jth.2026.102454>
 
 - **Marsja**, E., Signoret, C., & Stenbäck, V. (2026). The digital
   workplace and meeting accessibility: A qualitative study on listening

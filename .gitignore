@@ -135,9 +135,6 @@ TSWLatexianTemp*
 # R history
 *.Rhistory
 # Latex files
-marsja_erik.tex
-# Markdown files
-*.md
 # Word Documents
 *.doc
 *.docx

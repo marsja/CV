@@ -143,6 +143,7 @@ author).
   (2027). Public transport for people with hearing impairment: A scoping
   review. *Journal of Transport & Health, 52*, 102454.
   <https://doi.org/10.1016/j.jth.2026.102454>
+  ([PDF](https://drive.google.com/file/d/1Ec9miqeO2wU7uOoXzluMigdVlJJYZLVf/view?usp=drive_link))
 
 - **Marsja**, E., Signoret, C., & Stenbäck, V. (2026). The digital
   workplace and meeting accessibility: A qualitative study on listening

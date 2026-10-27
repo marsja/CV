@@ -134,16 +134,18 @@ Available from DiVA Database:
 **19 peer-reviewed journal articles** (7 as first author; 1 as last
 author).
 
-- Ning, R., **Marsja**, E., & Holmer, E. (Accepted). The association
-  between fluid intelligence and speech-in-noise performance in
-  hearing-aid users is moderated by masker type and intelligibility
-  criterion. *Journal of Speech, Language, and Hearing Research*.
-
 - **Marsja**, E., Rodrigues, V., Mortazavi, A., & & Blomkvist, J.
   (2027). Public transport for people with hearing impairment: A scoping
   review. *Journal of Transport & Health, 52*, 102454.
   <https://doi.org/10.1016/j.jth.2026.102454>
   ([PDF](https://drive.google.com/file/d/1Ec9miqeO2wU7uOoXzluMigdVlJJYZLVf/view?usp=drive_link))
+
+- Ning, R., **Marsja**, E., & Holmer, E. (2026). The association between
+  fluid intelligence and speech-in-noise performance in hearing-aid
+  users is moderated by masker type and intelligibility criterion.
+  *Journal of Speech, Language, and Hearing Research*, 1-10.
+  <https://doi.org/10.1044/2026_jslhr-25-01028>
+  ([PDF](https://drive.google.com/file/d/1kv_2JQTxy-GMHlXq8YTSwUTRN8K1VDWw/view?usp=drive_link))
 
 - **Marsja**, E., Signoret, C., & Stenbäck, V. (2026). The digital
   workplace and meeting accessibility: A qualitative study on listening

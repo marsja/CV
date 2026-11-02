@@ -415,11 +415,13 @@ publication_list <- pubs |>
 
 cat(
   paste0(
-    "- ",
+    seq_along(publication_list),
+    ". ",
     publication_list,
     collapse = "\n\n"
   )
 )
+
 ```
 
 
@@ -609,10 +611,14 @@ formatted_manuscripts <- pmap_chr(
 )
 
 if (length(formatted_manuscripts) > 0) {
-  cat(
-    paste0("- ", formatted_manuscripts),
-    sep = "\n\n"
+cat(
+  paste0(
+    seq_along(formatted_manuscripts),
+    ". ",
+    formatted_manuscripts,
+    collapse = "\n\n"
   )
+)
 }
 
 ```
@@ -808,8 +814,12 @@ formatted_conferences <- pmap_chr(
 
 if (length(formatted_conferences) > 0) {
   cat(
-    paste0("- ", formatted_conferences),
-    sep = "\n\n"
+    paste0(
+      seq_along(formatted_conferences),
+      ". ",
+      formatted_conferences,
+      collapse = "\n\n"
+    )
   )
 }
 ```
@@ -1049,6 +1059,7 @@ writeLines(
 )
 ```   
 
+
 ## Skills & Training
 
 ### Training
@@ -1097,44 +1108,497 @@ Primarily in:
 
 All lectures, seminars, lab demonstrations, supervision of group projects (both involving empirical and applied projects), and supervision of thesis' have been given at the Department of Psychology, Umeå University, Sweden (2014 - 2017) and the Department of Behavioral Science and Learning, Linköping University (2019 - ). At Linköping University, I have also held workshops and supervised projects. I have taught 2490 and 950 clock hours at Linköping and Umeå University, respectively. See Table 1 for an overview of my teaching responsibilities, clock hours, and courses.
 
-### Supervision of Bachelor Students (Undergraduate Level)
+```{r supervision-setup, include=FALSE}
+library(readxl)
+library(dplyr)
+library(stringr)
+library(purrr)
 
-  Pernodd, J. (2024). Department of Computer and Information Science, Linköping University. "Påverkan av Hörselnedsättning på Äldres Ögonrörelsemönster och Upplevelse i Kollektivtrafiken (The Effect of Hearing Impairment on Eye Movement Patterns and Experience in Public Transportation for the Elderly )".  Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
-  
-  Pusker, M. (2024). Department of Computer and Information Science, Linköping University. "Lyssna på Tystnaden: En studie om upplevelserna av att resa med autonom kollektivtrafik för individer med hörselnedsättning (Listen to the Silence : A Study on the Experiences of Traveling with Autonomous Public Transport for Individuals with Hearing Impairment)".  Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
-  
-  Turén, F. (2024). Department of Computer and Information Science, Linköping University. "Mot en Självkörande Framtid: En studie i vilka faktorer som påverkar beteendemässiga intentioner att användasjälvkörande bussar (Towards a Self-Driving Future : A study on the factors influencing behavioral intentions to use autonomous buses)".  Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
-  
-  Fernlund, F. (2023). Department of Computer and Information Science, Linköping University. "Examining the effects of text support and noise during video meetings on listening effort and comprehension". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
-  
-  Lundgren, E. (2023). Department of Computer and Information Science, Linköping University. "Delays in Videoconferencing - The Effects of Asynchronous Speech on Listening Effort and Comprehension". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
-  
-  Bernsland, A. (2023). Department of Computer and Information Science, Linköping University. "'Disgusting pictures' - A study exploring webpages´ experienced credibility based upon their visual design elements." Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+supervision_path <- "./Data/marsja_publications.xlsx"
 
-Jerdhaf, O. (2021). Department of Computer and Information Science, Linköping University. "[Discovering Implant Terms in Medical Records](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&pid=diva2%3A1621364&c=1&searchType=SIMPLE&language=sv&query=Jerdhaf&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+as_cv_flag <- function(x) {
+  tolower(trimws(as.character(x))) %in%
+    c("true", "t", "yes", "1")
+}
 
-Bridal, O. (2021). Department of Computer and Information Science, Linköping University. "[Named-entity recognition with BERT for anonymization of medical records](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1566701&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+has_supervision_text <- function(x) {
+  length(x) == 1 &&
+    !is.na(x) &&
+    nzchar(trimws(as.character(x)))
+}
 
-Mattila, M. (2021). Department of Computer and Information Science, Linköping University. "Synthetic Image Generation Using GANs -- Generating Class-Specific Images of Bacterial Growth". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+join_with_and <- function(x) {
+  if (length(x) == 0) {
+    return("")
+  }
 
-Rombo, A. (2020). Department of Computer and Information Science, Linköping University. "Self-determination perceived by users in support services pursuant to LSS - An analysis on a municipal level. Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+  if (length(x) == 1) {
+    return(x)
+  }
 
-Lindberg, F. (2020). Department of Computer and Information Science, Linköping University. "[Hur ungas attityder kring hörselnedsättningar orsakade av fritidsbuller påverkas av deras koppling till sitt framtida jag.](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1468019&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)"(How young people's attitudes to hearing impairments caused by leisure noise are affected by their connection to their future selves.) Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+  if (length(x) == 2) {
+    return(paste(x, collapse = " and "))
+  }
 
-Dahlgren, S. (2020) Department of Computer and Information Science, Linköping University. "[The association between cognition and speech-in-noise perception - Investigating the link between speech-in-noise perception and fluid intelligence in people with and without hearing loss](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1443600&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Bachelor's Thesis in Cognitive Science (18 ECTS). *Main supervisor*
+  paste0(
+    paste(x[-length(x)], collapse = ", "),
+    ", and ",
+    x[[length(x)]]
+  )
+}
 
-### Supervision of Master Students (Graduate Level)
+role_label <- function(role) {
+  case_when(
+    role == "main_supervisor" ~ "Main supervisor",
+    role == "co_supervisor" ~ "Co-supervisor",
+    TRUE ~ str_to_sentence(str_replace_all(role, "_", " "))
+  )
+}
 
-Borgstrand, M. & Malm, L. (2024). Department of Behavioural Sciences and Learning, Linköping Unviersity. "Jag behövde bara ett annat sätt att förstå: En intervjustudie om unga kvinnor med ADHD och deras upplevelser av matematikundervisningen i grundskolan
- (I Just Needed Another Way to Understand : An Interview Study about Young Women with ADHD and Their Experiences of Mathematics Education in Primary School)". Master's Thesis in Special Needs (15 ECTS). *Main supervisor*
+role_summary <- function(data, weights = rep(1L, nrow(data))) {
+  n_main <- sum(
+    weights[data$role == "main_supervisor"],
+    na.rm = TRUE
+  )
 
-Andersson, J. & Sjöström, G. (2024). Department of Behavioural Sciences and Learning, Linköping Unviersity. "Visuellt brusreducerande glasögon - kan det hjälpa elever med intellektuell funktionsnedsättning att rikta och bibehålla fokus/uppmärksamhet? (Can QuietFrames Glasses Help Students with Intellectual Disabilities to Retain Focus/Attention?)". Master's Thesis in Special Needs (15 ECTS). *Main supervisor*
+  n_co <- sum(
+    weights[data$role == "co_supervisor"],
+    na.rm = TRUE
+  )
 
-Carlbring, J. (2020) Department of Computer and Information Science, Linköping University. "[Inclusive Design for Mobile Devices with WCAG and Attentional Resources in Mind](http://liu.diva-portal.org/smash/record.jsf?dswid=-6296&faces-redirect=true&language=en&searchType=SIMPLE&query=Marsja&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&pid=diva2%3A1441358&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=undergraduate)". Master's Thesis in Cognitive Science (30 ECTS). *Main supervisor*
+  parts <- c(
+    if (n_main > 0) {
+      paste0(n_main, " as main supervisor")
+    },
+    if (n_co > 0) {
+      paste0(n_co, " as co-supervisor")
+    }
+  )
 
-Ma, L. (2015). Department of Psychology, Umeå University. "Cross-Modal Matching of Distractibility in Auditory and Tactile Stimuli". Master's Thesis in Cognitive Science (15 ECTS). *Co-supervisor*
+  join_with_and(parts)
+}
 
-Blide, M. (2014). Department of Psychology, Umeå University. "Att orka lämna ett misshandelsförhållande: Anknytningens beydelse (To cope leaving abusive relationships: The importance of attachment). Master's Thesis in Clinical Psychology (30 ECTS). *Co-supervisor*
+count_students <- function(x) {
+  if (!has_supervision_text(x)) {
+    return(0L)
+  }
+
+  str_split(x, "\\s*(?:&|;)\\s*")[[1]] |>
+    str_trim() |>
+    discard(~ !nzchar(.x)) |>
+    length()
+}
+
+
+# Doctoral supervision -----------------------------------------------------
+
+doctoral_supervision <- read_excel(
+  supervision_path,
+  sheet = "doctoral_supervision"
+) |>
+  mutate(
+    source_order = row_number(),
+    include_cv = as_cv_flag(include_cv),
+    status = str_to_lower(str_trim(status)),
+    status = if_else(
+      is.na(status) | status == "",
+      "ongoing",
+      status
+    ),
+    role = str_to_lower(str_trim(role)),
+    role_order = case_when(
+      role == "main_supervisor" ~ 1L,
+      role == "co_supervisor" ~ 2L,
+      TRUE ~ 3L
+    ),
+    start_year_sort = suppressWarnings(
+      as.integer(start_year)
+    ),
+    start_month_sort = coalesce(
+      suppressWarnings(as.integer(start_month)),
+      0L
+    ),
+    end_year_sort = suppressWarnings(
+      as.integer(end_year)
+    )
+  ) |>
+  filter(include_cv)
+
+format_month_year <- function(year, month = NA) {
+  if (!has_supervision_text(year)) {
+    return("")
+  }
+
+  month_number <- suppressWarnings(as.integer(month))
+
+  if (
+    !is.na(month_number) &&
+    month_number >= 1 &&
+    month_number <= 12
+  ) {
+    paste(month.name[[month_number]], as.integer(year))
+  } else {
+    as.character(as.integer(year))
+  }
+}
+
+format_doctoral_entry <- function(
+    name,
+    role,
+    institution,
+    start_year,
+    start_month,
+    end_year,
+    status,
+    dissertation_title,
+    dissertation_url
+) {
+  start_text <- format_month_year(
+    start_year,
+    start_month
+  )
+
+  end_text <- if (
+    status == "completed" &&
+    has_supervision_text(end_year)
+  ) {
+    as.character(as.integer(end_year))
+  } else {
+    "present"
+  }
+
+  entry <- paste0(
+    "**", name, "**, ",
+    institution, ". ",
+    role_label(role), ", ",
+    start_text, "–", end_text, "."
+  )
+
+  if (
+    status == "completed" &&
+    has_supervision_text(dissertation_title)
+  ) {
+    title_text <- if (
+      has_supervision_text(dissertation_url)
+    ) {
+      paste0(
+        "[*", dissertation_title, "*](",
+        dissertation_url, ")"
+      )
+    } else {
+      paste0("*", dissertation_title, "*")
+    }
+
+    entry <- paste0(
+      entry,
+      " Dissertation: ",
+      title_text,
+      "."
+    )
+  }
+
+  entry
+}
+
+print_doctoral_group <- function(data, heading = NULL) {
+  if (nrow(data) == 0) {
+    return(invisible(NULL))
+  }
+
+  if (!is.null(heading)) {
+    writeLines(c(heading, ""))
+  }
+
+  entries <- pmap_chr(
+    data |>
+      select(
+        name,
+        role,
+        institution,
+        start_year,
+        start_month,
+        end_year,
+        status,
+        dissertation_title,
+        dissertation_url
+      ),
+    format_doctoral_entry
+  )
+
+  cat(
+    paste0("- ", entries),
+    sep = "\n\n"
+  )
+
+  cat("\n\n")
+}
+
+print_doctoral_supervision <- function(data) {
+  n_doctoral <- nrow(data)
+  n_ongoing <- sum(data$status != "completed")
+  n_completed <- sum(data$status == "completed")
+
+  student_word <- if (
+    n_doctoral == 1
+  ) {
+    "doctoral student"
+  } else {
+    "doctoral students"
+  }
+
+  status_parts <- c(
+    if (n_completed > 0) {
+      paste0(n_completed, " completed")
+    },
+    if (n_ongoing > 0) {
+      paste0(n_ongoing, " ongoing")
+    }
+  )
+
+  summary_text <- paste0(
+    "**", n_doctoral, " ", student_word, ":** ",
+    role_summary(data),
+    "."
+  )
+
+  if (length(status_parts) > 0) {
+    summary_text <- paste0(
+      summary_text,
+      " ",
+      str_to_sentence(join_with_and(status_parts)),
+      "."
+    )
+  }
+
+  writeLines(c(summary_text, ""))
+
+  completed <- data |>
+    filter(status == "completed") |>
+    arrange(
+      role_order,
+      desc(end_year_sort),
+      desc(source_order)
+    )
+
+  ongoing <- data |>
+    filter(status != "completed") |>
+    arrange(
+      role_order,
+      desc(start_year_sort),
+      desc(start_month_sort),
+      desc(source_order)
+    )
+
+  show_subheadings <-
+    nrow(completed) > 0 &&
+    nrow(ongoing) > 0
+
+  print_doctoral_group(
+    completed,
+    if (show_subheadings) "#### Completed" else NULL
+  )
+
+  print_doctoral_group(
+    ongoing,
+    if (show_subheadings) "#### Ongoing" else NULL
+  )
+}
+
+
+# Master's and bachelor's supervision -------------------------------------
+
+read_degree_supervision <- function(sheet) {
+  read_excel(
+    supervision_path,
+    sheet = sheet
+  ) |>
+    mutate(
+      source_order = row_number(),
+      include_cv = as_cv_flag(include_cv),
+      role = str_to_lower(str_trim(role)),
+      role_order = case_when(
+        role == "main_supervisor" ~ 1L,
+        role == "co_supervisor" ~ 2L,
+        TRUE ~ 3L
+      ),
+      year_sort = suppressWarnings(as.integer(year)),
+      n_students = map_int(
+        students,
+        count_students
+      )
+    ) |>
+    filter(include_cv)
+}
+
+master_supervision <- read_degree_supervision(
+  "master_supervision"
+)
+
+bachelor_supervision <- read_degree_supervision(
+  "bachelor_supervision"
+)
+
+format_degree_entry <- function(
+    students,
+    year,
+    department,
+    university,
+    title,
+    url,
+    thesis_type,
+    programme,
+    ects,
+    role
+) {
+  title_text <- if (has_supervision_text(url)) {
+    paste0("[", title, "](", url, ")")
+  } else {
+    title
+  }
+
+  thesis_text <- as.character(thesis_type)
+
+  if (has_supervision_text(programme)) {
+    thesis_text <- paste0(
+      thesis_text,
+      " in ",
+      programme
+    )
+  }
+
+  if (has_supervision_text(ects)) {
+    thesis_text <- paste0(
+      thesis_text,
+      " (",
+      as.integer(ects),
+      " ECTS)"
+    )
+  }
+
+  paste0(
+    students,
+    " (",
+    as.integer(year),
+    "). ",
+    department,
+    ", ",
+    university,
+    '. "',
+    title_text,
+    '". ',
+    thesis_text,
+    ". *",
+    role_label(role),
+    "*"
+  )
+}
+
+print_degree_supervision <- function(
+    data,
+    student_singular,
+    student_plural,
+    thesis_singular,
+    thesis_plural
+) {
+  data <- data |>
+    arrange(
+      desc(year_sort),
+      role_order,
+      desc(source_order)
+    )
+
+  n_students <- sum(data$n_students)
+  n_theses <- nrow(data)
+
+  student_word <- if (
+    n_students == 1
+  ) {
+    student_singular
+  } else {
+    student_plural
+  }
+
+  thesis_word <- if (
+    n_theses == 1
+  ) {
+    thesis_singular
+  } else {
+    thesis_plural
+  }
+
+  summary_text <- paste0(
+    "**",
+    n_students,
+    " ",
+    student_word,
+    " across ",
+    n_theses,
+    " ",
+    thesis_word,
+    ":** ",
+    role_summary(data, data$n_students),
+    "."
+  )
+
+  writeLines(c(summary_text, ""))
+
+  entries <- pmap_chr(
+    data |>
+      select(
+        students,
+        year,
+        department,
+        university,
+        title,
+        url,
+        thesis_type,
+        programme,
+        ects,
+        role
+      ),
+    format_degree_entry
+  )
+
+  cat(
+    paste0("- ", entries),
+    sep = "\n\n"
+  )
+
+  cat("\n\n")
+}
+```
+
+### Doctoral Supervision
+
+```{r doctoral-supervision, echo=FALSE, results='asis'}
+print_doctoral_supervision(
+  doctoral_supervision
+)
+```
+
+### Supervision of Master's Students (Graduate Level)
+
+```{r master-supervision, echo=FALSE, results='asis'}
+print_degree_supervision(
+  master_supervision,
+  student_singular = "master's student",
+  student_plural = "master's students",
+  thesis_singular = "master's thesis",
+  thesis_plural = "master's theses"
+)
+```
+
+### Supervision of Bachelor's Students (Undergraduate Level)
+
+```{r bachelor-supervision, echo=FALSE, results='asis'}
+print_degree_supervision(
+  bachelor_supervision,
+  student_singular = "undergraduate student",
+  student_plural = "undergraduate students",
+  thesis_singular = "bachelor's thesis",
+  thesis_plural = "bachelor's theses"
+)
+```
 
 ### Teaching Workshops  
 

@@ -131,8 +131,13 @@ Available from DiVA Database:
 
 ### Accepted/Published
 
-**19 peer-reviewed journal articles** (7 as first author; 1 as last
+**20 peer-reviewed journal articles** (7 as first author; 1 as last
 author).
+
+- Larsson, S., Danielsson, H., **Marsja**, E., & Sjörs Dahlman, A.
+  (Accepted). Feasibility of Using Virtual Reality When Investigating
+  Street-Crossing Behavior in Older Pedestrians. *Frontiers in Future
+  Transportation*.
 
 - **Marsja**, E., Rodrigues, V., Mortazavi, A., & & Blomkvist, J.
   (2027). Public transport for people with hearing impairment: A scoping
@@ -260,8 +265,8 @@ author).
 
 ### Ongoing Manuscripts and Registered Reports
 
-**9 ongoing manuscripts:** 1 Stage 1 Registered Report with in-principle
-acceptance, 1 under revision, 7 submitted, and 0 in preparation.
+**8 ongoing manuscripts:** 1 Stage 1 Registered Report with in-principle
+acceptance, 1 under revision, 6 submitted, and 0 in preparation.
 
 2 manuscripts currently undergoing double-blind peer review are omitted
 from the public list below to preserve author anonymity.
@@ -280,10 +285,6 @@ from the public list below to preserve author anonymity.
 - Tonneman, T., Stenbäck, V., Ingo, E., & **Marsja**, E. (Submitted).
   From Accessibility Needs to Platform Gaps: A Criterion-Based
   Assessment of Videoconferencing for Employees with Hearing Loss.
-
-- Larsson, S., Danielsson, H., **Marsja**, E., & Sjörs Dahlman, A.
-  (Submitted). Feasibility of Using Virtual Reality When Investigating
-  Street-Crossing Behavior in Older Pedestrians.
 
 - **Marsja**, E., & Andin, J. (Submitted). Hearing Status and
   Hearing-Aid Use in Relation to Long-Term Cognitive Health
@@ -505,19 +506,19 @@ Meetings and Listening Effort. Presentation for the Hearing Clinics
 
 ## Peer Review
 
-**26 peer reviews completed for the following journals:**
+**27 peer reviews completed for the following journals:**
 
 Acta Psychologica; American Journal of Audiology; Attention, Perception,
 & Psychophysics; Auditory Perception & Cognition; BMC Psychology; BMC
 Public Health; Brain and Cognition; Brain and Language; Experimental
 Gerontology; Frontiers In Future Transportation; Humanities & Social
-Sciences Communications; International Journal of Clinical Practice;
-Journal of Cognitive Psychology; Journal of Speech, Language, and
-Hearing Research; Journal of the International Neuropsychological
-Society; Memory & Cognition; NeuroImage; Science Progress; Scientific
-Reports; The Journal of the Acoustical Society of America;
-Transportation Research Part F: Traffic Psychology and Behaviour; Trends
-in Hearing; Work.
+Sciences Communications; International Journal of Audiology;
+International Journal of Clinical Practice; Journal of Cognitive
+Psychology; Journal of Speech, Language, and Hearing Research; Journal
+of the International Neuropsychological Society; Memory & Cognition;
+NeuroImage; Science Progress; Scientific Reports; The Journal of the
+Acoustical Society of America; Transportation Research Part F: Traffic
+Psychology and Behaviour; Trends in Hearing; Work.
 
 ## Skills & Training
 

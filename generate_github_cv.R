@@ -329,3 +329,4 @@ rmarkdown::render(
 )
 
 message("GitHub Markdown CV created: ", output_md)
+

@@ -1,8 +1,6 @@
 \documentclass[]{article}
 \usepackage{pdflscape}
 
-\usepackage{everypage}
-
 \newcommand{\Lpagenumber}{\ifdim\textwidth=\linewidth\else\bgroup
   \dimendef\margin=0 %use \margin instead of \dimen0
   \ifodd\value{page}\margin=\oddsidemargin
@@ -13,7 +11,7 @@
     \llap{\rotatebox{90}{ CV  - Erik Marsja 
 - \thepage\hspace{1pt}(\pageref{LastPage})}}}}%
 \egroup\fi}
-\AddEverypageHook{\Lpagenumber}%
+\AddToHook{shipout/foreground}{\Lpagenumber}
 
 \usepackage{adjustbox}
 \usepackage{titling}
@@ -36,7 +34,7 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0.0pt}
-\fancyfoot[CO,CE]{  CV -   Erik Marsja -  \thepage\hspace{1pt}(\pageref{LastPage})}
+\fancyfoot[C]{  CV -   Erik Marsja -  \thepage\hspace{1pt}(\pageref{LastPage})}
 \fancypagestyle{plain}{\pagestyle{fancy}}
 
 \usepackage[margin=1.2in]{geometry}
@@ -57,7 +55,7 @@
 
 % URLS
 \usepackage[hidelinks]{hyperref}
-\usepackage{breakurl}
+\usepackage{xurl}
 \usepackage{float} % here for H placement parameter
 
 % Appendix header style
@@ -154,7 +152,7 @@ Vitae}}
 \\\\
 
  \faPhone \hspace{1 mm}  +4670-36 33
-662  \hspace{1 mm}  &  & \faEnvelopeO \hspace{1 mm} \href{mailto:}{\tt \href{mailto:erik@marsja.se}{\nolinkurl{erik@marsja.se}}} \hspace{1 mm}  \\
+662  \hspace{1 mm}  &  & \faEnvelopeO \hspace{1 mm} {\ttfamily \href{mailto:erik@marsja.se}{\nolinkurl{erik@marsja.se}}} \hspace{1 mm}  \\
  \faGlobe \hspace{1 mm} \href{https://www.marsja.se}{\tt www.marsja.se}   &  & \faGithub \hspace{1 mm} \href{http://github.com/marsja}{\tt marsja} \hspace{1 mm}  \\
  \multicolumn{3}{c}{}
  \\\hline
@@ -311,10 +309,15 @@ Available from DiVA Database: \sloppy http://urn.kb.se/resolve?urn=urn:nbn:se:um
 
 \subsubsection{Accepted/Published}\label{acceptedpublished}
 
-\textbf{19 peer-reviewed journal articles} (7 as first author; 1 as last
+\textbf{20 peer-reviewed journal articles} (7 as first author; 1 as last
 author).
 
 \begin{itemize}
+\item
+  Larsson, S., Danielsson, H., \textbf{Marsja}, E., \& Sjörs Dahlman, A.
+  (Accepted). Feasibility of Using Virtual Reality When Investigating
+  Street-Crossing Behavior in Older Pedestrians. \emph{Frontiers in
+  Future Transportation}.
 \item
   \textbf{Marsja}, E., Rodrigues, V., Mortazavi, A., \& \& Blomkvist, J.
   (2027). Public transport for people with hearing impairment: A scoping
@@ -450,8 +453,8 @@ author).
 \subsubsection{Ongoing Manuscripts and Registered
 Reports}\label{ongoing-manuscripts-and-registered-reports}
 
-\textbf{9 ongoing manuscripts:} 1 Stage 1 Registered Report with
-in-principle acceptance, 1 under revision, 7 submitted, and 0 in
+\textbf{8 ongoing manuscripts:} 1 Stage 1 Registered Report with
+in-principle acceptance, 1 under revision, 6 submitted, and 0 in
 preparation.
 
 2 manuscripts currently undergoing double-blind peer review are omitted
@@ -474,10 +477,6 @@ from the public list below to preserve author anonymity.
   (Submitted). From Accessibility Needs to Platform Gaps: A
   Criterion-Based Assessment of Videoconferencing for Employees with
   Hearing Loss.
-\item
-  Larsson, S., Danielsson, H., \textbf{Marsja}, E., \& Sjörs Dahlman, A.
-  (Submitted). Feasibility of Using Virtual Reality When Investigating
-  Street-Crossing Behavior in Older Pedestrians.
 \item
   \textbf{Marsja}, E., \& Andin, J. (Submitted). Hearing Status and
   Hearing-Aid Use in Relation to Long-Term Cognitive Health
@@ -710,19 +709,19 @@ funding:} 8 030 739 SEK.
 
 \subsection{Peer Review}\label{peer-review}
 
-\textbf{26 peer reviews completed for the following journals:}
+\textbf{27 peer reviews completed for the following journals:}
 
 Acta Psychologica; American Journal of Audiology; Attention, Perception,
 \& Psychophysics; Auditory Perception \& Cognition; BMC Psychology; BMC
 Public Health; Brain and Cognition; Brain and Language; Experimental
 Gerontology; Frontiers In Future Transportation; Humanities \& Social
-Sciences Communications; International Journal of Clinical Practice;
-Journal of Cognitive Psychology; Journal of Speech, Language, and
-Hearing Research; Journal of the International Neuropsychological
-Society; Memory \& Cognition; NeuroImage; Science Progress; Scientific
-Reports; The Journal of the Acoustical Society of America;
-Transportation Research Part F: Traffic Psychology and Behaviour; Trends
-in Hearing; Work.
+Sciences Communications; International Journal of Audiology;
+International Journal of Clinical Practice; Journal of Cognitive
+Psychology; Journal of Speech, Language, and Hearing Research; Journal
+of the International Neuropsychological Society; Memory \& Cognition;
+NeuroImage; Science Progress; Scientific Reports; The Journal of the
+Acoustical Society of America; Transportation Research Part F: Traffic
+Psychology and Behaviour; Trends in Hearing; Work.
 
 \subsection{Skills \& Training}\label{skills-training}
 

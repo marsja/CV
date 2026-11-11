@@ -54,7 +54,7 @@ Learning (IBL), Linköping University.
 
 Analyzing data from a large database (i.e., n200) and preparing
 manuscripts in the field of cognitive hearing science. Responsible for
-arranging the monthly[HEAD/DRD](https://liu.se/linnecentrum-head/en)
+arranging the monthly [HEAD/DRD](https://liu.se/linnecentrum-head/en)
 seminar series (august 2020 – august 2021). This includes contacting
 national and international researchers, booking flights and hotels, and
 setting up equipment for streaming the seminars online. Teaching and
@@ -134,16 +134,17 @@ Available from DiVA Database:
 **20 peer-reviewed journal articles** (7 as first author; 1 as last
 author).
 
-1.  Larsson, S., Danielsson, H., **Marsja**, E., & Sjörs Dahlman, A.
-    (Accepted). Feasibility of Using Virtual Reality When Investigating
-    Street-Crossing Behavior in Older Pedestrians. *Frontiers in Future
-    Transportation*.
-
-2.  **Marsja**, E., Rodrigues, V., Mortazavi, A., & & Blomkvist, J.
+1.  **Marsja**, E., Rodrigues, V., Mortazavi, A., & & Blomkvist, J.
     (2027). Public transport for people with hearing impairment: A
     scoping review. *Journal of Transport & Health, 52*, 102454.
     <https://doi.org/10.1016/j.jth.2026.102454>
     ([PDF](https://drive.google.com/file/d/1Ec9miqeO2wU7uOoXzluMigdVlJJYZLVf/view?usp=drive_link))
+
+2.  Larsson, S., Danielsson, H., **Marsja**, E., & Sjörs Dahlman, A.
+    (2026). Feasibility of Using Virtual Reality When Investigating
+    Street-Crossing Behavior in Older Pedestrians. *Frontiers in Future
+    Transportation, 7*. <https://doi.org/10.3389/ffutr.2026.1999583>
+    ([PDF](https://drive.google.com/file/d/12zxU15DMS8if9eihQU71NgwLJa0pMQyv/view?usp=drive_link))
 
 3.  Ning, R., **Marsja**, E., & Holmer, E. (2026). The association
     between fluid intelligence and speech-in-noise performance in

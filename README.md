@@ -131,43 +131,48 @@ Available from DiVA Database:
 
 ### Accepted/Published
 
-**20 peer-reviewed journal articles** (7 as first author; 1 as last
+**21 peer-reviewed journal articles** (8 as first author; 1 as last
 author).
 
-1.  **Marsja**, E., Rodrigues, V., Mortazavi, A., & & Blomkvist, J.
+1.  **Marsja**, E., Luccini, F., Stenbäck, V., Ingo, E., Danielsson, H.,
+    Dahlström, Ö., & Holmer, E. (Accepted). Internal Structure and
+    Measurement Invariance of the Swedish 12-Item Speech, Spatial, and
+    Qualities of Hearing Scale. *International Journal of Audiology*.
+
+2.  **Marsja**, E., Rodrigues, V., Mortazavi, A., & & Blomkvist, J.
     (2027). Public transport for people with hearing impairment: A
     scoping review. *Journal of Transport & Health, 52*, 102454.
     <https://doi.org/10.1016/j.jth.2026.102454>
     ([PDF](https://drive.google.com/file/d/1Ec9miqeO2wU7uOoXzluMigdVlJJYZLVf/view?usp=drive_link))
 
-2.  Larsson, S., Danielsson, H., **Marsja**, E., & Sjörs Dahlman, A.
+3.  Larsson, S., Danielsson, H., **Marsja**, E., & Sjörs Dahlman, A.
     (2026). Feasibility of Using Virtual Reality When Investigating
     Street-Crossing Behavior in Older Pedestrians. *Frontiers in Future
     Transportation, 7*. <https://doi.org/10.3389/ffutr.2026.1999583>
     ([PDF](https://drive.google.com/file/d/12zxU15DMS8if9eihQU71NgwLJa0pMQyv/view?usp=drive_link))
 
-3.  Ning, R., **Marsja**, E., & Holmer, E. (2026). The association
+4.  Ning, R., **Marsja**, E., & Holmer, E. (2026). The association
     between fluid intelligence and speech-in-noise performance in
     hearing-aid users is moderated by masker type and intelligibility
     criterion. *Journal of Speech, Language, and Hearing Research*,
     1-10. <https://doi.org/10.1044/2026_jslhr-25-01028>
     ([PDF](https://drive.google.com/file/d/1kv_2JQTxy-GMHlXq8YTSwUTRN8K1VDWw/view?usp=drive_link))
 
-4.  **Marsja**, E., Signoret, C., & Stenbäck, V. (2026). The digital
+5.  **Marsja**, E., Signoret, C., & Stenbäck, V. (2026). The digital
     workplace and meeting accessibility: A qualitative study on
     listening effort in video meetings for employees with hearing loss.
     *WORK: A Journal of Prevention, Assessment & Rehabilitation, 84*(1),
     197-209. <https://doi.org/10.1177/10519815251398498>
     ([PDF](https://drive.google.com/file/d/1iE69QlQEUgeearzNIBXDXHiVZqMj0iHj/view?usp=drive_link))
 
-5.  Ning, R., **Marsja**, E., & Holmer, E. (2026). Poorer Sentence
+6.  Ning, R., **Marsja**, E., & Holmer, E. (2026). Poorer Sentence
     Reading Comprehension With Increased Reliance on Working Memory in
     Adults With Hearing Loss. *Journal of Speech, Language, and Hearing
     Research, 69*(2), 807–824.
     <https://doi.org/10.1044/2025_jslhr-25-00187>
     ([PDF](https://drive.google.com/file/d/1yltitQ_DCWn9ABYErhnbnPrf_zJUc-Mp/view?usp=drive_link))
 
-6.  Rönnberg, J., **Marsja**, E., Danielsson, H., Holmer, E., &
+7.  Rönnberg, J., **Marsja**, E., Danielsson, H., Holmer, E., &
     Dahlström, Ö. (2026). Beyond Accuracy: Cognitive Speed in
     Speech-in-Noise Processing and Its Implications for the Ease of
     Language Understanding Model. *Journal of Speech, Language, and
@@ -175,33 +180,33 @@ author).
     <https://doi.org/10.1044/2026_JSLHR-25-00773>
     ([PDF](https://drive.google.com/file/d/1vfpjTRQ7bO8q3RrktHX2Bg9oAf8Vwb6y/view?usp=drive_link))
 
-7.  Thorslund, B., Söderman, J., **Marsja**, E., & Selander, H. (2026).
+8.  Thorslund, B., Söderman, J., **Marsja**, E., & Selander, H. (2026).
     Validating variations of situations in a driving simulator screening
     test. *Transportation Research Part F: Traffic Psychology and
     Behaviour, 119*, 103608. <https://doi.org/10.1016/j.trf.2026.103608>
     ([PDF](https://drive.google.com/file/d/1EZmLled2Htiit2cb-2r4EO9gfKzZW0tV/view?usp=drive_link))
 
-8.  **Marsja**, E., Holmer, E., Stenbäck, V., Micula, A., Tirado, C.,
+9.  **Marsja**, E., Holmer, E., Stenbäck, V., Micula, A., Tirado, C.,
     Danielsson, H., & Rönnberg, J. (2025). Fluid Intelligence Partially
     Mediates the Effect of Working Memory on Speech Recognition in
     Noise. *Journal of Speech, Language, and Hearing Research, 68*(1),
     399–410. <https://doi.org/10.1044/2024_JSLHR-24-00465>
     ([PDF](https://tinyurl.com/gfspin))
 
-9.  **Marsja**, E., Thellman, S., & Anund, A. (2025). Trust in Automated
+10. **Marsja**, E., Thellman, S., & Anund, A. (2025). Trust in Automated
     Shuttle Buses Predicts Intentions to Use and Behavioral
     Expectations. *Transportation Research Interdisciplinary
     Perspectives, 33*, 101601.
     <https://doi.org/10.1016/j.trip.2025.101601>
     ([PDF](https://tinyurl.com/trusttrip))
 
-10. Stenbäck, V., Hällgren, M., & **Marsja**, E. (2025). Speech
+11. Stenbäck, V., Hällgren, M., & **Marsja**, E. (2025). Speech
     Recognition Under Masking: Age, Hearing, and Machine Learning
     Classification. *Acta Psychologica, 259*, 105461.
     <https://doi.org/10.1016/j.actpsy.2025.105461>
     ([PDF](https://tinyurl.com/spinml))
 
-11. Marsh, J. E., Vachon, F., Sörqvist, P., **Marsja**, E., Röer, J. P.,
+12. Marsh, J. E., Vachon, F., Sörqvist, P., **Marsja**, E., Röer, J. P.,
     Richardson, B. H., & Ljungberg, K. J. (2024). Irrelevant
     Changing-State Vibrotactile Stimuli Disrupt Verbal Serial Recall:
     Implications for Theories of Interference in Short-Term Memory.
@@ -209,27 +214,27 @@ author).
     <https://doi.org/10.1080/20445911.2023.2198065>
     ([PDF](https://tinyurl.com/vibradistr))
 
-12. Elbe, P., **Marsja**, E., Sörman, D., Vega-Mendoza, M., Nyberg, L.,
+13. Elbe, P., **Marsja**, E., Sörman, D., Vega-Mendoza, M., Nyberg, L.,
     & Ljungberg, K. J. (2024). Effects of Auditory and Tactile
     Distraction in Adults With Low and High ADHD Symptoms. *Journal of
     Cognitive Psychology, 36*(5), 645–656.
     <https://doi.org/10.1080/20445911.2024.2349331>
     ([PDF](https://tinyurl.com/elbevibra))
 
-13. Stenbäck, V., **Marsja**, E., Ellis, R., & Rönnberg, J. (2023).
+14. Stenbäck, V., **Marsja**, E., Ellis, R., & Rönnberg, J. (2023).
     Relationships Between Behavioural and Self-Report Measures in Speech
     Recognition in Noise. *International Journal of Audiology, 62*(2),
     101–109. <https://doi.org/10.1080/14992027.2022.2047232>
     ([PDF](https://tinyurl.com/IJA22))
 
-14. **Marsja**, E., Stenbäck, V., Moradi, S., Danielsson, H., &
+15. **Marsja**, E., Stenbäck, V., Moradi, S., Danielsson, H., &
     Rönnberg, J. (2022). Is Having Hearing Loss Fundamentally Different?
     Multi-Group Structural Equation Modeling of the Effect of Cognitive
     Functioning on Speech Identification. *Ear and Hearing, 43*(5),
     1437–1446. <https://doi.org/10.1097/AUD.0000000000001196>
     ([PDF](https://tinyurl.com/eandhsem))
 
-15. Stenbäck, V., **Marsja**, E., Hällgren, M., Lyxell, B., & Larsby, B.
+16. Stenbäck, V., **Marsja**, E., Hällgren, M., Lyxell, B., & Larsby, B.
     (2022). Informational Masking and Listening Effort in
     Speech-Recognition-in-Noise – The Role of Working Memory Capacity
     and Inhibitory Control in Older Adults With and Without Hearing
@@ -237,32 +242,32 @@ author).
     65*(11), 4417–4428. <https://doi.org/10.1044/2022_JSLHR-21-00674>
     ([PDF](https://tinyurl.com/SPIN22b))
 
-16. Stenbäck, V., **Marsja**, E., Hällgren, M., Lyxell, B., & Larsby, B.
+17. Stenbäck, V., **Marsja**, E., Hällgren, M., Lyxell, B., & Larsby, B.
     (2021). The Contribution of Age, Working Memory Capacity, and
     Inhibitory Control on Speech Recognition in Noise in Young and Older
     Adult Listeners. *Journal of Speech, Language, and Hearing Research,
     64*(11), 4513–4523. <https://doi.org/10.1044/2021_JSLHR-20-00251>
 
-17. Rosa, E., **Marsja**, E., & Ljungberg, J. K. (2020). Exploring
+18. Rosa, E., **Marsja**, E., & Ljungberg, J. K. (2020). Exploring
     Residual Capacity: The Effectiveness of a Vibrotactile Warning
     During Increasing Levels of Mental Workload in Simulated Flight
     Tasks. *Aviation Psychology and Applied Human Factors, 10*(1),
     13–23. <https://doi.org/10.1027/2192-0923/a000180>
 
-18. **Marsja**, E., Marsh, J. E., Hansson, P., & Neely, G. (2019).
+19. **Marsja**, E., Marsh, J. E., Hansson, P., & Neely, G. (2019).
     Examining the Role of Spatial Changes in Bimodal and Uni-Modal
     To-Be-Ignored Stimuli and How They Affect Short-Term Memory
     Processes. *Frontiers in Psychology, 10*.
     <https://doi.org/10.3389/fpsyg.2019.00299>
     ([PDF](https://tinyurl.com/spativib))
 
-19. **Marsja**, E., Neely, G., & Ljungberg, K. J. (2018). Investigating
+20. **Marsja**, E., Neely, G., & Ljungberg, K. J. (2018). Investigating
     Deviance Distraction and the Impact of the Modality of the
     To-Be-Ignored Stimuli. *Experimental Psychology, 65*(2), 61–70.
     <https://doi.org/10.1027/1618-3169/a000390>
     ([PDF](https://osf.io/amd2h/))
 
-20. Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**,
+21. Ljungberg, K. J., Parmentier, F. B. R., Jones, D. M., **Marsja**,
     E., & Neely, G. (2014). “What’s in a Name?” “No More Than When It’s
     Mine Own.” Evidence From Auditory Oddball Distraction. *Acta
     Psychologica, 150C*, 161–166.
@@ -270,8 +275,8 @@ author).
 
 ### Ongoing Manuscripts and Registered Reports
 
-**8 ongoing manuscripts:** 1 Stage 1 Registered Report with in-principle
-acceptance, 1 under revision, 6 submitted, and 0 in preparation.
+**7 ongoing manuscripts:** 1 Stage 1 Registered Report with in-principle
+acceptance, 1 under revision, 5 submitted, and 0 in preparation.
 
 2 manuscripts currently undergoing double-blind peer review are omitted
 from the public list below to preserve author anonymity.
@@ -298,11 +303,6 @@ from the public list below to preserve author anonymity.
 5.  **Marsja**, E., Pernodd, J., Rodrigues, V., Mortazavi, A., &
     Blomkvist, J. (Submitted). Information Access for Older Passengers:
     A Mixed-Methods Study of Bus Travel With and Without Hearing Loss.
-
-6.  **Marsja**, E., Luccini, F., Stenbäck, V., Ingo, E., Danielsson, H.,
-    Dahlström, Ö., & Holmer, E. (Submitted). Internal Structure and
-    Measurement Invariance of the Swedish 12-Item Speech, Spatial, and
-    Qualities of Hearing Scale.
 
 ## Conference Presentations
 
